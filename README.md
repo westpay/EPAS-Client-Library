@@ -66,3 +66,7 @@ The EPAS protocol defines a large and complex protocol for the interaction betwe
 ```C#
 mEpas.Purchase(59.00, out TransactionResponse tr)
 ```
+
+## View the introduction wiki to find out more
+[EPAS Client Library Introduction Wiki](../../wiki)
+
