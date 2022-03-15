@@ -1,0 +1,245 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Integrating the EPAS client library </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Integrating the EPAS client library ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/westpay.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html" style='padding-top:13px'>
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/intro.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="API Documentation">API Documentation</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="intro.html" title="Introduction" class="">Introduction</a>
+                    </li>
+                    <li class="">
+                      <a href="additional.html" title="Additional features" class="">Additional features</a>
+                    </li>
+                    <li class="">
+                      <a href="apm.html" title="Alternative payment methods" class="">Alternative payment methods</a>
+                    </li>
+                    <li class="">
+                      <a href="dcc.html" title="Dynamic Currency Conversion" class="">Dynamic Currency Conversion</a>
+                    </li>
+                    <li class="">
+                      <a href="identifying_cards.html" title="Identifying cards" class="">Identifying cards</a>
+                    </li>
+                    <li class="active">
+                      <a href="integrating_the_library.html" title="Integrating the EPAS Client Library" class="active">Integrating the EPAS Client Library</a>
+                    </li>
+                    <li class="">
+                      <a href="log_storage.html" title="Log storage" class="">Log storage</a>
+                    </li>
+                    <li class="">
+                      <a href="receipts.html" title="Receipts" class="">Receipts</a>
+                    </li>
+                    <li class="">
+                      <a href="release_notes.html" title="Release notes" class="">Release notes</a>
+                    </li>
+                    <li class="">
+                      <a href="transactions.html" title="Transaction types" class="">Transaction types</a>
+                    </li>
+                    <li class="">
+                      <a href="transaction_flows.html" title="Transaction examples" class="">Transaction examples</a>
+                    </li>
+                    <li class="">
+                      <a href="using_the_library.html" title="Using the EPAS Client Library" class="">Using the EPAS Client Library</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="integrating-the-epas-client-library">Integrating the EPAS client library</h1>
+
+<p>The steps to integrate the EPAS Client Library are:</p>
+<ol>
+<li>Add the library module to the ECR project.</li>
+<li>Add an instance of the library to the ECR application.</li>
+<li>Implement required methods.</li>
+<li>Implement optional handler methods as required.</li>
+</ol>
+<h2 id="1-add-a-reference-to-epasclientlibrarydll">1. Add a reference to EpasClientLibrary.dll</h2>
+<p>The EPAS Client Library is implemented as a .NET Framework 4.7.2 class library.</p>
+<h2 id="2-create-an-epasclient-instance">2. Create an EpasClient instance</h2>
+<p>The EPAS Client Library is implemented by the <a class="xref" href="../api/Westpay.Epas.EpasClient.html">EpasClient</a> class in the <em>Westpay.Epas</em> namespace.
+The client takes a single parameter, which is an instance of a class that implements <a class="xref" href="../api/Westpay.Epas.IClientApp.html">IClientApp</a>.</p>
+<pre><code class="lang-csharp">using Westpay.Epas;
+
+public class SampleECR : IClientApp
+{
+    /// &lt;summary&gt;
+    /// Instance of the EPAS client library
+    /// &lt;/summary&gt;
+    EpasClient mEpas = null;
+    public SampleECR()
+    {
+        // Create the EPAS client library instance
+        mEpas = new EpasClient(this);
+    }
+    .
+    .
+    .
+}
+</code></pre><blockquote><p><strong>Note</strong>: An <code>EpasClient</code> instance is only connected to one terminal at a time. If the ECR needs to interact with several terminals simultaneously,
+one instance must be created for each terminal.</p>
+</blockquote>
+<h2 id="3-implement-iclientapp">3. Implement IClientApp</h2>
+<p>The <a class="xref" href="../api/Westpay.Epas.EpasClient.html">EpasClient</a> class requires an <a class="xref" href="../api/Westpay.Epas.IClientApp.html">IClientApp</a> instance.
+This instance must be provided by the ECR application, which must implement all the required members of the interface.</p>
+<ul>
+<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_Display_System_String_">Display</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_PrintReceipt_Westpay_Epas_ReceiptData_">PrintRecipt</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_PrintReport_System_String_">PrintReport</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_VerifySignature_System_String_System_Boolean__">VerifySignature</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_HandleVoiceReferral_System_String_System_String__">HandleVoiceReferral</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_PaymentCodeRequired_System_String_System_String__">PaymentCodeRequired</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_VatAmountRequired_System_String_System_Decimal__">VatAmountRequired</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_LoyaltyCardPresented_System_String_System_Boolean__">LoyaltyCardPresented</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_CheckDccOnOriginalTransaction_System_String_System_Boolean__">CheckDccOnOriginalTransaction</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_ParameterDownloadAvailable_System_String_System_Boolean__">ParameterDownloadAvailable</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_Log_Westpay_Epas_LogLevel_System_String_">Log</a></li>
+</ul>
+<h2 id="4-optional-methods">4. Optional methods</h2>
+<p>The client library offers a range of handler methods that are optional, and the ECR can implement any that will be useful.</p>
+<p>Each handler method is implemented as a callback. The ECR simply assigns a method reference to the 
+appropriate library callback handler in <a class="xref" href="../api/Westpay.Epas.EpasClient.html">EpasClient</a> and the method will be called when appropriate.</p>
+<ul>
+<li><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_BusyStatus">BusyStatus</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_CardAccepted">CardAccepted</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_CardStatus">CardStatus</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_LinkStatus">LinkStatus</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_RawMessageHandler">RawMessageHandler</a></li>
+</ul>
+<h3 id="about-callbacks">About callbacks</h3>
+<p>When the library calls methods in the ECR, only one method will be called at any time. This is done to ensure that there are no
+race conditions, since events can happen quickly and it would be confusing if, for example, the <code>CardAccepted</code> handler is called
+while the <code>CardInserted</code> handler is still executing.</p>
+<p>It is, therefore, recommended that the ECR returns from interface methods and handlers as quickly as possible so that the
+remainder of the transaction can be processed without delay.</p>
+<p>There is one exception to this, which is <a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_Log_Westpay_Epas_LogLevel_System_String_">IClientApp.Log</a>.
+This has a dedicated thread so that the Log method can be called while another method or handler is executing. Only one call to
+Log will be made at a time, however – there will be no overlapping calls made.</p>
+<h1 id="using-the-library">Using the library</h1>
+<p>The next step is to <a href="using_the_library.html">start using the library</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

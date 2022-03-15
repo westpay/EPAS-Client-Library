@@ -1,0 +1,44 @@
+@media screen and (min-width:1200px){
+.container {
+width:100%;
+}
+.sidefilter {
+width: 400px;
+}
+.sidetoc {
+width: 400px;
+border-right: 1px solid #eee;
+}
+
+.article.grid-right {
+	margin-left: 420px;
+}
+}
+
+.toc .nav > li.active > .expand-stub::before,
+.toc .nav > li.in > .expand-stub::before,
+.toc .nav > li.in.active > .expand-stub::before,
+.toc .nav > li.filtered > .expand-stub::before  {
+    display: inline-block;
+	content: "\e258";
+    transition: transform .1s ease-in-out;
+    transform: rotate(90deg);
+}
+
+.toc .nav > li > .expand-stub::before,
+.toc .nav > li.active > .expand-stub::before  {
+    font-family: "Glyphicons Halflings";
+    font-size: 10px;
+    content: "\e258";
+    display: inline-block;
+    transition: transform .1s ease-in-out;
+    transform: rotate(0deg);
+}
+
+.toc .level2>li.active {
+
+	background-color: #f2f2f2;
+	font-weight: bold;
+	padding: 2px;
+
+}

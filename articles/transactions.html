@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Transactions </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Transactions ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/westpay.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html" style='padding-top:13px'>
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/intro.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="API Documentation">API Documentation</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="intro.html" title="Introduction" class="">Introduction</a>
+                    </li>
+                    <li class="">
+                      <a href="additional.html" title="Additional features" class="">Additional features</a>
+                    </li>
+                    <li class="">
+                      <a href="apm.html" title="Alternative payment methods" class="">Alternative payment methods</a>
+                    </li>
+                    <li class="">
+                      <a href="dcc.html" title="Dynamic Currency Conversion" class="">Dynamic Currency Conversion</a>
+                    </li>
+                    <li class="">
+                      <a href="identifying_cards.html" title="Identifying cards" class="">Identifying cards</a>
+                    </li>
+                    <li class="">
+                      <a href="integrating_the_library.html" title="Integrating the EPAS Client Library" class="">Integrating the EPAS Client Library</a>
+                    </li>
+                    <li class="">
+                      <a href="log_storage.html" title="Log storage" class="">Log storage</a>
+                    </li>
+                    <li class="">
+                      <a href="receipts.html" title="Receipts" class="">Receipts</a>
+                    </li>
+                    <li class="">
+                      <a href="release_notes.html" title="Release notes" class="">Release notes</a>
+                    </li>
+                    <li class="active">
+                      <a href="transactions.html" title="Transaction types" class="active">Transaction types</a>
+                    </li>
+                    <li class="">
+                      <a href="transaction_flows.html" title="Transaction examples" class="">Transaction examples</a>
+                    </li>
+                    <li class="">
+                      <a href="using_the_library.html" title="Using the EPAS Client Library" class="">Using the EPAS Client Library</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="transactions">Transactions</h1>
+
+<p>The EPAS client library offers several transaction methods.</p>
+<p>Each transaction is synchronous, so the method will return when the transaction is complete. This can take some time, since it involves waiting for a card to be presented, waiting for PIN entry, etc.</p>
+<p>Some of the methods in IClientApp will be called while the transaction is in progress. Similarly some of the optional handler methods will be called, if defined. All these methods will be called from a different thread to the one that is executing the transaction so there is no risk of deadlock in the callback mechanism.</p>
+<p>Examples of transaction flows are found here: <a href="transaction_flows.html">transaction flows</a></p>
+<h2 id="transaction-types">Transaction types</h2>
+<p>The payment application supports the following transaction types:</p>
+<ul>
+<li>Purchase</li>
+<li>Cash Advance</li>
+<li>Refund</li>
+<li>Reversal</li>
+</ul>
+<h2 id="purchase-transactions">Purchase transactions</h2>
+<p>For purchase transactions are a few different methods available:</p>
+<h3 id="basic-purchase-goods-value-specified-only">Basic purchase, goods value specified only</h3>
+<p><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_Purchase_System_Decimal_Westpay_Epas_TransactionResponse__">API reference</a></p>
+<pre><code class="lang-csharp">ApiResult Purchase(decimal purchaseAmount, out TransactionResponse response)
+</code></pre><p>This is the simplest way to start a purchase transaction. The purchaseAmount parameter contains the 
+goods value in the configured currency. There is no cashback in this method.</p>
+<p>If the method returns ApiResult.OK then the result of the transaction is given in the response parameter</p>
+<h3 id="basic-purchase-using-an-alternative-payment-method-goods-value-specified-only">Basic purchase using an alternative payment method, goods value specified only</h3>
+<p><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_Purchase_System_Decimal_System_String_Westpay_Epas_TransactionResponse__">API reference</a></p>
+<pre><code class="lang-csharp">ApiResult Purchase(decimal purchaseAmount, string paymentMethod, out TransactionResponse response)
+</code></pre><p>If a specific alternative payment method is wanted for the transaction, this can be requested by submitting
+<em>alternativePaymentMethodName</em> on top of the <em>purchaseAmount</em> parameter, which contains the goods value in
+the configured currency. There is no cashback in this method.</p>
+<p>If the requested alternative payment method is not available on the terminal, the transaction will be 
+aborted. Available alternative payment methods can change over time and also differ between 
+terminals depending on which methods are available. There is currently no function to get a list of available 
+alternative payment methods from the terminal. At the moment (Q1 2022) we have <code>Swish</code> and <code>Klarna</code>
+in Sweden, and soon <code>Vipps</code> will be available in Norway and <code>MobilePay</code> in Denmark and Finland    </p>
+<p>See <a href="apm.html">alternative payment methods</a> for more information.</p>
+<h3 id="purchase-with-all-amounts-specified-ie-goods-value-and-cashback-value">Purchase with all amounts specified, i.e. goods value and cashback value</h3>
+<p><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_Purchase_Westpay_Epas_PurchaseTransactionAmounts_Westpay_Epas_TransactionResponse__">API reference</a></p>
+<pre><code class="lang-csharp">ApiResult Purchase(PurchaseTransactionAmounts transactionAmounts, out TransactionResponse response)
+</code></pre><p>The Purchase method starts a purchase transaction with all the transaction amounts specified in the transactionAmounts parameter.</p>
+<p>Note that if the cashback amount is zero then this is functionally identical to a basic purchase.</p>
+<h3 id="purchase-with-no-amount">Purchase with no amount</h3>
+<p><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_PurchaseBeforeAmount_Westpay_Epas_TransactionResponse__">API reference</a></p>
+<pre><code class="lang-csharp">ApiResult PurchaseBeforeAmount(out TransactionResponse response)
+</code></pre><p>This method starts a purchase transaction before the amounts are known. The cardholder will be able to present a card
+and enter a PIN, and the terminal will then wait for the amounts to be supplied via <a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_SendPurchaseAmounts_Westpay_Epas_PurchaseTransactionAmounts_">SendPurcaseAmounts</a>.</p>
+<p>The terminal will then prompt the cardholder to accept the amount.</p>
+<blockquote><p><strong>Note:</strong> The amounts can be sent any time after the transaction is started. It does not have to be sent at a specific stage in the transaction sequence.</p>
+</blockquote>
+<h2 id="cash-advance-transactions">Cash Advance transactions</h2>
+<p><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_CashAdvance_System_Decimal_Westpay_Epas_TransactionResponse__">API reference</a></p>
+<pre><code class="lang-csharp">ApiResult CashAdvance(decimal cashAmount, out TransactionResponse response)
+</code></pre><p>This method starts a cash advance transaction for the specified cashAmount value. If the method returns
+<code>ApiResult.OK</code> then the result of the transaction is given in the response parameter.</p>
+<blockquote><p><strong>Note:</strong> the terminal must be configured to allow cash advance transactions.</p>
+<p><strong>Note:</strong> cash advance transactions only work with card payments.</p>
+</blockquote>
+<h2 id="refund-transactions">Refund transactions</h2>
+<h3 id="refunds-of-card-payments">Refunds of card payments</h3>
+<p><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_Refund_System_Decimal_Westpay_Epas_TransactionResponse__">API reference</a></p>
+<pre><code class="lang-csharp">ApiResult Refund(decimal refundAmount, out TransactionResponse response)
+</code></pre><p>This method starts a refund transaction of a card purchase for the specified refundAmount value.</p>
+<blockquote><p><strong>Note:</strong> the receipt layout and contents for a refund transaction are different to those of a purchase transaction <a href="receipts.html">see here</a>.</p>
+<p><strong>Note:</strong> if the original purchase was done using an <em>alternative payment method</em>, the refund has to be done with the same payment method. This is due to money laundry prevention regulations.</p>
+</blockquote>
+<h3 id="refunds-of-alternative-payment-methods">Refunds of alternative payment methods</h3>
+<p><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_Refund_Westpay_Epas_AltMethodTransaction_Westpay_Epas_TransactionResponse__">API reference</a></p>
+<pre><code class="lang-csharp">ApiResult Refund(decimal refundAmount, out TransactionResponse response)
+</code></pre><h2 id="reversals">Reversals</h2>
+<p><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_ReverseLastTransaction_System_String_Westpay_Epas_TransactionResponse__">API reference</a></p>
+<pre><code class="lang-csharp">ApiResult ReverseLastTransaction(string transactionReference, out TransactionResponse response)
+</code></pre><p>A reversal is a request to cancel the most recent transaction. A transaction can only be reversed if it was approved.</p>
+<p>If the method returns <code>ApiResult.OK</code> then the result of the transaction is given in the response parameter.</p>
+<h2 id="transaction-response">Transaction response</h2>
+<p>All transactions, if executed correctly, will provide a response in an instance of the
+<a class="xref" href="../api/Westpay.Epas.TransactionResponse.html">TransactionResponse</a> class.</p>
+<h2 id="alternative-payment-methods">Alternative payment methods</h2>
+<p>For purchase and refund, there is also a posibillity for the ERC to request a specific non-card payment method. For more information, see <a href="apm.html">alternative payment methods</a>.</p>
+<h2 id="aborting-a-transaction">Aborting a transaction</h2>
+<p><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_RequestTransactionAbort">API reference</a></p>
+<pre><code class="lang-csharp">ApiResult RequestTransactionAbort()
+</code></pre><p>All transactions methods are synchronous, i.e. the method will return when the transaction is complete. There may be situations where the transaction must be cancelled, e.g. if the customer changes their mind and walks away.</p>
+<p>To do this, the ECR can call the <a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_RequestTransactionAbort">RequestTransactionAbort</a> method from a different thread (since the transaction thread is blocked at this stage until a response arrives). This method will send an abort request to the terminal.</p>
+<p>There is no response to the abort request. Instead, the transaction will be cancelled, if possible, and the transaction response will be sent back when the terminal has processed the abort request and has completed the transaction.</p>
+<p>Note that it is possible for the abort request to be received in the terminal at a point where it is too late to be processed. The ECR should, therefore, always correctly process the transaction result and the receipts, and should not assume that the transaction will definitely be aborted just because the request was sent.</p>
+<h2 id="card-handling">Card handling</h2>
+<p><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_EnableCardReaders_System_Boolean_Westpay_Epas_EnableReadersResponse__">API reference</a></p>
+<pre><code class="lang-csharp">ApiResult EnableCardReaders(bool enable, out EnableReadersResponse response)
+</code></pre><p>The <em>EnableCardReaders</em> requests will, if successful, <strong>enable</strong> or <strong>disable</strong> the terminal’s chip and magnetic card readers before a transaction is launched. If the enable parameter is true then the request is to enable the card readers. If false, the request is to disable the card readers.</p>
+<p>If the method returns <code>ApiResult.OK</code> then the response parameter contains the terminal’s response to the enable card readers request.</p>
+<p>When the card readers are enabled then cards will be processed in the same way as if there was a transaction in progress, i.e. the ECR will get card notifications and loyalty card processing (see <a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_LoyaltyCardPresented_System_String_System_Boolean__">loyalty card processing</a>) will operate as normal.</p>
+<p>The terminal will go as far as it can through the normal processes until it needs to know what transaction is involved, at which point it will wait for a transaction to be requested.</p>
+<p>The ECR can, therefore, use the EnableCardReaders method to do loyalty card functions such as registration, checking a balance, etc. Then once the card is processed it would call EnableCardReaders with the enable parameters set to false to close the card readers again. The CardStatus events (see <a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_CardStatus">CardStatus</a>) will allow the ECR to prompt for card removal if desired.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
