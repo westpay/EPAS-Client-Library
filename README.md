@@ -70,3 +70,6 @@ mEpas.Purchase(59.00, out TransactionResponse tr)
 ## View the introduction wiki to find out more
 [EPAS Client Library Introduction Wiki](../../wiki/Introduction)
 
+## Or read our documentation:
+[https://westpay.github.io/EPAS-Client-Library/]
+
