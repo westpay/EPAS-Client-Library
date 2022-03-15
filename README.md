@@ -1,6 +1,11 @@
 # EPAS Client Library
 The EPAS Client Library is intended to greatly simply the task of ECR developers who are integrating their product with Westpay terminals.
 
+## Ready to start ?
+Then simply read the [documentation](https://westpay.github.io/EPAS-Client-Library/) and download the latest [release](https://github.com/westpay/EPAS-Client-Library/releases).  
+
+<br>
+
 # Background
 The EPAS protocol defines a large and complex protocol for the interaction between payment terminals and ECRs. The protocol is:
 * A very large protocol. The original specification document is 635 pages long.
