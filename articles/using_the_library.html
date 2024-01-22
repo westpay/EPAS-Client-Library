@@ -8,7 +8,7 @@
     <title>Using the EPAS client library </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Using the EPAS client library ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -109,6 +109,9 @@
                       <a href="integrating_the_library.html" title="Integrating the EPAS Client Library" class="">Integrating the EPAS Client Library</a>
                     </li>
                     <li class="">
+                      <a href="multi_tid.html" title="Using Multiple Terminal IDs" class="">Using Multiple Terminal IDs</a>
+                    </li>
+                    <li class="">
                       <a href="log_storage.html" title="Log storage" class="">Log storage</a>
                     </li>
                     <li class="">
@@ -137,11 +140,8 @@
 <h1 id="using-the-epas-client-library">Using the EPAS client library</h1>
 
 <h2 id="connecting-to-the-terminal">Connecting to the terminal</h2>
-<p>After <a href="integrating_the_library.html">initialisation</a>, the first step for the ECR is to connect to the terminal.
-The terminal supports connection by network or by USB. The choice is determined by configuration in the terminal;
-the terminal will only listen for a connection using the configured method.</p>
-<p>Network connections are made using the <a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_ConnectNetwork_Westpay_Epas_TerminalNetworkConnection_System_Boolean_">ConnectNetwork</a> method,
-while USB connections are made using the <a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_ConnectUsb_System_String_System_Boolean_">ConnectUsb</a> method.</p>
+<p>After <a href="integrating_the_library.html">initialisation</a>, the first step for the ECR is to connect to the terminal.</p>
+<p>Use the <a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_ConnectNetwork_Westpay_Epas_TerminalNetworkConnection_System_Boolean_">ConnectNetwork</a> method to connect.</p>
 <pre><code class="lang-csharp">void ConnectToTerminal()
 {
     TerminalNetworkConnection tc = new TerminalNetworkConnection();

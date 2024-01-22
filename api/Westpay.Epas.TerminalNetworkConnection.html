@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TerminalNetworkConnection
    ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -116,7 +116,16 @@
                             <a href="Westpay.Epas.AuthorisingEntity.html" title="AuthorisingEntity" class="">AuthorisingEntity</a>
                           </li>
                           <li class="">
+                            <a href="Westpay.Epas.BufferTools.html" title="BufferTools" class="">BufferTools</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.CardAcceptedEventArgs.html" title="CardAcceptedEventArgs" class="">CardAcceptedEventArgs</a>
+                          </li>
+                          <li class="">
                             <a href="Westpay.Epas.CurrencyCodes.html" title="CurrencyCodes" class="">CurrencyCodes</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.EnableCardReaderOptions.html" title="EnableCardReaderOptions" class="">EnableCardReaderOptions</a>
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.EnableReadersResponse.html" title="EnableReadersResponse" class="">EnableReadersResponse</a>
@@ -146,6 +155,24 @@
                             <a href="Westpay.Epas.IClientApp.html" title="IClientApp" class="">IClientApp</a>
                           </li>
                           <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.html" title="LastTransactionResponse" class="">LastTransactionResponse</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.CardData.html" title="LastTransactionResponse.CardData" class="">LastTransactionResponse.CardData</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.DccData.html" title="LastTransactionResponse.DccData" class="">LastTransactionResponse.DccData</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.EmvData.html" title="LastTransactionResponse.EmvData" class="">LastTransactionResponse.EmvData</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.MerchantData.html" title="LastTransactionResponse.MerchantData" class="">LastTransactionResponse.MerchantData</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.TransactionData.html" title="LastTransactionResponse.TransactionData" class="">LastTransactionResponse.TransactionData</a>
+                          </li>
+                          <li class="">
                             <a href="Westpay.Epas.LoginResponse.html" title="LoginResponse" class="">LoginResponse</a>
                           </li>
                           <li class="">
@@ -156,6 +183,9 @@
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.OperatingParameters.html" title="OperatingParameters" class="">OperatingParameters</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.PurchaseRequest.html" title="PurchaseRequest" class="">PurchaseRequest</a>
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.PurchaseTransactionAmounts.html" title="PurchaseTransactionAmounts" class="">PurchaseTransactionAmounts</a>
@@ -188,6 +218,12 @@
                             <a href="Westpay.Epas.ReceiptVersion.html" title="ReceiptVersion" class="">ReceiptVersion</a>
                           </li>
                           <li class="">
+                            <a href="Westpay.Epas.RefundRequest.html" title="RefundRequest" class="">RefundRequest</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.ServiceEnableType.html" title="ServiceEnableType" class="">ServiceEnableType</a>
+                          </li>
+                          <li class="">
                             <a href="Westpay.Epas.SimpleResponse.html" title="SimpleResponse" class="">SimpleResponse</a>
                           </li>
                           <li class="">
@@ -198,6 +234,9 @@
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.TransactionOutcome.html" title="TransactionOutcome" class="">TransactionOutcome</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.TransactionRequest.html" title="TransactionRequest" class="">TransactionRequest</a>
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.TransactionResponse.html" title="TransactionResponse" class="">TransactionResponse</a>
@@ -232,16 +271,10 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.GetHashCode()</span>
@@ -252,6 +285,12 @@
     <div>
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Westpay.Epas.html">Westpay.Epas</a></h6>
   <h6><strong>Assembly</strong>: EpasClientLibrary.dll</h6>
@@ -259,19 +298,22 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class TerminalNetworkConnection</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=75">View Source</a>
+  </span>
+  <a id="Westpay_Epas_TerminalNetworkConnection_TerminalConnectionDetails_" data-uid="Westpay.Epas.TerminalNetworkConnection.TerminalConnectionDetails*"></a>
   <h4 id="Westpay_Epas_TerminalNetworkConnection_TerminalConnectionDetails" data-uid="Westpay.Epas.TerminalNetworkConnection.TerminalConnectionDetails">TerminalConnectionDetails</h4>
   <div class="markdown level1 summary"><p>Connection details to access the terminal</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IPEndPoint TerminalConnectionDetails</code></pre>
+    <pre><code class="lang-csharp hljs">public IPEndPoint TerminalConnectionDetails { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -297,7 +339,10 @@ to do so.
 </p>
 </div>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=88">View Source</a>
+  </span>
+  <a id="Westpay_Epas_TerminalNetworkConnection_UseKeepAlive_" data-uid="Westpay.Epas.TerminalNetworkConnection.UseKeepAlive*"></a>
   <h4 id="Westpay_Epas_TerminalNetworkConnection_UseKeepAlive" data-uid="Westpay.Epas.TerminalNetworkConnection.UseKeepAlive">UseKeepAlive</h4>
   <div class="markdown level1 summary"><p>Indicates if a network keepalive message should be sent regularly.  This is useful on reliable network
 connections, since the terminal will detect a break in these messages and will know that the ECR
@@ -306,9 +351,9 @@ has gone offline.  This allows the terminal to handle the failure gracefully.</p
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool UseKeepAlive</code></pre>
+    <pre><code class="lang-csharp hljs">public bool UseKeepAlive { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -336,6 +381,9 @@ connected.</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=60" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

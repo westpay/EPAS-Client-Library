@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum AuthorisingEntity
+    <title>Class LastTransactionResponse
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum AuthorisingEntity
+    <meta name="title" content="Class LastTransactionResponse
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -112,8 +112,8 @@
                           <li class="">
                             <a href="Westpay.Epas.AuthorisationChannel.html" title="AuthorisationChannel" class="">AuthorisationChannel</a>
                           </li>
-                          <li class="active">
-                            <a href="Westpay.Epas.AuthorisingEntity.html" title="AuthorisingEntity" class="active">AuthorisingEntity</a>
+                          <li class="">
+                            <a href="Westpay.Epas.AuthorisingEntity.html" title="AuthorisingEntity" class="">AuthorisingEntity</a>
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.BufferTools.html" title="BufferTools" class="">BufferTools</a>
@@ -154,8 +154,8 @@
                           <li class="">
                             <a href="Westpay.Epas.IClientApp.html" title="IClientApp" class="">IClientApp</a>
                           </li>
-                          <li class="">
-                            <a href="Westpay.Epas.LastTransactionResponse.html" title="LastTransactionResponse" class="">LastTransactionResponse</a>
+                          <li class="active">
+                            <a href="Westpay.Epas.LastTransactionResponse.html" title="LastTransactionResponse" class="active">LastTransactionResponse</a>
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.LastTransactionResponse.CardData.html" title="LastTransactionResponse.CardData" class="">LastTransactionResponse.CardData</a>
@@ -255,86 +255,375 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Westpay.Epas.AuthorisingEntity">
+            <article class="content wrap" id="_content" data-uid="Westpay.Epas.LastTransactionResponse">
   
   
-  <h1 id="Westpay_Epas_AuthorisingEntity" data-uid="Westpay.Epas.AuthorisingEntity" class="text-break">Enum AuthorisingEntity
+  <h1 id="Westpay_Epas_LastTransactionResponse" data-uid="Westpay.Epas.LastTransactionResponse" class="text-break">Class LastTransactionResponse
   </h1>
-  <div class="markdown level0 summary"><p>Authorising entities</p>
+  <div class="markdown level0 summary"><p>The LastTransactionResponse</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Westpay.Epas.SimpleResponse.html">SimpleResponse</a></div>
+    <div class="level2"><span class="xref">LastTransactionResponse</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Westpay.Epas.SimpleResponse.html#Westpay_Epas_SimpleResponse_Result">SimpleResponse.Result</a>
+    </div>
+    <div>
+      <a class="xref" href="Westpay.Epas.SimpleResponse.html#Westpay_Epas_SimpleResponse_ErrorCondition">SimpleResponse.ErrorCondition</a>
+    </div>
+    <div>
+      <a class="xref" href="Westpay.Epas.SimpleResponse.html#Westpay_Epas_SimpleResponse_AdditionalInformation">SimpleResponse.AdditionalInformation</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Westpay.Epas.html">Westpay.Epas</a></h6>
   <h6><strong>Assembly</strong>: EpasClientLibrary.dll</h6>
-  <h5 id="Westpay_Epas_AuthorisingEntity_syntax">Syntax</h5>
+  <h5 id="Westpay_Epas_LastTransactionResponse_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum AuthorisingEntity</code></pre>
+    <pre><code class="lang-csharp hljs">public class LastTransactionResponse : SimpleResponse</code></pre>
   </div>
-  <h5 id="Westpay_Epas_AuthorisingEntity_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>The authorising entity is documented in the CHAOI specification, section 8.1.5. The character
-enumeration value of each on corresponds to the CHAOI specification.</p>
-</div>
   <h3 id="fields">Fields
   </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=16">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_Approved" data-uid="Westpay.Epas.LastTransactionResponse.Approved">Approved</h4>
+  <div class="markdown level1 summary"><p>If this is true, then the transaction was approved. Otherwise, the <a class="xref" href="Westpay.Epas.SimpleResponse.html#Westpay_Epas_SimpleResponse_ErrorCondition">ErrorCondition</a>,
+and <a class="xref" href="Westpay.Epas.SimpleResponse.html#Westpay_Epas_SimpleResponse_AdditionalInformation">AdditionalInformation</a> properties will give more detail on why
+the transaction was not approved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Approved</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="Westpay_Epas_AuthorisingEntity_CardIssuer">CardIssuer</td>
-        <td><p>Authorised by the card issuer</p>
-</td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=38">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_FinalAmount" data-uid="Westpay.Epas.LastTransactionResponse.FinalAmount">FinalAmount</h4>
+  <div class="markdown level1 summary"><p>The total amount that was used in the transaction.  Note that for a purchase this may be more
+than the original requested amount due to charges or tipping that were added during the transaction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal FinalAmount</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td id="Westpay_Epas_AuthorisingEntity_DeclinedBeforeAuth">DeclinedBeforeAuth</td>
-        <td><p>Transaction was declined before authorisation was attempted</p>
-</td>
+        <th>Type</th>
+        <th>Description</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
-        <td id="Westpay_Epas_AuthorisingEntity_DPC0">DPC0</td>
-        <td><p>Authorised by the DPC</p>
-</td>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h5 id="Westpay_Epas_LastTransactionResponse_FinalAmount_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+The transaction amount may also be affected by DCC, if it was applied during the transaction,
+see <a class="xref" href="Westpay.Epas.ReceiptData.html#Westpay_Epas_ReceiptData_DCC">DCC</a>.
+</p>
+<p>
+The breakdown of the final transaction amount is given in the receipt data,
+see <a class="xref" href="Westpay.Epas.ReceiptData.TransactionData.html">ReceiptData.TransactionData</a>.
+</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=54">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_mCard" data-uid="Westpay.Epas.LastTransactionResponse.mCard">mCard</h4>
+  <div class="markdown level1 summary"><p>Card details.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LastTransactionResponse.CardData mCard</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td id="Westpay_Epas_AuthorisingEntity_DPC3">DPC3</td>
-        <td><p>Authorised by the DPC</p>
-</td>
+        <th>Type</th>
+        <th>Description</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
-        <td id="Westpay_Epas_AuthorisingEntity_DPC4">DPC4</td>
-        <td><p>Authorised by the DPC</p>
-</td>
+        <td><a class="xref" href="Westpay.Epas.LastTransactionResponse.CardData.html">LastTransactionResponse.CardData</a></td>
+        <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=74">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_mCustomerReceipt" data-uid="Westpay.Epas.LastTransactionResponse.mCustomerReceipt">mCustomerReceipt</h4>
+  <div class="markdown level1 summary"><p>Customer receipt assign if available</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string mCustomerReceipt</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td id="Westpay_Epas_AuthorisingEntity_InterchangeInterface">InterchangeInterface</td>
-        <td><p>Interchange interface process</p>
-</td>
+        <th>Type</th>
+        <th>Description</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
-        <td id="Westpay_Epas_AuthorisingEntity_InterchangeVisaEpss">InterchangeVisaEpss</td>
-        <td><p>Interchange (VISA or EPSS)</p>
-</td>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=64">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_mDCC" data-uid="Westpay.Epas.LastTransactionResponse.mDCC">mDCC</h4>
+  <div class="markdown level1 summary"><p>Direct Currency Conversion details, if the transaction involved DCC.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LastTransactionResponse.DccData mDCC</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td id="Westpay_Epas_AuthorisingEntity_LocalDevice">LocalDevice</td>
-        <td><p>Authorised locally in the terminal</p>
-</td>
+        <th>Type</th>
+        <th>Description</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
-        <td id="Westpay_Epas_AuthorisingEntity_ManualEntry">ManualEntry</td>
-        <td><p>Approval code was manually entered</p>
-</td>
+        <td><a class="xref" href="Westpay.Epas.LastTransactionResponse.DccData.html">LastTransactionResponse.DccData</a></td>
+        <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=59">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_mEMV" data-uid="Westpay.Epas.LastTransactionResponse.mEMV">mEMV</h4>
+  <div class="markdown level1 summary"><p>EMV details, if the transaction involved EMV.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LastTransactionResponse.EmvData mEMV</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td id="Westpay_Epas_AuthorisingEntity_Merchant">Merchant</td>
-        <td><p>Authorised by merchant (acquiring) host</p>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Westpay.Epas.LastTransactionResponse.EmvData.html">LastTransactionResponse.EmvData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=49">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_mMerchantDetails" data-uid="Westpay.Epas.LastTransactionResponse.mMerchantDetails">mMerchantDetails</h4>
+  <div class="markdown level1 summary"><p>Merchant details.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LastTransactionResponse.MerchantData mMerchantDetails</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Westpay.Epas.LastTransactionResponse.MerchantData.html">LastTransactionResponse.MerchantData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=69">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_mMerchantReceipt" data-uid="Westpay.Epas.LastTransactionResponse.mMerchantReceipt">mMerchantReceipt</h4>
+  <div class="markdown level1 summary"><p>Merchant receipt assign if available</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string mMerchantReceipt</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=44">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_mTransaction" data-uid="Westpay.Epas.LastTransactionResponse.mTransaction">mTransaction</h4>
+  <div class="markdown level1 summary"><p>Transaction details.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LastTransactionResponse.TransactionData mTransaction</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Westpay.Epas.LastTransactionResponse.TransactionData.html">LastTransactionResponse.TransactionData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=22">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_TransactionReference" data-uid="Westpay.Epas.LastTransactionResponse.TransactionReference">TransactionReference</h4>
+  <div class="markdown level1 summary"><p>The transaction reference is assigned by the terminal. It identifies the transaction and is required for a
+reversal, as well as for any post-transaction checks or queries that might arise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TransactionReference</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=490">View Source</a>
+  </span>
+  <a id="Westpay_Epas_LastTransactionResponse_ToString_" data-uid="Westpay.Epas.LastTransactionResponse.ToString*"></a>
+  <h4 id="Westpay_Epas_LastTransactionResponse_ToString" data-uid="Westpay.Epas.LastTransactionResponse.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>String representation for debugging</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Summary of the response</p>
 </td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Westpay.Epas.SimpleResponse.html#Westpay_Epas_SimpleResponse_ToString">SimpleResponse.ToString()</a></div>
 </article>
           </div>
           
@@ -343,7 +632,7 @@ enumeration value of each on corresponds to the CHAOI specification.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ReceiptData.cs&amp;version=GBmain&amp;line=205" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

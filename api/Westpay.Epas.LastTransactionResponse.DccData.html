@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class OperatingParameters
+    <title>Class LastTransactionResponse.DccData
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class OperatingParameters
+    <meta name="title" content="Class LastTransactionResponse.DccData
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -160,8 +160,8 @@
                           <li class="">
                             <a href="Westpay.Epas.LastTransactionResponse.CardData.html" title="LastTransactionResponse.CardData" class="">LastTransactionResponse.CardData</a>
                           </li>
-                          <li class="">
-                            <a href="Westpay.Epas.LastTransactionResponse.DccData.html" title="LastTransactionResponse.DccData" class="">LastTransactionResponse.DccData</a>
+                          <li class="active">
+                            <a href="Westpay.Epas.LastTransactionResponse.DccData.html" title="LastTransactionResponse.DccData" class="active">LastTransactionResponse.DccData</a>
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.LastTransactionResponse.EmvData.html" title="LastTransactionResponse.EmvData" class="">LastTransactionResponse.EmvData</a>
@@ -181,8 +181,8 @@
                           <li class="">
                             <a href="Westpay.Epas.LogoutResponse.html" title="LogoutResponse" class="">LogoutResponse</a>
                           </li>
-                          <li class="active">
-                            <a href="Westpay.Epas.OperatingParameters.html" title="OperatingParameters" class="active">OperatingParameters</a>
+                          <li class="">
+                            <a href="Westpay.Epas.OperatingParameters.html" title="OperatingParameters" class="">OperatingParameters</a>
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.PurchaseRequest.html" title="PurchaseRequest" class="">PurchaseRequest</a>
@@ -255,18 +255,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Westpay.Epas.OperatingParameters">
+            <article class="content wrap" id="_content" data-uid="Westpay.Epas.LastTransactionResponse.DccData">
   
   
-  <h1 id="Westpay_Epas_OperatingParameters" data-uid="Westpay.Epas.OperatingParameters" class="text-break">Class OperatingParameters
+  <h1 id="Westpay_Epas_LastTransactionResponse_DccData" data-uid="Westpay.Epas.LastTransactionResponse.DccData" class="text-break">Class LastTransactionResponse.DccData
   </h1>
-  <div class="markdown level0 summary"><p>Parameters related to terminal operations and transactions.</p>
+  <div class="markdown level0 summary"><p>The DCC class instance is included if Direct Currency Conversion was selected by the cardholder for the transaction.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">OperatingParameters</span></div>
+    <div class="level1"><span class="xref">LastTransactionResponse.DccData</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -294,26 +294,25 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Westpay.Epas.html">Westpay.Epas</a></h6>
   <h6><strong>Assembly</strong>: EpasClientLibrary.dll</h6>
-  <h5 id="Westpay_Epas_OperatingParameters_syntax">Syntax</h5>
+  <h5 id="Westpay_Epas_LastTransactionResponse_DccData_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class OperatingParameters</code></pre>
+    <pre><code class="lang-csharp hljs">public class DccData</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=334">View Source</a>
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=146">View Source</a>
   </span>
-  <a id="Westpay_Epas_OperatingParameters_EnableTip_" data-uid="Westpay.Epas.OperatingParameters.EnableTip*"></a>
-  <h4 id="Westpay_Epas_OperatingParameters_EnableTip" data-uid="Westpay.Epas.OperatingParameters.EnableTip">EnableTip</h4>
-  <div class="markdown level1 summary"><p>Indicates if tipping is enabled in purchase transactions.</p>
+  <h4 id="Westpay_Epas_LastTransactionResponse_DccData_mAmount" data-uid="Westpay.Epas.LastTransactionResponse.DccData.mAmount">mAmount</h4>
+  <div class="markdown level1 summary"><p>Transaction amount in the cardholder&apos;s currency.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool EnableTip { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public decimal mAmount</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -323,73 +322,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p><code>true</code> if tipping should be enabled, <code>false</code> if it should be disabled.
-    The default is <code>false</code>.</p>
-</td>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Westpay_Epas_OperatingParameters_EnableTip_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>
-The ECR can set this to true to enable tipping or false to disable tipping.
-Tipping only applies to purchase transactions.
-</p>
-<p>
-<strong>Note</strong> that tipping functionality must also be enabled in the terminal configuration
-before it will be active. This setting is more useful to disable tipping when it is
-enabled in configuration.
-</p>
-</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=388">View Source</a>
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=187">View Source</a>
   </span>
-  <a id="Westpay_Epas_OperatingParameters_LogXmlMessages_" data-uid="Westpay.Epas.OperatingParameters.LogXmlMessages*"></a>
-  <h4 id="Westpay_Epas_OperatingParameters_LogXmlMessages" data-uid="Westpay.Epas.OperatingParameters.LogXmlMessages">LogXmlMessages</h4>
-  <div class="markdown level1 summary"><p>Set this to true to make the library log EPAS XML messages with the ECR.</p>
+  <h4 id="Westpay_Epas_LastTransactionResponse_DccData_mCardScheme" data-uid="Westpay.Epas.LastTransactionResponse.DccData.mCardScheme">mCardScheme</h4>
+  <div class="markdown level1 summary"><p>&quot;V&quot; = Visa, &quot;M&quot; = Mastercard.  This is a string to allow for future expansion.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool LogXmlMessages { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string mCardScheme</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>Set to <code>true</code> to make the library log EPAS messages.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Westpay_Epas_OperatingParameters_LogXmlMessages_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>If set to true, the this property causes the incoming and outgoing XML messages that make up 
-the EPAS protocol to be logged with the ECR at debug level.</p>
-</div>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=396">View Source</a>
-  </span>
-  <a id="Westpay_Epas_OperatingParameters_StorageDirectory_" data-uid="Westpay.Epas.OperatingParameters.StorageDirectory*"></a>
-  <h4 id="Westpay_Epas_OperatingParameters_StorageDirectory" data-uid="Westpay.Epas.OperatingParameters.StorageDirectory">StorageDirectory</h4>
-  <div class="markdown level1 summary"><p>Defines a directory where log data from the terminal can be stored, and which will be used
-for temporary files in some situations.  My be fully accessible to the client library.  The
-user&apos;s temporary folder is the default for this.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string StorageDirectory { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -400,26 +350,23 @@ user&apos;s temporary folder is the default for this.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A path to a directory.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=352">View Source</a>
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=192">View Source</a>
   </span>
-  <a id="Westpay_Epas_OperatingParameters_TransactionCurrency_" data-uid="Westpay.Epas.OperatingParameters.TransactionCurrency*"></a>
-  <h4 id="Westpay_Epas_OperatingParameters_TransactionCurrency" data-uid="Westpay.Epas.OperatingParameters.TransactionCurrency">TransactionCurrency</h4>
-  <div class="markdown level1 summary"><p>Defines the currency to be used in transactions.  This must match the currency that
-is configured in the terminal.</p>
+  <h4 id="Westpay_Epas_LastTransactionResponse_DccData_mCustomerDisclaimer" data-uid="Westpay.Epas.LastTransactionResponse.DccData.mCustomerDisclaimer">mCustomerDisclaimer</h4>
+  <div class="markdown level1 summary"><p>Disclaimer text that must be included in the recipt.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CurrencyCodes TransactionCurrency { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string mCustomerDisclaimer</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -429,38 +376,24 @@ is configured in the terminal.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Westpay.Epas.CurrencyCodes.html">CurrencyCodes</a></td>
-        <td><p>The currency. The default is <a class="xref" href="Westpay.Epas.CurrencyCodes.html#Westpay_Epas_CurrencyCodes_SEK">SEK</a></p>
-</td>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Westpay_Epas_OperatingParameters_TransactionCurrency_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>
-This property defines the currency that will be specified in EPAS messaging.
-In normal use this must match the currency that is configured in the terminal.
-</p>
-<p>
-It is possible, however, for the terminal to be configured to accept transactions
-in different currencies, in which case the transaction currency here must be one of
-those that are configured.
-</p>
-</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=378">View Source</a>
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=166">View Source</a>
   </span>
-  <a id="Westpay_Epas_OperatingParameters_WaitForCardRemoval_" data-uid="Westpay.Epas.OperatingParameters.WaitForCardRemoval*"></a>
-  <h4 id="Westpay_Epas_OperatingParameters_WaitForCardRemoval" data-uid="Westpay.Epas.OperatingParameters.WaitForCardRemoval">WaitForCardRemoval</h4>
-  <div class="markdown level1 summary"><p>Controls whether the terminal should wait for a chip card to be taken before
-reporting the transaction result.</p>
+  <h4 id="Westpay_Epas_LastTransactionResponse_DccData_mExponent" data-uid="Westpay.Epas.LastTransactionResponse.DccData.mExponent">mExponent</h4>
+  <div class="markdown level1 summary"><p>Number of digits that follow the decimal point in the converted currency.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool WaitForCardRemoval { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int mExponent</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -470,29 +403,282 @@ reporting the transaction result.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p><code>true</code> if the terminal should wait for the card to be removed.
-The default is <code>false</code>.</p>
-</td>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Westpay_Epas_OperatingParameters_WaitForCardRemoval_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>
-This property controls whether the terminal will wait for an inserted chip card to be
-removed before it sends the transaction response back, or if it sends the response
-before the card is taken.
-</p>
-<p>
-Setting this to false can make the transaction feel faster, since the result is
-available sooner. But setting this to true makes it less likely that the customer will
-leave their card in the terminal by mistake.
-</p>
-<p>
-Regardless of this setting the terminal will not allow a new transaction until the
-card has been taken.
-</p>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=161">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_DccData_mIsoCurrencyCode" data-uid="Westpay.Epas.LastTransactionResponse.DccData.mIsoCurrencyCode">mIsoCurrencyCode</h4>
+  <div class="markdown level1 summary"><p>ISO 4217 currency code of the converted currency</p>
 </div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string mIsoCurrencyCode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=156">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_DccData_mIsoCurrencyNumber" data-uid="Westpay.Epas.LastTransactionResponse.DccData.mIsoCurrencyNumber">mIsoCurrencyNumber</h4>
+  <div class="markdown level1 summary"><p>ISO 4217 currency number of the converted currency.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int mIsoCurrencyNumber</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=171">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_DccData_mMarkUp" data-uid="Westpay.Epas.LastTransactionResponse.DccData.mMarkUp">mMarkUp</h4>
+  <div class="markdown level1 summary"><p>The conversion charge / mark up as a percentage. This is included in the total.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal mMarkUp</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=177">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_DccData_mMarkUpDescription" data-uid="Westpay.Epas.LastTransactionResponse.DccData.mMarkUpDescription">mMarkUpDescription</h4>
+  <div class="markdown level1 summary"><p>Text description of the MarkUp charge, required by some DCC providers.  If set, this
+should be printed on the line after the MarkUp value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string mMarkUpDescription</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=197">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_DccData_mMerchantDisclaimer" data-uid="Westpay.Epas.LastTransactionResponse.DccData.mMerchantDisclaimer">mMerchantDisclaimer</h4>
+  <div class="markdown level1 summary"><p>Merchant Disclaimer .</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string mMerchantDisclaimer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=131">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_DccData_mProvider" data-uid="Westpay.Epas.LastTransactionResponse.DccData.mProvider">mProvider</h4>
+  <div class="markdown level1 summary"><p>DCC rate provider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string mProvider</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=141">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_DccData_mRate" data-uid="Westpay.Epas.LastTransactionResponse.DccData.mRate">mRate</h4>
+  <div class="markdown level1 summary"><p>Conversion rate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal mRate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=151">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_DccData_mRateTimestamp" data-uid="Westpay.Epas.LastTransactionResponse.DccData.mRateTimestamp">mRateTimestamp</h4>
+  <div class="markdown level1 summary"><p>The timestamp when the rate was calculated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime mRateTimestamp</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=136">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_DccData_mSource" data-uid="Westpay.Epas.LastTransactionResponse.DccData.mSource">mSource</h4>
+  <div class="markdown level1 summary"><p>DCC rate source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string mSource</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=182">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_LastTransactionResponse_DccData_mTip" data-uid="Westpay.Epas.LastTransactionResponse.DccData.mTip">mTip</h4>
+  <div class="markdown level1 summary"><p>The value of any added tip, given in the converted currency.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal mTip</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -501,7 +687,7 @@ card has been taken.
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=316" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/Responses/LastTransactionResponse.cs&amp;version=GBmain&amp;line=126" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TerminalEnvironment
    ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -116,7 +116,16 @@
                             <a href="Westpay.Epas.AuthorisingEntity.html" title="AuthorisingEntity" class="">AuthorisingEntity</a>
                           </li>
                           <li class="">
+                            <a href="Westpay.Epas.BufferTools.html" title="BufferTools" class="">BufferTools</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.CardAcceptedEventArgs.html" title="CardAcceptedEventArgs" class="">CardAcceptedEventArgs</a>
+                          </li>
+                          <li class="">
                             <a href="Westpay.Epas.CurrencyCodes.html" title="CurrencyCodes" class="">CurrencyCodes</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.EnableCardReaderOptions.html" title="EnableCardReaderOptions" class="">EnableCardReaderOptions</a>
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.EnableReadersResponse.html" title="EnableReadersResponse" class="">EnableReadersResponse</a>
@@ -146,6 +155,24 @@
                             <a href="Westpay.Epas.IClientApp.html" title="IClientApp" class="">IClientApp</a>
                           </li>
                           <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.html" title="LastTransactionResponse" class="">LastTransactionResponse</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.CardData.html" title="LastTransactionResponse.CardData" class="">LastTransactionResponse.CardData</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.DccData.html" title="LastTransactionResponse.DccData" class="">LastTransactionResponse.DccData</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.EmvData.html" title="LastTransactionResponse.EmvData" class="">LastTransactionResponse.EmvData</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.MerchantData.html" title="LastTransactionResponse.MerchantData" class="">LastTransactionResponse.MerchantData</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.TransactionData.html" title="LastTransactionResponse.TransactionData" class="">LastTransactionResponse.TransactionData</a>
+                          </li>
+                          <li class="">
                             <a href="Westpay.Epas.LoginResponse.html" title="LoginResponse" class="">LoginResponse</a>
                           </li>
                           <li class="">
@@ -156,6 +183,9 @@
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.OperatingParameters.html" title="OperatingParameters" class="">OperatingParameters</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.PurchaseRequest.html" title="PurchaseRequest" class="">PurchaseRequest</a>
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.PurchaseTransactionAmounts.html" title="PurchaseTransactionAmounts" class="">PurchaseTransactionAmounts</a>
@@ -188,6 +218,12 @@
                             <a href="Westpay.Epas.ReceiptVersion.html" title="ReceiptVersion" class="">ReceiptVersion</a>
                           </li>
                           <li class="">
+                            <a href="Westpay.Epas.RefundRequest.html" title="RefundRequest" class="">RefundRequest</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.ServiceEnableType.html" title="ServiceEnableType" class="">ServiceEnableType</a>
+                          </li>
+                          <li class="">
                             <a href="Westpay.Epas.SimpleResponse.html" title="SimpleResponse" class="">SimpleResponse</a>
                           </li>
                           <li class="active">
@@ -198,6 +234,9 @@
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.TransactionOutcome.html" title="TransactionOutcome" class="">TransactionOutcome</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.TransactionRequest.html" title="TransactionRequest" class="">TransactionRequest</a>
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.TransactionResponse.html" title="TransactionResponse" class="">TransactionResponse</a>
@@ -232,16 +271,10 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.GetHashCode()</span>
@@ -251,6 +284,12 @@
     </div>
     <div>
       <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Westpay.Epas.html">Westpay.Epas</a></h6>
@@ -262,7 +301,9 @@
   <h3 id="constructors">Constructors
   </h3>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=243">View Source</a>
+  </span>
   <a id="Westpay_Epas_TerminalEnvironment__ctor_" data-uid="Westpay.Epas.TerminalEnvironment.#ctor*"></a>
   <h4 id="Westpay_Epas_TerminalEnvironment__ctor" data-uid="Westpay.Epas.TerminalEnvironment.#ctor">TerminalEnvironment()</h4>
   <div class="markdown level1 summary"><p>Constructor</p>
@@ -275,7 +316,201 @@
   <h3 id="fields">Fields
   </h3>
   
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=234">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_TerminalEnvironment_LangDanish" data-uid="Westpay.Epas.TerminalEnvironment.LangDanish">LangDanish</h4>
+  <div class="markdown level1 summary"><p>ISO639-1 two-character language code for Danish</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string LangDanish = &quot;da&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=228">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_TerminalEnvironment_LangEnglish" data-uid="Westpay.Epas.TerminalEnvironment.LangEnglish">LangEnglish</h4>
+  <div class="markdown level1 summary"><p>ISO639-1 two-character language code for English</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string LangEnglish = &quot;en&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=236">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_TerminalEnvironment_LangFinnish" data-uid="Westpay.Epas.TerminalEnvironment.LangFinnish">LangFinnish</h4>
+  <div class="markdown level1 summary"><p>ISO639-1 two-character language code for Finnish</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string LangFinnish = &quot;fi&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=238">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_TerminalEnvironment_LangGerman" data-uid="Westpay.Epas.TerminalEnvironment.LangGerman">LangGerman</h4>
+  <div class="markdown level1 summary"><p>ISO639-1 two-character language code for German</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string LangGerman = &quot;de&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=232">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_TerminalEnvironment_LangNorwegian" data-uid="Westpay.Epas.TerminalEnvironment.LangNorwegian">LangNorwegian</h4>
+  <div class="markdown level1 summary"><p>ISO639-1 two-character language code for Norwegian</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string LangNorwegian = &quot;no&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=230">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_TerminalEnvironment_LangPolish" data-uid="Westpay.Epas.TerminalEnvironment.LangPolish">LangPolish</h4>
+  <div class="markdown level1 summary"><p>ISO639-1 two-character language code for Polish</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string LangPolish = &quot;pl&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=226">View Source</a>
+  </span>
+  <h4 id="Westpay_Epas_TerminalEnvironment_LangSwedish" data-uid="Westpay.Epas.TerminalEnvironment.LangSwedish">LangSwedish</h4>
+  <div class="markdown level1 summary"><p>ISO639-1 two-character language code for Swedish</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string LangSwedish = &quot;sv&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=176">View Source</a>
+  </span>
+  <a id="Westpay_Epas_TerminalEnvironment_AuthorisationServer_" data-uid="Westpay.Epas.TerminalEnvironment.AuthorisationServer*"></a>
   <h4 id="Westpay_Epas_TerminalEnvironment_AuthorisationServer" data-uid="Westpay.Epas.TerminalEnvironment.AuthorisationServer">AuthorisationServer</h4>
   <div class="markdown level1 summary"><p>Connection details of the authorisation server.
 This is optional and if left null the terminal will use the authorisation server details that it
@@ -284,9 +519,9 @@ obtains from the configuration server.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IPEndPoint AuthorisationServer</code></pre>
+    <pre><code class="lang-csharp hljs">public IPEndPoint AuthorisationServer { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -312,16 +547,19 @@ In normal usage the ECR should set this property to identify the correct server 
 </p>
 </div>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=159">View Source</a>
+  </span>
+  <a id="Westpay_Epas_TerminalEnvironment_ConfigurationServer_" data-uid="Westpay.Epas.TerminalEnvironment.ConfigurationServer*"></a>
   <h4 id="Westpay_Epas_TerminalEnvironment_ConfigurationServer" data-uid="Westpay.Epas.TerminalEnvironment.ConfigurationServer">ConfigurationServer</h4>
   <div class="markdown level1 summary"><p>Connection details of the configuration server</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IPEndPoint ConfigurationServer</code></pre>
+    <pre><code class="lang-csharp hljs">public IPEndPoint ConfigurationServer { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -337,249 +575,9 @@ In normal usage the ECR should set this property to identify the correct server 
     </tbody>
   </table>
   
-  
-  <h4 id="Westpay_Epas_TerminalEnvironment_LangDanish" data-uid="Westpay.Epas.TerminalEnvironment.LangDanish">LangDanish</h4>
-  <div class="markdown level1 summary"><p>ISO639-1 two-character language code for Danish</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string LangDanish = &quot;da&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Westpay_Epas_TerminalEnvironment_LangEnglish" data-uid="Westpay.Epas.TerminalEnvironment.LangEnglish">LangEnglish</h4>
-  <div class="markdown level1 summary"><p>ISO639-1 two-character language code for English</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string LangEnglish = &quot;en&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Westpay_Epas_TerminalEnvironment_LangFinnish" data-uid="Westpay.Epas.TerminalEnvironment.LangFinnish">LangFinnish</h4>
-  <div class="markdown level1 summary"><p>ISO639-1 two-character language code for Finnish</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string LangFinnish = &quot;fi&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Westpay_Epas_TerminalEnvironment_LangGerman" data-uid="Westpay.Epas.TerminalEnvironment.LangGerman">LangGerman</h4>
-  <div class="markdown level1 summary"><p>ISO639-1 two-character language code for German</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string LangGerman = &quot;de&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Westpay_Epas_TerminalEnvironment_LangNorwegian" data-uid="Westpay.Epas.TerminalEnvironment.LangNorwegian">LangNorwegian</h4>
-  <div class="markdown level1 summary"><p>ISO639-1 two-character language code for Norwegian</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string LangNorwegian = &quot;no&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Westpay_Epas_TerminalEnvironment_LangPolish" data-uid="Westpay.Epas.TerminalEnvironment.LangPolish">LangPolish</h4>
-  <div class="markdown level1 summary"><p>ISO639-1 two-character language code for Polish</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string LangPolish = &quot;pl&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Westpay_Epas_TerminalEnvironment_LangSwedish" data-uid="Westpay.Epas.TerminalEnvironment.LangSwedish">LangSwedish</h4>
-  <div class="markdown level1 summary"><p>ISO639-1 two-character language code for Swedish</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string LangSwedish = &quot;sv&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Westpay_Epas_TerminalEnvironment_OperatorId" data-uid="Westpay.Epas.TerminalEnvironment.OperatorId">OperatorId</h4>
-  <div class="markdown level1 summary"><p>Operator / cashier ID</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string OperatorId</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Westpay_Epas_TerminalEnvironment_OperatorId_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The operator ID identifies the cashier. This is not used by the terminal, but the value given is included in 
-the receipt data for transactions.</p>
-</div>
-  
-  
-  <h4 id="Westpay_Epas_TerminalEnvironment_TerminalId" data-uid="Westpay.Epas.TerminalEnvironment.TerminalId">TerminalId</h4>
-  <div class="markdown level1 summary"><p>Terminal ID</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TerminalId</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>An 8-digit terminal ID</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Westpay_Epas_TerminalEnvironment_TerminalId_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>
-The Terminal ID is assigned by the terminal provider. The ID is used by the terminal to download 
-configuration data, to identify itself in transactions, and to provide traceability in the case of transaction 
-investigations.
-</p>
-<p>
-<strong>This property must be set by the ECR</strong>.
-</p>
-</div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=206">View Source</a>
+  </span>
   <a id="Westpay_Epas_TerminalEnvironment_ISO639_1_LanguageCode_" data-uid="Westpay.Epas.TerminalEnvironment.ISO639_1_LanguageCode*"></a>
   <h4 id="Westpay_Epas_TerminalEnvironment_ISO639_1_LanguageCode" data-uid="Westpay.Epas.TerminalEnvironment.ISO639_1_LanguageCode">ISO639_1_LanguageCode</h4>
   <div class="markdown level1 summary"><p>ISO639-1 two-letter language code that identifies the ECR&apos;s operating language.
@@ -609,7 +607,186 @@ The constant strings, e.g. <a class="xref" href="Westpay.Epas.TerminalEnvironmen
   <h5 id="Westpay_Epas_TerminalEnvironment_ISO639_1_LanguageCode_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This property selects the language that the ECR texts should be translated to. The TerminalEnvironment
 class defines several language constants that can be used here:
+<em>Note: The selected language must have been enabled in the terminal configuration</em>
 <ul><li><a class="xref" href="Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_LangSwedish">LangSwedish</a></li><li><a class="xref" href="Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_LangDanish">LangDanish</a></li><li><a class="xref" href="Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_LangEnglish">LangEnglish</a></li><li><a class="xref" href="Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_LangFinnish">LangFinnish</a></li><li><a class="xref" href="Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_LangGerman">LangGerman</a></li><li><a class="xref" href="Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_LangNorwegian">LangNorwegian</a></li><li><a class="xref" href="Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_LangPolish">LangPolish</a></li></ul></p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=185">View Source</a>
+  </span>
+  <a id="Westpay_Epas_TerminalEnvironment_OperatorId_" data-uid="Westpay.Epas.TerminalEnvironment.OperatorId*"></a>
+  <h4 id="Westpay_Epas_TerminalEnvironment_OperatorId" data-uid="Westpay.Epas.TerminalEnvironment.OperatorId">OperatorId</h4>
+  <div class="markdown level1 summary"><p>Operator / cashier ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string OperatorId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Westpay_Epas_TerminalEnvironment_OperatorId_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The operator ID identifies the cashier. This is not used by the terminal, but the value given is included in 
+the receipt data for transactions.</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=154">View Source</a>
+  </span>
+  <a id="Westpay_Epas_TerminalEnvironment_SecondaryTerminalIds_" data-uid="Westpay.Epas.TerminalEnvironment.SecondaryTerminalIds*"></a>
+  <h4 id="Westpay_Epas_TerminalEnvironment_SecondaryTerminalIds" data-uid="Westpay.Epas.TerminalEnvironment.SecondaryTerminalIds">SecondaryTerminalIds</h4>
+  <div class="markdown level1 summary"><p>Secondary terminal IDs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] SecondaryTerminalIds { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><p>An array of 8-digit terminal IDs</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Westpay_Epas_TerminalEnvironment_SecondaryTerminalIds_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+If the terminal supports Multi-TID, then this property can be filled with secondary terminal IDs.
+These terminal IDs can then be used to set to specify that a transaction should be for a specific
+terminal ID. See <a class="xref" href="Westpay.Epas.TransactionRequest.html#Westpay_Epas_TransactionRequest_TerminalId">TerminalId</a>.
+</p>
+<p>
+If the terminal does not support Multi-TID, then the only way to use different terminal IDs for
+different transactions is to logout and login again with the new terminal ID between the
+transactions.
+</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=126">View Source</a>
+  </span>
+  <a id="Westpay_Epas_TerminalEnvironment_StoreId_" data-uid="Westpay.Epas.TerminalEnvironment.StoreId*"></a>
+  <h4 id="Westpay_Epas_TerminalEnvironment_StoreId" data-uid="Westpay.Epas.TerminalEnvironment.StoreId">StoreId</h4>
+  <div class="markdown level1 summary"><p>Store ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string StoreId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Westpay_Epas_TerminalEnvironment_StoreId_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+<strong>This property must be set by the ECR</strong>.
+</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=115">View Source</a>
+  </span>
+  <a id="Westpay_Epas_TerminalEnvironment_TerminalId_" data-uid="Westpay.Epas.TerminalEnvironment.TerminalId*"></a>
+  <h4 id="Westpay_Epas_TerminalEnvironment_TerminalId" data-uid="Westpay.Epas.TerminalEnvironment.TerminalId">TerminalId</h4>
+  <div class="markdown level1 summary"><p>Terminal ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TerminalId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>An 8-digit terminal ID</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Westpay_Epas_TerminalEnvironment_TerminalId_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+The Terminal ID is assigned by the terminal provider. The ID is used by the terminal to download 
+configuration data, to identify itself in transactions, and to provide traceability in the case of transaction 
+investigations.
+</p>
+<p>
+<strong>This property must be set by the ECR</strong>.
+</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=136">View Source</a>
+  </span>
+  <a id="Westpay_Epas_TerminalEnvironment_WorkstationId_" data-uid="Westpay.Epas.TerminalEnvironment.WorkstationId*"></a>
+  <h4 id="Westpay_Epas_TerminalEnvironment_WorkstationId" data-uid="Westpay.Epas.TerminalEnvironment.WorkstationId">WorkstationId</h4>
+  <div class="markdown level1 summary"><p>Workstation ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string WorkstationId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Westpay_Epas_TerminalEnvironment_WorkstationId_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+<strong>This property must be set by the ECR</strong>.
+</p>
 </div>
 </article>
           </div>
@@ -618,6 +795,9 @@ class defines several language constants that can be used here:
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/ApiDefinitions.cs&amp;version=GBmain&amp;line=94" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/TeamCity/buildAgent/work/49ebf4487497fc25/EpasClientLibrary/Documentation",
+  "source_base_path": "D:/a/1/s/dotnet/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "WbXcupFNk3jsXhcEofOdanDUVgF/L2LxQ8OHWQdIbw4="
+          "hash": "rHz4CnrTM77BN6DCbKWfmAyJkOud+3brwGJFmxNGOJk="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/additional.html",
-          "hash": "FuYx9qpnZUdX39WKqYFzpJGAKiMi7xxVvR2kgAOmaP0="
+          "hash": "jwtUIR0dHJnfBrhDxpWWLiO96kj2Yh2Q3X5TnEEdS4g="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/apm.html",
-          "hash": "B9ZrWZTxE3P6PUmDFQbPK/qH8H0SN+eYFlvuFqvbbnE="
+          "hash": "F0lLrkX4YUdsYTmiwEDKP3ntRKlwnAhbFOwOOn99wZ0="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dcc.html",
-          "hash": "si2LXtkJTOU/d4+YtQrXRfRuIw1d9dghN2WUU+lg488="
+          "hash": "1g1TKqavQMR0UNX1eO3LZqIuHM7ZIu7x7r0rosRm/5w="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/identifying_cards.html",
-          "hash": "SUb4Q4LIweSVYwEzcjFHd75FkJ2pjphqfuO4oso7J6w="
+          "hash": "stV292pjnpedytClfE0Q0qHMr+y8lhMn8PJ98vjSw7w="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/integrating_the_library.html",
-          "hash": "p+TVusSMdcFLl3Wzti9XfR2gah/kQ35+4DDRxynz/vc="
+          "hash": "v2dI2pffVwyZxpZwjNqyz8pPSdn4IlYudEARc1Vyaso="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "jmy7HDIT2PY5B/UU9AJ88htxICGSB7sjz0hTtaDP3mI="
+          "hash": "QWJvT5cDRtz0kLqXdDAS78/2YRBLltTyyS7SXWtLDhg="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,22 @@
       "output": {
         ".html": {
           "relative_path": "articles/log_storage.html",
-          "hash": "ngDA/K2Hxmc6267fOav3VPgjRkInk+SNkwTu7aA8qs8="
+          "hash": "DlTu3B+zXCYHHZiIaiFgKSdeDBYTrZWeP2V7J3XbdC4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/multi_tid.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/multi_tid.html",
+          "hash": "zqG2/lQvVMfTALPIYxmRphYJvC9pQPp73DR9P7tHOjk="
         }
       },
       "is_incremental": false,
@@ -114,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/receipts.html",
-          "hash": "ydFGxk1g4ouuRFjyk/GGTCjASzObq+fL4xSa1zIPOoI="
+          "hash": "b45bm+0lD4rJ/0H/vqN7eCBKVHxnv6CdiwCnXwmmNFA="
         }
       },
       "is_incremental": false,
@@ -126,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/release_notes.html",
-          "hash": "V0MNK6P2Y3H7WvCEagVyVcf5x/skHGLZuB4H4ViycyE="
+          "hash": "06LiZuqXNqgYdjtKSwm6zYDU7dRxNA7YEVmKLsrE6L0="
         }
       },
       "is_incremental": false,
@@ -138,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "ctq0NOmNO6GdlgSI6KEKAuJYoTWPMi6cQoKqMtnwib8="
+          "hash": "pFufH/sWjIeXTL6vPj/DSdzq1UCxN6aM7pVggENEZA4="
         }
       },
       "is_incremental": false,
@@ -150,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/transaction_flows.html",
-          "hash": "ItOw6cV16zbOUqBVV4jjZGd+z2PwW2GO6bEgNCw1hkc="
+          "hash": "oR7dxiNWuKJWKv/chI9fCbx5vMYIzgSb6OuIJbplJMI="
         }
       },
       "is_incremental": false,
@@ -162,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/transactions.html",
-          "hash": "Dg0lEvt3/kgTeg4CPPiVLaHotptzQ0qFlpQLr5U5kNs="
+          "hash": "WHHkX1Uvkb7vzIQmlXKXjuQw8ZaaS0mqr8tHugqVjys="
         }
       },
       "is_incremental": false,
@@ -174,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/using_the_library.html",
-          "hash": "AY+MzlpPDkWHH5tPaNgnoemylcLiV0OdV/kYQTWq198="
+          "hash": "FkKJW7tUuZsETW1V4NeNdqyCnhnTStDfULuqgDPoGWs="
         }
       },
       "is_incremental": false,
@@ -186,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "2T6lHYO15G9oDtyB/lAzc3WXUjCL2Q50AeKj7XYq1a0="
+          "hash": "SKXgTdJjf3O7HR328jx4RCA6zvEwY+c/8535Sl8lK9M="
         }
       },
       "is_incremental": false,
@@ -198,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.AdminOperation.html",
-          "hash": "qWHq1xDJ6yyhzS4IQmRsoNrwlkfKsYwneqyFznSksBg="
+          "hash": "xlPWqxsdlIrFbMe3tfv2nrijsfu5b0l0AyjPsJgdDZA="
         }
       },
       "is_incremental": false,
@@ -210,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.AdminResponse.html",
-          "hash": "rYl6AQSIMxoK/51pc7nuf0AbJDXtUVEsUXr7ST0RkUk="
+          "hash": "YSrF5sj5tCKFcLuWWQnpDxbcKWh4fh28duQpvkXSD+w="
         }
       },
       "is_incremental": false,
@@ -222,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.AltMethodTransaction.html",
-          "hash": "BTxBitYvcHJWg1+a7Fg/xxmSDyklw2Oy+IrFUE3SmZw="
+          "hash": "4rYk4WimN75ifdRadrOq+X/hfaEmyQZGG6vOlxYhEGs="
         }
       },
       "is_incremental": false,
@@ -234,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.ApiResult.html",
-          "hash": "qXkzGFPCItTd3CSbQLt37S6c45Eiycmyg6prvo2Vsz8="
+          "hash": "K4kJd0UvJBOZU30d0GTGMtF8GU6+BY76GG7422FRUG8="
         }
       },
       "is_incremental": false,
@@ -246,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.AuthorisationChannel.html",
-          "hash": "zqixjqMk7PRrvciAqvtTr/+5PKx+xwqs1fLIIWnYCqM="
+          "hash": "JGtRQsY5BXVYeCMUqSkozlj1r+CUfyhpfu6tnGc3jIo="
         }
       },
       "is_incremental": false,
@@ -258,7 +273,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.AuthorisingEntity.html",
-          "hash": "iji0QMFVZ8olNnmylM52XpxpIw0WfIyOCXcwyoshF/o="
+          "hash": "2IBBPfPGI04LSUGDEFr4jIw+yoIP68W/v45HQMD4HTI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Westpay.Epas.BufferTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Westpay.Epas.BufferTools.html",
+          "hash": "V4BLA7ECXwIHzXwpdJQw+iQ2bh8UdOOFy2vyZBDPO5U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Westpay.Epas.CardAcceptedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Westpay.Epas.CardAcceptedEventArgs.html",
+          "hash": "BJjlhIQnmhZV+D6C0OSXf32iUyTNS5npvWdhDmy5T/0="
         }
       },
       "is_incremental": false,
@@ -270,7 +309,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.CurrencyCodes.html",
-          "hash": "p/X9nOq1+L5LhaUBrilKeOQNjgV69tIWd8lXHAKUoOc="
+          "hash": "FuS6c3cfmut3uieG9l31piEnsy/byNR3mv+oyvcbT2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Westpay.Epas.EnableCardReaderOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Westpay.Epas.EnableCardReaderOptions.html",
+          "hash": "nHfK4dKDqaJEkYhS1sqdqx2bVqyBFCw4LIX6MsyNjjY="
         }
       },
       "is_incremental": false,
@@ -282,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.EnableReadersResponse.html",
-          "hash": "FxqcuMXt8atNVpvjRYdMxpTj7jlFbnj2Rrj25oNLrNQ="
+          "hash": "fknCGpxhRdQOcpDFkW1BeU40h0zYD/YobF/UBybrLAs="
         }
       },
       "is_incremental": false,
@@ -294,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.EntryMethod.html",
-          "hash": "oJPPnuvPxsGxATbmstsyf0dWgq2xXCWoS+KLe277Yqo="
+          "hash": "zljcsEYutCSsL0aTyRXx/z8JhIuomXDMclVs51bIkvE="
         }
       },
       "is_incremental": false,
@@ -306,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.EpasClient.CardAcceptedNotification.html",
-          "hash": "+md06mnQw+fUk3GXO7mC6xUHfN+2yOej84Ge+9XBTks="
+          "hash": "WY30IApOAkandGB77uwvc5R1Qdtf+z2MuFiatpUBUs4="
         }
       },
       "is_incremental": false,
@@ -318,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.EpasClient.CardActionNotification.html",
-          "hash": "md6hvXWXahcpX96V7Tlwrluv0g2envFyp8rcsasZ98Q="
+          "hash": "ko4WM9uZ/BJOmpSJ0FdtTRMvbBYR/NAb97nS5fZ2lcY="
         }
       },
       "is_incremental": false,
@@ -330,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.EpasClient.EpasMessageReceiver.html",
-          "hash": "lTcYoNOWXRdakbj9W9eHK/mjd1zEEDEuHwckZ3THFb0="
+          "hash": "FDwlKkM5mvj4K6NnhfIGmf5zksHkj90eejh0uDPvoIk="
         }
       },
       "is_incremental": false,
@@ -342,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.EpasClient.StatusNotification.html",
-          "hash": "sPzV7nKogfpJHg45nAQmzGE5zb9ePIYslhRZRYobhpA="
+          "hash": "oCacssY2WiLkYGjafFJFRI4QgTuzvUoza5BpCxzpIlI="
         }
       },
       "is_incremental": false,
@@ -354,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.EpasClient.html",
-          "hash": "tmW9GFtnFOwwMlwe7hRXNjNmBJOqlMKWdSOyCRVtX6s="
+          "hash": "Bq7aYEDBid37M5GZJ6TrM2Uh5UVpWNdSmZ3DiebnQvY="
         }
       },
       "is_incremental": false,
@@ -366,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.ErrorConditions.html",
-          "hash": "4VR07NY+8fePvgmxeZR8HCu7hSZcTrMG/QMZNu7yo/w="
+          "hash": "eLY5IaIGSFPcGWFhjRKaaTPVMF/e59AjZ5/+ck1ytGw="
         }
       },
       "is_incremental": false,
@@ -378,7 +429,79 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.IClientApp.html",
-          "hash": "b7+oezo3Xk+ekiHvHLSXZpGiUFZcrk37IzkcOSNc1jI="
+          "hash": "Zditoxi6+Zn7YDHiD/oqoLFjTIJ5HnHiMytGZKk3xIo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Westpay.Epas.LastTransactionResponse.CardData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Westpay.Epas.LastTransactionResponse.CardData.html",
+          "hash": "nohHGSb9eqKfK4zaJO0luvoKb6ra6Iy+HKP0CGcsvIY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Westpay.Epas.LastTransactionResponse.DccData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Westpay.Epas.LastTransactionResponse.DccData.html",
+          "hash": "MqNcLM6Tpey9JfyzvcmPrE3Q0TEe9vMoDuQyTo2ntk8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Westpay.Epas.LastTransactionResponse.EmvData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Westpay.Epas.LastTransactionResponse.EmvData.html",
+          "hash": "Yb5hpxFJKkPcpQcnPblymKHJdIcYxdv6Avkhe4vVnwA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Westpay.Epas.LastTransactionResponse.MerchantData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Westpay.Epas.LastTransactionResponse.MerchantData.html",
+          "hash": "Dmlm2CSoN89KnceSUxKwhC9L2N5Bz3s6cAEY2j1dqr8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Westpay.Epas.LastTransactionResponse.TransactionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Westpay.Epas.LastTransactionResponse.TransactionData.html",
+          "hash": "f3zp2DTLCg13NXg2l/W2SbxxYEwpsmIOK6WzJVm5pcU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Westpay.Epas.LastTransactionResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Westpay.Epas.LastTransactionResponse.html",
+          "hash": "l+YqCxh6CDCAIYtCgHYbtELW7EOzPbPEYuuzS+sFSL0="
         }
       },
       "is_incremental": false,
@@ -390,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.LogLevel.html",
-          "hash": "i/oRAqM/EEX8I01CGtPWgpzvYZulcMUKdx9c9s0H00A="
+          "hash": "8qz3kf/uA8vbWV74aLqR+UNzHGQEdhxfX4KtWg6OX8U="
         }
       },
       "is_incremental": false,
@@ -402,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.LoginResponse.html",
-          "hash": "KsmfaBFoayPpndVOxQT2AP5e7GduZUQo0azRgsSXhjU="
+          "hash": "0LOJ0a+GjvcyBY44bNgtOdOqD2BNlWgz0wXEofQ1B38="
         }
       },
       "is_incremental": false,
@@ -414,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.LogoutResponse.html",
-          "hash": "xQjpxizziI/dBTVrpuviVsqCuia7q+rhk3+/Lf/0Epw="
+          "hash": "6KwvDr4cYspypoXpgdTRp18ligLxIHdNrWYkRi99mok="
         }
       },
       "is_incremental": false,
@@ -426,7 +549,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.OperatingParameters.html",
-          "hash": "B5xHF40Ia8EtkCuxMeHD4N7GcdsUy8oLJmIXKA0D9hs="
+          "hash": "1zrvqmefvGawRWyf9IM5YhG60HzID8Fdgyvi/EKwlGE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Westpay.Epas.PurchaseRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Westpay.Epas.PurchaseRequest.html",
+          "hash": "2LQuuMAqOnomxkNtEy4REEDBPz31xKwB5RfbaqxJkr4="
         }
       },
       "is_incremental": false,
@@ -438,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.PurchaseTransactionAmounts.html",
-          "hash": "4Vwho2J3LLK114AB2dq5saVY4nnpqcqe7o9ILXBkj6I="
+          "hash": "1nCOgMBp40uy4WcH+ZZApRifBmrWTMUaaWVRcmIUzeM="
         }
       },
       "is_incremental": false,
@@ -450,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.ReceiptData.AuthorisationData.html",
-          "hash": "40BqXuN8YbR4sxexI+zBjco4bYap+aA7JcM8RXUmng4="
+          "hash": "ibiGEgebQ0v/hmLZRhctw9//KCjBc57a3iyGjRoA8/Q="
         }
       },
       "is_incremental": false,
@@ -462,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.ReceiptData.CardData.html",
-          "hash": "jhRo8T1GUJhY9lSr6hvxgPn1v0Vg/813nzuwM3QmNdQ="
+          "hash": "UnqyhojuQobuBDQhz00KTpHTnXYUCsVllpU6fd60kHE="
         }
       },
       "is_incremental": false,
@@ -474,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.ReceiptData.DccData.html",
-          "hash": "dU3pcgQZi83spdm3Q+4cjBdaXkZ7yl3tojf8Q1JhQWg="
+          "hash": "PQ06MsAgL9wYlZEZ03EMwFusMIHptk4XMOtP8x15J5M="
         }
       },
       "is_incremental": false,
@@ -486,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.ReceiptData.EmvData.html",
-          "hash": "YrUE1SI0Y66qH6swBT9ob3pE8pZOo8rT6Fn8rffuZM4="
+          "hash": "hGkYqiRB5nMxXrkhOoQDg/adTYaU78urSey/LFr+y0Q="
         }
       },
       "is_incremental": false,
@@ -498,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.ReceiptData.MerchantData.html",
-          "hash": "iG7vICTotUZ52nN7HtYna7TCx8TIhjV4m5+85cLTrR0="
+          "hash": "+mcQ5SD/FMF6y0yWr5GG56mlUzuiGvAAplTrCT1Y/2Y="
         }
       },
       "is_incremental": false,
@@ -510,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.ReceiptData.TransactionData.html",
-          "hash": "t/CSqMgmZln5729ZceC8n7WJJsFuUwYNAX3LMLTE91I="
+          "hash": "epIGA7isq6JDrm8pqraJjCO/N9TAS4Mi3Wp7KhTbWpM="
         }
       },
       "is_incremental": false,
@@ -522,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.ReceiptData.TranslatedTextId.html",
-          "hash": "GhXEFOKr3ZdkmUU7LEoliPK3IAC2yTgj3nqYSUsMDjE="
+          "hash": "eI71gXRLdclTCxjTv/g26FnXRN3RXv/xrTbzinFGeLE="
         }
       },
       "is_incremental": false,
@@ -534,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.ReceiptData.html",
-          "hash": "YkCabXJM1y+nkcCtLbA/IgD4HfjxJyXV/zWiYDrvwUQ="
+          "hash": "dn8snQFlJuvty6MrZ8b3evFuFJc69MkFPK5rFTXxoV4="
         }
       },
       "is_incremental": false,
@@ -546,7 +681,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.ReceiptVersion.html",
-          "hash": "TEWbYZGn2yUTR0+5leQDTscpjAua3cQNejzgLBa7GSM="
+          "hash": "WlPQuHE9MT6MXXRuFKFGd6+0FscF2YAGiIEpp58ixIg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Westpay.Epas.RefundRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Westpay.Epas.RefundRequest.html",
+          "hash": "0pf5dt0/dHyvNrhLaPvcw2CDvW3TEcb/+ZEpcCQA38w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Westpay.Epas.ServiceEnableType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Westpay.Epas.ServiceEnableType.html",
+          "hash": "Jfur+JDL+rqcNhh7H42O4oLbmpS1XwyAh+bPBTRS++o="
         }
       },
       "is_incremental": false,
@@ -558,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.SimpleResponse.html",
-          "hash": "Fsu/qJmxk2YX+lDGvcEfZTW8oXqirRA8Q8SwxJrLnSw="
+          "hash": "tcBCMJNzRZ2EyRy4esIUtv57THFjxoBWtTRgchaiAiI="
         }
       },
       "is_incremental": false,
@@ -570,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.TerminalEnvironment.html",
-          "hash": "CkTgH8N9zMmXJHn7TAqB9MxfHnN5yOLfFJaHd7OkO2A="
+          "hash": "xGAizbSnhDOBd+SjxZFvcjME6x2inDYQ3vi5EQ3gqVA="
         }
       },
       "is_incremental": false,
@@ -582,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.TerminalNetworkConnection.html",
-          "hash": "M968XcOOj2nes25CpclccwzBLwfaCxX7keHxsQa+ixQ="
+          "hash": "Y8PVRI3l60dohTzZ3bdKFOAdn+EpdmOGXeImtptEvKY="
         }
       },
       "is_incremental": false,
@@ -594,7 +753,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.TransactionOutcome.html",
-          "hash": "EPHrgCrZil4lStNQJxmduleHEJuh8A6KD8gXk46QgDg="
+          "hash": "38T1bHJXbpV3Ht4SxW+292IfBltKNDyv6+JpP9wPbds="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Westpay.Epas.TransactionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Westpay.Epas.TransactionRequest.html",
+          "hash": "rqrvejr/ScWWBEkWefdQ7uHpF0uSxWyLcwZWa92H00k="
         }
       },
       "is_incremental": false,
@@ -606,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.TransactionResponse.html",
-          "hash": "vTztHTGrj6hmlUbmfJ9rlzw5BM+1RQ+HmlGh9dS/7uA="
+          "hash": "lsVW1YuZhorHztagoQq/LJ/5cBlEzWoVcdj83B7hMTQ="
         }
       },
       "is_incremental": false,
@@ -618,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.TransactionType.html",
-          "hash": "jrNdoyUHs185fDp5cIH//ajoUWD/ZHB3oBEX3XybGME="
+          "hash": "oPh0F4zcmgOHV4FvTO4Pld7JUf/W8SRZxGWEfWQgXM0="
         }
       },
       "is_incremental": false,
@@ -630,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.VerificationMethod.html",
-          "hash": "oChukIBiV14U1kSU7F2oZiMSRPhFgCHzQmDP00NXQz4="
+          "hash": "wKdEAwQqYwWR3w97C20hKdibhggB1ZUB+ARwW8M1JSU="
         }
       },
       "is_incremental": false,
@@ -642,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Westpay.Epas.html",
-          "hash": "ee7oANlD+mihD1JN/m4VugWSfAMQwSEJVEPsQ4P3wPA="
+          "hash": "Qxpp1nxGTdqBSWAqGfxz5i6eZt4qHc98GR5JEY5UWug="
         }
       },
       "is_incremental": false,
@@ -654,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "/2Y/8fWlRtKctOBGBEJ8HuGFFTekXd/GN6ebt1GNjJI="
+          "hash": "yACUAEF9r7sADFLTsBKeFsW60uWy+7QlVi9GLGgeV4Q="
         }
       },
       "is_incremental": false,
@@ -687,13 +858,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 14,
+          "total_file_count": 15,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 38,
+          "total_file_count": 51,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

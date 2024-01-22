@@ -8,7 +8,7 @@
     <title>Release notes </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Release notes ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -109,6 +109,9 @@
                       <a href="integrating_the_library.html" title="Integrating the EPAS Client Library" class="">Integrating the EPAS Client Library</a>
                     </li>
                     <li class="">
+                      <a href="multi_tid.html" title="Using Multiple Terminal IDs" class="">Using Multiple Terminal IDs</a>
+                    </li>
+                    <li class="">
                       <a href="log_storage.html" title="Log storage" class="">Log storage</a>
                     </li>
                     <li class="">
@@ -136,12 +139,20 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="release-notes">Release notes</h1>
 
+<h2 id="version-14">Version 1.4</h2>
+<ul>
+<li>The serial/USB connection has been removed. Terminals that are connected with USB should use USB network sharing instead.</li>
+<li>The library has been converted to .NET Standard 2.0, from .NET Framework 4.7.2, for greater compatibility.</li>
+<li>Added support for <a href="multi_tid.html">multiple terminal IDs</a>.</li>
+<li>Added GetLastTransaction method to request to retrieve information about the most recent transaction</li>
+</ul>
 <h2 id="version-131">Version 1.3.1</h2>
 <p><em>01/04/2022</em></p>
 <ul>
 <li>Bugfix: (Card) Refunds did not work unless PA supported <a href="apm.html">alternative payment</a> refunds.</li>
 </ul>
 <h2 id="version-13">Version 1.3</h2>
+<p><em>15/02/2022</em></p>
 <ul>
 <li>Added details on transactions using <a href="apm.html">alternative payment methods</a></li>
 <li>Removed <a class="xref" href="../api/Westpay.Epas.AdminOperation.html">AdminOperation</a>.ModeSwitch.</li>

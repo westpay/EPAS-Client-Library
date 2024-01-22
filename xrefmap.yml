@@ -78,19 +78,40 @@ references:
 - uid: Westpay.Epas.AltMethodTransaction.Method
   name: Method
   href: api/Westpay.Epas.AltMethodTransaction.html#Westpay_Epas_AltMethodTransaction_Method
-  commentId: F:Westpay.Epas.AltMethodTransaction.Method
+  commentId: P:Westpay.Epas.AltMethodTransaction.Method
+  fullName: Westpay.Epas.AltMethodTransaction.Method
+  nameWithType: AltMethodTransaction.Method
+- uid: Westpay.Epas.AltMethodTransaction.Method*
+  name: Method
+  href: api/Westpay.Epas.AltMethodTransaction.html#Westpay_Epas_AltMethodTransaction_Method_
+  commentId: Overload:Westpay.Epas.AltMethodTransaction.Method
+  isSpec: "True"
   fullName: Westpay.Epas.AltMethodTransaction.Method
   nameWithType: AltMethodTransaction.Method
 - uid: Westpay.Epas.AltMethodTransaction.Reference
   name: Reference
   href: api/Westpay.Epas.AltMethodTransaction.html#Westpay_Epas_AltMethodTransaction_Reference
-  commentId: F:Westpay.Epas.AltMethodTransaction.Reference
+  commentId: P:Westpay.Epas.AltMethodTransaction.Reference
+  fullName: Westpay.Epas.AltMethodTransaction.Reference
+  nameWithType: AltMethodTransaction.Reference
+- uid: Westpay.Epas.AltMethodTransaction.Reference*
+  name: Reference
+  href: api/Westpay.Epas.AltMethodTransaction.html#Westpay_Epas_AltMethodTransaction_Reference_
+  commentId: Overload:Westpay.Epas.AltMethodTransaction.Reference
+  isSpec: "True"
   fullName: Westpay.Epas.AltMethodTransaction.Reference
   nameWithType: AltMethodTransaction.Reference
 - uid: Westpay.Epas.AltMethodTransaction.TransactionAmount
   name: TransactionAmount
   href: api/Westpay.Epas.AltMethodTransaction.html#Westpay_Epas_AltMethodTransaction_TransactionAmount
-  commentId: F:Westpay.Epas.AltMethodTransaction.TransactionAmount
+  commentId: P:Westpay.Epas.AltMethodTransaction.TransactionAmount
+  fullName: Westpay.Epas.AltMethodTransaction.TransactionAmount
+  nameWithType: AltMethodTransaction.TransactionAmount
+- uid: Westpay.Epas.AltMethodTransaction.TransactionAmount*
+  name: TransactionAmount
+  href: api/Westpay.Epas.AltMethodTransaction.html#Westpay_Epas_AltMethodTransaction_TransactionAmount_
+  commentId: Overload:Westpay.Epas.AltMethodTransaction.TransactionAmount
+  isSpec: "True"
   fullName: Westpay.Epas.AltMethodTransaction.TransactionAmount
   nameWithType: AltMethodTransaction.TransactionAmount
 - uid: Westpay.Epas.ApiResult
@@ -243,6 +264,89 @@ references:
   commentId: F:Westpay.Epas.AuthorisingEntity.Merchant
   fullName: Westpay.Epas.AuthorisingEntity.Merchant
   nameWithType: AuthorisingEntity.Merchant
+- uid: Westpay.Epas.BufferTools
+  name: BufferTools
+  href: api/Westpay.Epas.BufferTools.html
+  commentId: T:Westpay.Epas.BufferTools
+  fullName: Westpay.Epas.BufferTools
+  nameWithType: BufferTools
+- uid: Westpay.Epas.BufferTools.ByteArrayToHexString(System.Byte[],System.Int32,System.Int32)
+  name: ByteArrayToHexString(Byte[], Int32, Int32)
+  href: api/Westpay.Epas.BufferTools.html#Westpay_Epas_BufferTools_ByteArrayToHexString_System_Byte___System_Int32_System_Int32_
+  commentId: M:Westpay.Epas.BufferTools.ByteArrayToHexString(System.Byte[],System.Int32,System.Int32)
+  name.vb: ByteArrayToHexString(Byte(), Int32, Int32)
+  fullName: Westpay.Epas.BufferTools.ByteArrayToHexString(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Westpay.Epas.BufferTools.ByteArrayToHexString(System.Byte(), System.Int32, System.Int32)
+  nameWithType: BufferTools.ByteArrayToHexString(Byte[], Int32, Int32)
+  nameWithType.vb: BufferTools.ByteArrayToHexString(Byte(), Int32, Int32)
+- uid: Westpay.Epas.BufferTools.ByteArrayToHexString*
+  name: ByteArrayToHexString
+  href: api/Westpay.Epas.BufferTools.html#Westpay_Epas_BufferTools_ByteArrayToHexString_
+  commentId: Overload:Westpay.Epas.BufferTools.ByteArrayToHexString
+  isSpec: "True"
+  fullName: Westpay.Epas.BufferTools.ByteArrayToHexString
+  nameWithType: BufferTools.ByteArrayToHexString
+- uid: Westpay.Epas.BufferTools.HexStringToByteArray(System.String,System.Int32,System.Int32)
+  name: HexStringToByteArray(String, Int32, Int32)
+  href: api/Westpay.Epas.BufferTools.html#Westpay_Epas_BufferTools_HexStringToByteArray_System_String_System_Int32_System_Int32_
+  commentId: M:Westpay.Epas.BufferTools.HexStringToByteArray(System.String,System.Int32,System.Int32)
+  fullName: Westpay.Epas.BufferTools.HexStringToByteArray(System.String, System.Int32, System.Int32)
+  nameWithType: BufferTools.HexStringToByteArray(String, Int32, Int32)
+- uid: Westpay.Epas.BufferTools.HexStringToByteArray*
+  name: HexStringToByteArray
+  href: api/Westpay.Epas.BufferTools.html#Westpay_Epas_BufferTools_HexStringToByteArray_
+  commentId: Overload:Westpay.Epas.BufferTools.HexStringToByteArray
+  isSpec: "True"
+  fullName: Westpay.Epas.BufferTools.HexStringToByteArray
+  nameWithType: BufferTools.HexStringToByteArray
+- uid: Westpay.Epas.BufferTools.StringToByteArray(System.String,System.Byte[]@,System.Int32,System.Int32,System.Int32)
+  name: StringToByteArray(String, out Byte[], Int32, Int32, Int32)
+  href: api/Westpay.Epas.BufferTools.html#Westpay_Epas_BufferTools_StringToByteArray_System_String_System_Byte____System_Int32_System_Int32_System_Int32_
+  commentId: M:Westpay.Epas.BufferTools.StringToByteArray(System.String,System.Byte[]@,System.Int32,System.Int32,System.Int32)
+  name.vb: StringToByteArray(String, ByRef Byte(), Int32, Int32, Int32)
+  fullName: Westpay.Epas.BufferTools.StringToByteArray(System.String, out System.Byte[], System.Int32, System.Int32, System.Int32)
+  fullName.vb: Westpay.Epas.BufferTools.StringToByteArray(System.String, ByRef System.Byte(), System.Int32, System.Int32, System.Int32)
+  nameWithType: BufferTools.StringToByteArray(String, out Byte[], Int32, Int32, Int32)
+  nameWithType.vb: BufferTools.StringToByteArray(String, ByRef Byte(), Int32, Int32, Int32)
+- uid: Westpay.Epas.BufferTools.StringToByteArray*
+  name: StringToByteArray
+  href: api/Westpay.Epas.BufferTools.html#Westpay_Epas_BufferTools_StringToByteArray_
+  commentId: Overload:Westpay.Epas.BufferTools.StringToByteArray
+  isSpec: "True"
+  fullName: Westpay.Epas.BufferTools.StringToByteArray
+  nameWithType: BufferTools.StringToByteArray
+- uid: Westpay.Epas.CardAcceptedEventArgs
+  name: CardAcceptedEventArgs
+  href: api/Westpay.Epas.CardAcceptedEventArgs.html
+  commentId: T:Westpay.Epas.CardAcceptedEventArgs
+  fullName: Westpay.Epas.CardAcceptedEventArgs
+  nameWithType: CardAcceptedEventArgs
+- uid: Westpay.Epas.CardAcceptedEventArgs.CardNumberAlias
+  name: CardNumberAlias
+  href: api/Westpay.Epas.CardAcceptedEventArgs.html#Westpay_Epas_CardAcceptedEventArgs_CardNumberAlias
+  commentId: P:Westpay.Epas.CardAcceptedEventArgs.CardNumberAlias
+  fullName: Westpay.Epas.CardAcceptedEventArgs.CardNumberAlias
+  nameWithType: CardAcceptedEventArgs.CardNumberAlias
+- uid: Westpay.Epas.CardAcceptedEventArgs.CardNumberAlias*
+  name: CardNumberAlias
+  href: api/Westpay.Epas.CardAcceptedEventArgs.html#Westpay_Epas_CardAcceptedEventArgs_CardNumberAlias_
+  commentId: Overload:Westpay.Epas.CardAcceptedEventArgs.CardNumberAlias
+  isSpec: "True"
+  fullName: Westpay.Epas.CardAcceptedEventArgs.CardNumberAlias
+  nameWithType: CardAcceptedEventArgs.CardNumberAlias
+- uid: Westpay.Epas.CardAcceptedEventArgs.MaskedCardNumber
+  name: MaskedCardNumber
+  href: api/Westpay.Epas.CardAcceptedEventArgs.html#Westpay_Epas_CardAcceptedEventArgs_MaskedCardNumber
+  commentId: P:Westpay.Epas.CardAcceptedEventArgs.MaskedCardNumber
+  fullName: Westpay.Epas.CardAcceptedEventArgs.MaskedCardNumber
+  nameWithType: CardAcceptedEventArgs.MaskedCardNumber
+- uid: Westpay.Epas.CardAcceptedEventArgs.MaskedCardNumber*
+  name: MaskedCardNumber
+  href: api/Westpay.Epas.CardAcceptedEventArgs.html#Westpay_Epas_CardAcceptedEventArgs_MaskedCardNumber_
+  commentId: Overload:Westpay.Epas.CardAcceptedEventArgs.MaskedCardNumber
+  isSpec: "True"
+  fullName: Westpay.Epas.CardAcceptedEventArgs.MaskedCardNumber
+  nameWithType: CardAcceptedEventArgs.MaskedCardNumber
 - uid: Westpay.Epas.CurrencyCodes
   name: CurrencyCodes
   href: api/Westpay.Epas.CurrencyCodes.html
@@ -855,6 +959,38 @@ references:
   commentId: F:Westpay.Epas.CurrencyCodes.ZWL
   fullName: Westpay.Epas.CurrencyCodes.ZWL
   nameWithType: CurrencyCodes.ZWL
+- uid: Westpay.Epas.EnableCardReaderOptions
+  name: EnableCardReaderOptions
+  href: api/Westpay.Epas.EnableCardReaderOptions.html
+  commentId: T:Westpay.Epas.EnableCardReaderOptions
+  fullName: Westpay.Epas.EnableCardReaderOptions
+  nameWithType: EnableCardReaderOptions
+- uid: Westpay.Epas.EnableCardReaderOptions.NotifyOnCancel
+  name: NotifyOnCancel
+  href: api/Westpay.Epas.EnableCardReaderOptions.html#Westpay_Epas_EnableCardReaderOptions_NotifyOnCancel
+  commentId: P:Westpay.Epas.EnableCardReaderOptions.NotifyOnCancel
+  fullName: Westpay.Epas.EnableCardReaderOptions.NotifyOnCancel
+  nameWithType: EnableCardReaderOptions.NotifyOnCancel
+- uid: Westpay.Epas.EnableCardReaderOptions.NotifyOnCancel*
+  name: NotifyOnCancel
+  href: api/Westpay.Epas.EnableCardReaderOptions.html#Westpay_Epas_EnableCardReaderOptions_NotifyOnCancel_
+  commentId: Overload:Westpay.Epas.EnableCardReaderOptions.NotifyOnCancel
+  isSpec: "True"
+  fullName: Westpay.Epas.EnableCardReaderOptions.NotifyOnCancel
+  nameWithType: EnableCardReaderOptions.NotifyOnCancel
+- uid: Westpay.Epas.EnableCardReaderOptions.TransactionType
+  name: TransactionType
+  href: api/Westpay.Epas.EnableCardReaderOptions.html#Westpay_Epas_EnableCardReaderOptions_TransactionType
+  commentId: P:Westpay.Epas.EnableCardReaderOptions.TransactionType
+  fullName: Westpay.Epas.EnableCardReaderOptions.TransactionType
+  nameWithType: EnableCardReaderOptions.TransactionType
+- uid: Westpay.Epas.EnableCardReaderOptions.TransactionType*
+  name: TransactionType
+  href: api/Westpay.Epas.EnableCardReaderOptions.html#Westpay_Epas_EnableCardReaderOptions_TransactionType_
+  commentId: Overload:Westpay.Epas.EnableCardReaderOptions.TransactionType
+  isSpec: "True"
+  fullName: Westpay.Epas.EnableCardReaderOptions.TransactionType
+  nameWithType: EnableCardReaderOptions.TransactionType
 - uid: Westpay.Epas.EnableReadersResponse
   name: EnableReadersResponse
   href: api/Westpay.Epas.EnableReadersResponse.html
@@ -1033,15 +1169,15 @@ references:
   isSpec: "True"
   fullName: Westpay.Epas.EpasClient.Disconnect
   nameWithType: EpasClient.Disconnect
-- uid: Westpay.Epas.EpasClient.EnableCardReaders(System.Boolean,Westpay.Epas.EnableReadersResponse@)
-  name: EnableCardReaders(Boolean, out EnableReadersResponse)
-  href: api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_EnableCardReaders_System_Boolean_Westpay_Epas_EnableReadersResponse__
-  commentId: M:Westpay.Epas.EpasClient.EnableCardReaders(System.Boolean,Westpay.Epas.EnableReadersResponse@)
-  name.vb: EnableCardReaders(Boolean, ByRef EnableReadersResponse)
-  fullName: Westpay.Epas.EpasClient.EnableCardReaders(System.Boolean, out Westpay.Epas.EnableReadersResponse)
-  fullName.vb: Westpay.Epas.EpasClient.EnableCardReaders(System.Boolean, ByRef Westpay.Epas.EnableReadersResponse)
-  nameWithType: EpasClient.EnableCardReaders(Boolean, out EnableReadersResponse)
-  nameWithType.vb: EpasClient.EnableCardReaders(Boolean, ByRef EnableReadersResponse)
+- uid: Westpay.Epas.EpasClient.EnableCardReaders(System.Boolean,Westpay.Epas.EnableCardReaderOptions,Westpay.Epas.EnableReadersResponse@)
+  name: EnableCardReaders(Boolean, EnableCardReaderOptions, out EnableReadersResponse)
+  href: api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_EnableCardReaders_System_Boolean_Westpay_Epas_EnableCardReaderOptions_Westpay_Epas_EnableReadersResponse__
+  commentId: M:Westpay.Epas.EpasClient.EnableCardReaders(System.Boolean,Westpay.Epas.EnableCardReaderOptions,Westpay.Epas.EnableReadersResponse@)
+  name.vb: EnableCardReaders(Boolean, EnableCardReaderOptions, ByRef EnableReadersResponse)
+  fullName: Westpay.Epas.EpasClient.EnableCardReaders(System.Boolean, Westpay.Epas.EnableCardReaderOptions, out Westpay.Epas.EnableReadersResponse)
+  fullName.vb: Westpay.Epas.EpasClient.EnableCardReaders(System.Boolean, Westpay.Epas.EnableCardReaderOptions, ByRef Westpay.Epas.EnableReadersResponse)
+  nameWithType: EpasClient.EnableCardReaders(Boolean, EnableCardReaderOptions, out EnableReadersResponse)
+  nameWithType.vb: EpasClient.EnableCardReaders(Boolean, EnableCardReaderOptions, ByRef EnableReadersResponse)
 - uid: Westpay.Epas.EpasClient.EnableCardReaders*
   name: EnableCardReaders
   href: api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_EnableCardReaders_
@@ -1055,6 +1191,22 @@ references:
   commentId: T:Westpay.Epas.EpasClient.EpasMessageReceiver
   fullName: Westpay.Epas.EpasClient.EpasMessageReceiver
   nameWithType: EpasClient.EpasMessageReceiver
+- uid: Westpay.Epas.EpasClient.GetLastTransaction(System.String,Westpay.Epas.LastTransactionResponse@)
+  name: GetLastTransaction(String, out LastTransactionResponse)
+  href: api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_GetLastTransaction_System_String_Westpay_Epas_LastTransactionResponse__
+  commentId: M:Westpay.Epas.EpasClient.GetLastTransaction(System.String,Westpay.Epas.LastTransactionResponse@)
+  name.vb: GetLastTransaction(String, ByRef LastTransactionResponse)
+  fullName: Westpay.Epas.EpasClient.GetLastTransaction(System.String, out Westpay.Epas.LastTransactionResponse)
+  fullName.vb: Westpay.Epas.EpasClient.GetLastTransaction(System.String, ByRef Westpay.Epas.LastTransactionResponse)
+  nameWithType: EpasClient.GetLastTransaction(String, out LastTransactionResponse)
+  nameWithType.vb: EpasClient.GetLastTransaction(String, ByRef LastTransactionResponse)
+- uid: Westpay.Epas.EpasClient.GetLastTransaction*
+  name: GetLastTransaction
+  href: api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_GetLastTransaction_
+  commentId: Overload:Westpay.Epas.EpasClient.GetLastTransaction
+  isSpec: "True"
+  fullName: Westpay.Epas.EpasClient.GetLastTransaction
+  nameWithType: EpasClient.GetLastTransaction
 - uid: Westpay.Epas.EpasClient.LinkStatus
   name: LinkStatus
   href: api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_LinkStatus
@@ -1124,6 +1276,15 @@ references:
   fullName.vb: Westpay.Epas.EpasClient.Purchase(System.Decimal, ByRef Westpay.Epas.TransactionResponse)
   nameWithType: EpasClient.Purchase(Decimal, out TransactionResponse)
   nameWithType.vb: EpasClient.Purchase(Decimal, ByRef TransactionResponse)
+- uid: Westpay.Epas.EpasClient.Purchase(Westpay.Epas.PurchaseRequest,Westpay.Epas.TransactionResponse@)
+  name: Purchase(PurchaseRequest, out TransactionResponse)
+  href: api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_Purchase_Westpay_Epas_PurchaseRequest_Westpay_Epas_TransactionResponse__
+  commentId: M:Westpay.Epas.EpasClient.Purchase(Westpay.Epas.PurchaseRequest,Westpay.Epas.TransactionResponse@)
+  name.vb: Purchase(PurchaseRequest, ByRef TransactionResponse)
+  fullName: Westpay.Epas.EpasClient.Purchase(Westpay.Epas.PurchaseRequest, out Westpay.Epas.TransactionResponse)
+  fullName.vb: Westpay.Epas.EpasClient.Purchase(Westpay.Epas.PurchaseRequest, ByRef Westpay.Epas.TransactionResponse)
+  nameWithType: EpasClient.Purchase(PurchaseRequest, out TransactionResponse)
+  nameWithType.vb: EpasClient.Purchase(PurchaseRequest, ByRef TransactionResponse)
 - uid: Westpay.Epas.EpasClient.Purchase(Westpay.Epas.PurchaseTransactionAmounts,Westpay.Epas.TransactionResponse@)
   name: Purchase(PurchaseTransactionAmounts, out TransactionResponse)
   href: api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_Purchase_Westpay_Epas_PurchaseTransactionAmounts_Westpay_Epas_TransactionResponse__
@@ -1180,6 +1341,15 @@ references:
   fullName.vb: Westpay.Epas.EpasClient.Refund(Westpay.Epas.AltMethodTransaction, ByRef Westpay.Epas.TransactionResponse)
   nameWithType: EpasClient.Refund(AltMethodTransaction, out TransactionResponse)
   nameWithType.vb: EpasClient.Refund(AltMethodTransaction, ByRef TransactionResponse)
+- uid: Westpay.Epas.EpasClient.Refund(Westpay.Epas.RefundRequest,Westpay.Epas.TransactionResponse@)
+  name: Refund(RefundRequest, out TransactionResponse)
+  href: api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_Refund_Westpay_Epas_RefundRequest_Westpay_Epas_TransactionResponse__
+  commentId: M:Westpay.Epas.EpasClient.Refund(Westpay.Epas.RefundRequest,Westpay.Epas.TransactionResponse@)
+  name.vb: Refund(RefundRequest, ByRef TransactionResponse)
+  fullName: Westpay.Epas.EpasClient.Refund(Westpay.Epas.RefundRequest, out Westpay.Epas.TransactionResponse)
+  fullName.vb: Westpay.Epas.EpasClient.Refund(Westpay.Epas.RefundRequest, ByRef Westpay.Epas.TransactionResponse)
+  nameWithType: EpasClient.Refund(RefundRequest, out TransactionResponse)
+  nameWithType.vb: EpasClient.Refund(RefundRequest, ByRef TransactionResponse)
 - uid: Westpay.Epas.EpasClient.Refund*
   name: Refund
   href: api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_Refund_
@@ -1542,6 +1712,344 @@ references:
   isSpec: "True"
   fullName: Westpay.Epas.IClientApp.VerifySignature
   nameWithType: IClientApp.VerifySignature
+- uid: Westpay.Epas.LastTransactionResponse
+  name: LastTransactionResponse
+  href: api/Westpay.Epas.LastTransactionResponse.html
+  commentId: T:Westpay.Epas.LastTransactionResponse
+  fullName: Westpay.Epas.LastTransactionResponse
+  nameWithType: LastTransactionResponse
+- uid: Westpay.Epas.LastTransactionResponse.Approved
+  name: Approved
+  href: api/Westpay.Epas.LastTransactionResponse.html#Westpay_Epas_LastTransactionResponse_Approved
+  commentId: F:Westpay.Epas.LastTransactionResponse.Approved
+  fullName: Westpay.Epas.LastTransactionResponse.Approved
+  nameWithType: LastTransactionResponse.Approved
+- uid: Westpay.Epas.LastTransactionResponse.CardData
+  name: LastTransactionResponse.CardData
+  href: api/Westpay.Epas.LastTransactionResponse.CardData.html
+  commentId: T:Westpay.Epas.LastTransactionResponse.CardData
+  fullName: Westpay.Epas.LastTransactionResponse.CardData
+  nameWithType: LastTransactionResponse.CardData
+- uid: Westpay.Epas.LastTransactionResponse.CardData.mCardName
+  name: mCardName
+  href: api/Westpay.Epas.LastTransactionResponse.CardData.html#Westpay_Epas_LastTransactionResponse_CardData_mCardName
+  commentId: F:Westpay.Epas.LastTransactionResponse.CardData.mCardName
+  fullName: Westpay.Epas.LastTransactionResponse.CardData.mCardName
+  nameWithType: LastTransactionResponse.CardData.mCardName
+- uid: Westpay.Epas.LastTransactionResponse.CardData.mCustomerPAN
+  name: mCustomerPAN
+  href: api/Westpay.Epas.LastTransactionResponse.CardData.html#Westpay_Epas_LastTransactionResponse_CardData_mCustomerPAN
+  commentId: F:Westpay.Epas.LastTransactionResponse.CardData.mCustomerPAN
+  fullName: Westpay.Epas.LastTransactionResponse.CardData.mCustomerPAN
+  nameWithType: LastTransactionResponse.CardData.mCustomerPAN
+- uid: Westpay.Epas.LastTransactionResponse.CardData.mMerchantPAN
+  name: mMerchantPAN
+  href: api/Westpay.Epas.LastTransactionResponse.CardData.html#Westpay_Epas_LastTransactionResponse_CardData_mMerchantPAN
+  commentId: F:Westpay.Epas.LastTransactionResponse.CardData.mMerchantPAN
+  fullName: Westpay.Epas.LastTransactionResponse.CardData.mMerchantPAN
+  nameWithType: LastTransactionResponse.CardData.mMerchantPAN
+- uid: Westpay.Epas.LastTransactionResponse.DccData
+  name: LastTransactionResponse.DccData
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html
+  commentId: T:Westpay.Epas.LastTransactionResponse.DccData
+  fullName: Westpay.Epas.LastTransactionResponse.DccData
+  nameWithType: LastTransactionResponse.DccData
+- uid: Westpay.Epas.LastTransactionResponse.DccData.mAmount
+  name: mAmount
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html#Westpay_Epas_LastTransactionResponse_DccData_mAmount
+  commentId: F:Westpay.Epas.LastTransactionResponse.DccData.mAmount
+  fullName: Westpay.Epas.LastTransactionResponse.DccData.mAmount
+  nameWithType: LastTransactionResponse.DccData.mAmount
+- uid: Westpay.Epas.LastTransactionResponse.DccData.mCardScheme
+  name: mCardScheme
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html#Westpay_Epas_LastTransactionResponse_DccData_mCardScheme
+  commentId: F:Westpay.Epas.LastTransactionResponse.DccData.mCardScheme
+  fullName: Westpay.Epas.LastTransactionResponse.DccData.mCardScheme
+  nameWithType: LastTransactionResponse.DccData.mCardScheme
+- uid: Westpay.Epas.LastTransactionResponse.DccData.mCustomerDisclaimer
+  name: mCustomerDisclaimer
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html#Westpay_Epas_LastTransactionResponse_DccData_mCustomerDisclaimer
+  commentId: F:Westpay.Epas.LastTransactionResponse.DccData.mCustomerDisclaimer
+  fullName: Westpay.Epas.LastTransactionResponse.DccData.mCustomerDisclaimer
+  nameWithType: LastTransactionResponse.DccData.mCustomerDisclaimer
+- uid: Westpay.Epas.LastTransactionResponse.DccData.mExponent
+  name: mExponent
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html#Westpay_Epas_LastTransactionResponse_DccData_mExponent
+  commentId: F:Westpay.Epas.LastTransactionResponse.DccData.mExponent
+  fullName: Westpay.Epas.LastTransactionResponse.DccData.mExponent
+  nameWithType: LastTransactionResponse.DccData.mExponent
+- uid: Westpay.Epas.LastTransactionResponse.DccData.mIsoCurrencyCode
+  name: mIsoCurrencyCode
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html#Westpay_Epas_LastTransactionResponse_DccData_mIsoCurrencyCode
+  commentId: F:Westpay.Epas.LastTransactionResponse.DccData.mIsoCurrencyCode
+  fullName: Westpay.Epas.LastTransactionResponse.DccData.mIsoCurrencyCode
+  nameWithType: LastTransactionResponse.DccData.mIsoCurrencyCode
+- uid: Westpay.Epas.LastTransactionResponse.DccData.mIsoCurrencyNumber
+  name: mIsoCurrencyNumber
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html#Westpay_Epas_LastTransactionResponse_DccData_mIsoCurrencyNumber
+  commentId: F:Westpay.Epas.LastTransactionResponse.DccData.mIsoCurrencyNumber
+  fullName: Westpay.Epas.LastTransactionResponse.DccData.mIsoCurrencyNumber
+  nameWithType: LastTransactionResponse.DccData.mIsoCurrencyNumber
+- uid: Westpay.Epas.LastTransactionResponse.DccData.mMarkUp
+  name: mMarkUp
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html#Westpay_Epas_LastTransactionResponse_DccData_mMarkUp
+  commentId: F:Westpay.Epas.LastTransactionResponse.DccData.mMarkUp
+  fullName: Westpay.Epas.LastTransactionResponse.DccData.mMarkUp
+  nameWithType: LastTransactionResponse.DccData.mMarkUp
+- uid: Westpay.Epas.LastTransactionResponse.DccData.mMarkUpDescription
+  name: mMarkUpDescription
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html#Westpay_Epas_LastTransactionResponse_DccData_mMarkUpDescription
+  commentId: F:Westpay.Epas.LastTransactionResponse.DccData.mMarkUpDescription
+  fullName: Westpay.Epas.LastTransactionResponse.DccData.mMarkUpDescription
+  nameWithType: LastTransactionResponse.DccData.mMarkUpDescription
+- uid: Westpay.Epas.LastTransactionResponse.DccData.mMerchantDisclaimer
+  name: mMerchantDisclaimer
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html#Westpay_Epas_LastTransactionResponse_DccData_mMerchantDisclaimer
+  commentId: F:Westpay.Epas.LastTransactionResponse.DccData.mMerchantDisclaimer
+  fullName: Westpay.Epas.LastTransactionResponse.DccData.mMerchantDisclaimer
+  nameWithType: LastTransactionResponse.DccData.mMerchantDisclaimer
+- uid: Westpay.Epas.LastTransactionResponse.DccData.mProvider
+  name: mProvider
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html#Westpay_Epas_LastTransactionResponse_DccData_mProvider
+  commentId: F:Westpay.Epas.LastTransactionResponse.DccData.mProvider
+  fullName: Westpay.Epas.LastTransactionResponse.DccData.mProvider
+  nameWithType: LastTransactionResponse.DccData.mProvider
+- uid: Westpay.Epas.LastTransactionResponse.DccData.mRate
+  name: mRate
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html#Westpay_Epas_LastTransactionResponse_DccData_mRate
+  commentId: F:Westpay.Epas.LastTransactionResponse.DccData.mRate
+  fullName: Westpay.Epas.LastTransactionResponse.DccData.mRate
+  nameWithType: LastTransactionResponse.DccData.mRate
+- uid: Westpay.Epas.LastTransactionResponse.DccData.mRateTimestamp
+  name: mRateTimestamp
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html#Westpay_Epas_LastTransactionResponse_DccData_mRateTimestamp
+  commentId: F:Westpay.Epas.LastTransactionResponse.DccData.mRateTimestamp
+  fullName: Westpay.Epas.LastTransactionResponse.DccData.mRateTimestamp
+  nameWithType: LastTransactionResponse.DccData.mRateTimestamp
+- uid: Westpay.Epas.LastTransactionResponse.DccData.mSource
+  name: mSource
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html#Westpay_Epas_LastTransactionResponse_DccData_mSource
+  commentId: F:Westpay.Epas.LastTransactionResponse.DccData.mSource
+  fullName: Westpay.Epas.LastTransactionResponse.DccData.mSource
+  nameWithType: LastTransactionResponse.DccData.mSource
+- uid: Westpay.Epas.LastTransactionResponse.DccData.mTip
+  name: mTip
+  href: api/Westpay.Epas.LastTransactionResponse.DccData.html#Westpay_Epas_LastTransactionResponse_DccData_mTip
+  commentId: F:Westpay.Epas.LastTransactionResponse.DccData.mTip
+  fullName: Westpay.Epas.LastTransactionResponse.DccData.mTip
+  nameWithType: LastTransactionResponse.DccData.mTip
+- uid: Westpay.Epas.LastTransactionResponse.EmvData
+  name: LastTransactionResponse.EmvData
+  href: api/Westpay.Epas.LastTransactionResponse.EmvData.html
+  commentId: T:Westpay.Epas.LastTransactionResponse.EmvData
+  fullName: Westpay.Epas.LastTransactionResponse.EmvData
+  nameWithType: LastTransactionResponse.EmvData
+- uid: Westpay.Epas.LastTransactionResponse.EmvData.mApplicationId
+  name: mApplicationId
+  href: api/Westpay.Epas.LastTransactionResponse.EmvData.html#Westpay_Epas_LastTransactionResponse_EmvData_mApplicationId
+  commentId: F:Westpay.Epas.LastTransactionResponse.EmvData.mApplicationId
+  fullName: Westpay.Epas.LastTransactionResponse.EmvData.mApplicationId
+  nameWithType: LastTransactionResponse.EmvData.mApplicationId
+- uid: Westpay.Epas.LastTransactionResponse.EmvData.mTerminalVerificationResults
+  name: mTerminalVerificationResults
+  href: api/Westpay.Epas.LastTransactionResponse.EmvData.html#Westpay_Epas_LastTransactionResponse_EmvData_mTerminalVerificationResults
+  commentId: F:Westpay.Epas.LastTransactionResponse.EmvData.mTerminalVerificationResults
+  fullName: Westpay.Epas.LastTransactionResponse.EmvData.mTerminalVerificationResults
+  nameWithType: LastTransactionResponse.EmvData.mTerminalVerificationResults
+- uid: Westpay.Epas.LastTransactionResponse.EmvData.mTransactionStatusIndicator
+  name: mTransactionStatusIndicator
+  href: api/Westpay.Epas.LastTransactionResponse.EmvData.html#Westpay_Epas_LastTransactionResponse_EmvData_mTransactionStatusIndicator
+  commentId: F:Westpay.Epas.LastTransactionResponse.EmvData.mTransactionStatusIndicator
+  fullName: Westpay.Epas.LastTransactionResponse.EmvData.mTransactionStatusIndicator
+  nameWithType: LastTransactionResponse.EmvData.mTransactionStatusIndicator
+- uid: Westpay.Epas.LastTransactionResponse.FinalAmount
+  name: FinalAmount
+  href: api/Westpay.Epas.LastTransactionResponse.html#Westpay_Epas_LastTransactionResponse_FinalAmount
+  commentId: F:Westpay.Epas.LastTransactionResponse.FinalAmount
+  fullName: Westpay.Epas.LastTransactionResponse.FinalAmount
+  nameWithType: LastTransactionResponse.FinalAmount
+- uid: Westpay.Epas.LastTransactionResponse.mCard
+  name: mCard
+  href: api/Westpay.Epas.LastTransactionResponse.html#Westpay_Epas_LastTransactionResponse_mCard
+  commentId: F:Westpay.Epas.LastTransactionResponse.mCard
+  fullName: Westpay.Epas.LastTransactionResponse.mCard
+  nameWithType: LastTransactionResponse.mCard
+- uid: Westpay.Epas.LastTransactionResponse.mCustomerReceipt
+  name: mCustomerReceipt
+  href: api/Westpay.Epas.LastTransactionResponse.html#Westpay_Epas_LastTransactionResponse_mCustomerReceipt
+  commentId: F:Westpay.Epas.LastTransactionResponse.mCustomerReceipt
+  fullName: Westpay.Epas.LastTransactionResponse.mCustomerReceipt
+  nameWithType: LastTransactionResponse.mCustomerReceipt
+- uid: Westpay.Epas.LastTransactionResponse.mDCC
+  name: mDCC
+  href: api/Westpay.Epas.LastTransactionResponse.html#Westpay_Epas_LastTransactionResponse_mDCC
+  commentId: F:Westpay.Epas.LastTransactionResponse.mDCC
+  fullName: Westpay.Epas.LastTransactionResponse.mDCC
+  nameWithType: LastTransactionResponse.mDCC
+- uid: Westpay.Epas.LastTransactionResponse.mEMV
+  name: mEMV
+  href: api/Westpay.Epas.LastTransactionResponse.html#Westpay_Epas_LastTransactionResponse_mEMV
+  commentId: F:Westpay.Epas.LastTransactionResponse.mEMV
+  fullName: Westpay.Epas.LastTransactionResponse.mEMV
+  nameWithType: LastTransactionResponse.mEMV
+- uid: Westpay.Epas.LastTransactionResponse.MerchantData
+  name: LastTransactionResponse.MerchantData
+  href: api/Westpay.Epas.LastTransactionResponse.MerchantData.html
+  commentId: T:Westpay.Epas.LastTransactionResponse.MerchantData
+  fullName: Westpay.Epas.LastTransactionResponse.MerchantData
+  nameWithType: LastTransactionResponse.MerchantData
+- uid: Westpay.Epas.LastTransactionResponse.MerchantData.mAddress
+  name: mAddress
+  href: api/Westpay.Epas.LastTransactionResponse.MerchantData.html#Westpay_Epas_LastTransactionResponse_MerchantData_mAddress
+  commentId: F:Westpay.Epas.LastTransactionResponse.MerchantData.mAddress
+  fullName: Westpay.Epas.LastTransactionResponse.MerchantData.mAddress
+  nameWithType: LastTransactionResponse.MerchantData.mAddress
+- uid: Westpay.Epas.LastTransactionResponse.MerchantData.mCity
+  name: mCity
+  href: api/Westpay.Epas.LastTransactionResponse.MerchantData.html#Westpay_Epas_LastTransactionResponse_MerchantData_mCity
+  commentId: F:Westpay.Epas.LastTransactionResponse.MerchantData.mCity
+  fullName: Westpay.Epas.LastTransactionResponse.MerchantData.mCity
+  nameWithType: LastTransactionResponse.MerchantData.mCity
+- uid: Westpay.Epas.LastTransactionResponse.MerchantData.merchantSummary
+  name: merchantSummary()
+  href: api/Westpay.Epas.LastTransactionResponse.MerchantData.html#Westpay_Epas_LastTransactionResponse_MerchantData_merchantSummary
+  commentId: M:Westpay.Epas.LastTransactionResponse.MerchantData.merchantSummary
+  fullName: Westpay.Epas.LastTransactionResponse.MerchantData.merchantSummary()
+  nameWithType: LastTransactionResponse.MerchantData.merchantSummary()
+- uid: Westpay.Epas.LastTransactionResponse.MerchantData.merchantSummary*
+  name: merchantSummary
+  href: api/Westpay.Epas.LastTransactionResponse.MerchantData.html#Westpay_Epas_LastTransactionResponse_MerchantData_merchantSummary_
+  commentId: Overload:Westpay.Epas.LastTransactionResponse.MerchantData.merchantSummary
+  isSpec: "True"
+  fullName: Westpay.Epas.LastTransactionResponse.MerchantData.merchantSummary
+  nameWithType: LastTransactionResponse.MerchantData.merchantSummary
+- uid: Westpay.Epas.LastTransactionResponse.MerchantData.mName
+  name: mName
+  href: api/Westpay.Epas.LastTransactionResponse.MerchantData.html#Westpay_Epas_LastTransactionResponse_MerchantData_mName
+  commentId: F:Westpay.Epas.LastTransactionResponse.MerchantData.mName
+  fullName: Westpay.Epas.LastTransactionResponse.MerchantData.mName
+  nameWithType: LastTransactionResponse.MerchantData.mName
+- uid: Westpay.Epas.LastTransactionResponse.MerchantData.mOrganisationNumber
+  name: mOrganisationNumber
+  href: api/Westpay.Epas.LastTransactionResponse.MerchantData.html#Westpay_Epas_LastTransactionResponse_MerchantData_mOrganisationNumber
+  commentId: F:Westpay.Epas.LastTransactionResponse.MerchantData.mOrganisationNumber
+  fullName: Westpay.Epas.LastTransactionResponse.MerchantData.mOrganisationNumber
+  nameWithType: LastTransactionResponse.MerchantData.mOrganisationNumber
+- uid: Westpay.Epas.LastTransactionResponse.MerchantData.mPhoneNumber
+  name: mPhoneNumber
+  href: api/Westpay.Epas.LastTransactionResponse.MerchantData.html#Westpay_Epas_LastTransactionResponse_MerchantData_mPhoneNumber
+  commentId: F:Westpay.Epas.LastTransactionResponse.MerchantData.mPhoneNumber
+  fullName: Westpay.Epas.LastTransactionResponse.MerchantData.mPhoneNumber
+  nameWithType: LastTransactionResponse.MerchantData.mPhoneNumber
+- uid: Westpay.Epas.LastTransactionResponse.MerchantData.mZip
+  name: mZip
+  href: api/Westpay.Epas.LastTransactionResponse.MerchantData.html#Westpay_Epas_LastTransactionResponse_MerchantData_mZip
+  commentId: F:Westpay.Epas.LastTransactionResponse.MerchantData.mZip
+  fullName: Westpay.Epas.LastTransactionResponse.MerchantData.mZip
+  nameWithType: LastTransactionResponse.MerchantData.mZip
+- uid: Westpay.Epas.LastTransactionResponse.mMerchantDetails
+  name: mMerchantDetails
+  href: api/Westpay.Epas.LastTransactionResponse.html#Westpay_Epas_LastTransactionResponse_mMerchantDetails
+  commentId: F:Westpay.Epas.LastTransactionResponse.mMerchantDetails
+  fullName: Westpay.Epas.LastTransactionResponse.mMerchantDetails
+  nameWithType: LastTransactionResponse.mMerchantDetails
+- uid: Westpay.Epas.LastTransactionResponse.mMerchantReceipt
+  name: mMerchantReceipt
+  href: api/Westpay.Epas.LastTransactionResponse.html#Westpay_Epas_LastTransactionResponse_mMerchantReceipt
+  commentId: F:Westpay.Epas.LastTransactionResponse.mMerchantReceipt
+  fullName: Westpay.Epas.LastTransactionResponse.mMerchantReceipt
+  nameWithType: LastTransactionResponse.mMerchantReceipt
+- uid: Westpay.Epas.LastTransactionResponse.mTransaction
+  name: mTransaction
+  href: api/Westpay.Epas.LastTransactionResponse.html#Westpay_Epas_LastTransactionResponse_mTransaction
+  commentId: F:Westpay.Epas.LastTransactionResponse.mTransaction
+  fullName: Westpay.Epas.LastTransactionResponse.mTransaction
+  nameWithType: LastTransactionResponse.mTransaction
+- uid: Westpay.Epas.LastTransactionResponse.ToString
+  name: ToString()
+  href: api/Westpay.Epas.LastTransactionResponse.html#Westpay_Epas_LastTransactionResponse_ToString
+  commentId: M:Westpay.Epas.LastTransactionResponse.ToString
+  fullName: Westpay.Epas.LastTransactionResponse.ToString()
+  nameWithType: LastTransactionResponse.ToString()
+- uid: Westpay.Epas.LastTransactionResponse.ToString*
+  name: ToString
+  href: api/Westpay.Epas.LastTransactionResponse.html#Westpay_Epas_LastTransactionResponse_ToString_
+  commentId: Overload:Westpay.Epas.LastTransactionResponse.ToString
+  isSpec: "True"
+  fullName: Westpay.Epas.LastTransactionResponse.ToString
+  nameWithType: LastTransactionResponse.ToString
+- uid: Westpay.Epas.LastTransactionResponse.TransactionData
+  name: LastTransactionResponse.TransactionData
+  href: api/Westpay.Epas.LastTransactionResponse.TransactionData.html
+  commentId: T:Westpay.Epas.LastTransactionResponse.TransactionData
+  fullName: Westpay.Epas.LastTransactionResponse.TransactionData
+  nameWithType: LastTransactionResponse.TransactionData
+- uid: Westpay.Epas.LastTransactionResponse.TransactionData.mAdditionalCharges
+  name: mAdditionalCharges
+  href: api/Westpay.Epas.LastTransactionResponse.TransactionData.html#Westpay_Epas_LastTransactionResponse_TransactionData_mAdditionalCharges
+  commentId: F:Westpay.Epas.LastTransactionResponse.TransactionData.mAdditionalCharges
+  fullName: Westpay.Epas.LastTransactionResponse.TransactionData.mAdditionalCharges
+  nameWithType: LastTransactionResponse.TransactionData.mAdditionalCharges
+- uid: Westpay.Epas.LastTransactionResponse.TransactionData.mAlternativePaymentMethod
+  name: mAlternativePaymentMethod
+  href: api/Westpay.Epas.LastTransactionResponse.TransactionData.html#Westpay_Epas_LastTransactionResponse_TransactionData_mAlternativePaymentMethod
+  commentId: F:Westpay.Epas.LastTransactionResponse.TransactionData.mAlternativePaymentMethod
+  fullName: Westpay.Epas.LastTransactionResponse.TransactionData.mAlternativePaymentMethod
+  nameWithType: LastTransactionResponse.TransactionData.mAlternativePaymentMethod
+- uid: Westpay.Epas.LastTransactionResponse.TransactionData.mCashback
+  name: mCashback
+  href: api/Westpay.Epas.LastTransactionResponse.TransactionData.html#Westpay_Epas_LastTransactionResponse_TransactionData_mCashback
+  commentId: F:Westpay.Epas.LastTransactionResponse.TransactionData.mCashback
+  fullName: Westpay.Epas.LastTransactionResponse.TransactionData.mCashback
+  nameWithType: LastTransactionResponse.TransactionData.mCashback
+- uid: Westpay.Epas.LastTransactionResponse.TransactionData.mIsoCurrencyCode
+  name: mIsoCurrencyCode
+  href: api/Westpay.Epas.LastTransactionResponse.TransactionData.html#Westpay_Epas_LastTransactionResponse_TransactionData_mIsoCurrencyCode
+  commentId: F:Westpay.Epas.LastTransactionResponse.TransactionData.mIsoCurrencyCode
+  fullName: Westpay.Epas.LastTransactionResponse.TransactionData.mIsoCurrencyCode
+  nameWithType: LastTransactionResponse.TransactionData.mIsoCurrencyCode
+- uid: Westpay.Epas.LastTransactionResponse.TransactionData.mNetAmount
+  name: mNetAmount
+  href: api/Westpay.Epas.LastTransactionResponse.TransactionData.html#Westpay_Epas_LastTransactionResponse_TransactionData_mNetAmount
+  commentId: F:Westpay.Epas.LastTransactionResponse.TransactionData.mNetAmount
+  fullName: Westpay.Epas.LastTransactionResponse.TransactionData.mNetAmount
+  nameWithType: LastTransactionResponse.TransactionData.mNetAmount
+- uid: Westpay.Epas.LastTransactionResponse.TransactionData.mReference
+  name: mReference
+  href: api/Westpay.Epas.LastTransactionResponse.TransactionData.html#Westpay_Epas_LastTransactionResponse_TransactionData_mReference
+  commentId: F:Westpay.Epas.LastTransactionResponse.TransactionData.mReference
+  fullName: Westpay.Epas.LastTransactionResponse.TransactionData.mReference
+  nameWithType: LastTransactionResponse.TransactionData.mReference
+- uid: Westpay.Epas.LastTransactionResponse.TransactionData.mTimestamp
+  name: mTimestamp
+  href: api/Westpay.Epas.LastTransactionResponse.TransactionData.html#Westpay_Epas_LastTransactionResponse_TransactionData_mTimestamp
+  commentId: F:Westpay.Epas.LastTransactionResponse.TransactionData.mTimestamp
+  fullName: Westpay.Epas.LastTransactionResponse.TransactionData.mTimestamp
+  nameWithType: LastTransactionResponse.TransactionData.mTimestamp
+- uid: Westpay.Epas.LastTransactionResponse.TransactionData.mTip
+  name: mTip
+  href: api/Westpay.Epas.LastTransactionResponse.TransactionData.html#Westpay_Epas_LastTransactionResponse_TransactionData_mTip
+  commentId: F:Westpay.Epas.LastTransactionResponse.TransactionData.mTip
+  fullName: Westpay.Epas.LastTransactionResponse.TransactionData.mTip
+  nameWithType: LastTransactionResponse.TransactionData.mTip
+- uid: Westpay.Epas.LastTransactionResponse.TransactionData.mTxnType
+  name: mTxnType
+  href: api/Westpay.Epas.LastTransactionResponse.TransactionData.html#Westpay_Epas_LastTransactionResponse_TransactionData_mTxnType
+  commentId: F:Westpay.Epas.LastTransactionResponse.TransactionData.mTxnType
+  fullName: Westpay.Epas.LastTransactionResponse.TransactionData.mTxnType
+  nameWithType: LastTransactionResponse.TransactionData.mTxnType
+- uid: Westpay.Epas.LastTransactionResponse.TransactionData.mVat
+  name: mVat
+  href: api/Westpay.Epas.LastTransactionResponse.TransactionData.html#Westpay_Epas_LastTransactionResponse_TransactionData_mVat
+  commentId: F:Westpay.Epas.LastTransactionResponse.TransactionData.mVat
+  fullName: Westpay.Epas.LastTransactionResponse.TransactionData.mVat
+  nameWithType: LastTransactionResponse.TransactionData.mVat
+- uid: Westpay.Epas.LastTransactionResponse.TransactionReference
+  name: TransactionReference
+  href: api/Westpay.Epas.LastTransactionResponse.html#Westpay_Epas_LastTransactionResponse_TransactionReference
+  commentId: F:Westpay.Epas.LastTransactionResponse.TransactionReference
+  fullName: Westpay.Epas.LastTransactionResponse.TransactionReference
+  nameWithType: LastTransactionResponse.TransactionReference
 - uid: Westpay.Epas.LoginResponse
   name: LoginResponse
   href: api/Westpay.Epas.LoginResponse.html
@@ -1625,13 +2133,27 @@ references:
 - uid: Westpay.Epas.OperatingParameters.EnableTip
   name: EnableTip
   href: api/Westpay.Epas.OperatingParameters.html#Westpay_Epas_OperatingParameters_EnableTip
-  commentId: F:Westpay.Epas.OperatingParameters.EnableTip
+  commentId: P:Westpay.Epas.OperatingParameters.EnableTip
+  fullName: Westpay.Epas.OperatingParameters.EnableTip
+  nameWithType: OperatingParameters.EnableTip
+- uid: Westpay.Epas.OperatingParameters.EnableTip*
+  name: EnableTip
+  href: api/Westpay.Epas.OperatingParameters.html#Westpay_Epas_OperatingParameters_EnableTip_
+  commentId: Overload:Westpay.Epas.OperatingParameters.EnableTip
+  isSpec: "True"
   fullName: Westpay.Epas.OperatingParameters.EnableTip
   nameWithType: OperatingParameters.EnableTip
 - uid: Westpay.Epas.OperatingParameters.LogXmlMessages
   name: LogXmlMessages
   href: api/Westpay.Epas.OperatingParameters.html#Westpay_Epas_OperatingParameters_LogXmlMessages
-  commentId: F:Westpay.Epas.OperatingParameters.LogXmlMessages
+  commentId: P:Westpay.Epas.OperatingParameters.LogXmlMessages
+  fullName: Westpay.Epas.OperatingParameters.LogXmlMessages
+  nameWithType: OperatingParameters.LogXmlMessages
+- uid: Westpay.Epas.OperatingParameters.LogXmlMessages*
+  name: LogXmlMessages
+  href: api/Westpay.Epas.OperatingParameters.html#Westpay_Epas_OperatingParameters_LogXmlMessages_
+  commentId: Overload:Westpay.Epas.OperatingParameters.LogXmlMessages
+  isSpec: "True"
   fullName: Westpay.Epas.OperatingParameters.LogXmlMessages
   nameWithType: OperatingParameters.LogXmlMessages
 - uid: Westpay.Epas.OperatingParameters.StorageDirectory
@@ -1650,15 +2172,48 @@ references:
 - uid: Westpay.Epas.OperatingParameters.TransactionCurrency
   name: TransactionCurrency
   href: api/Westpay.Epas.OperatingParameters.html#Westpay_Epas_OperatingParameters_TransactionCurrency
-  commentId: F:Westpay.Epas.OperatingParameters.TransactionCurrency
+  commentId: P:Westpay.Epas.OperatingParameters.TransactionCurrency
+  fullName: Westpay.Epas.OperatingParameters.TransactionCurrency
+  nameWithType: OperatingParameters.TransactionCurrency
+- uid: Westpay.Epas.OperatingParameters.TransactionCurrency*
+  name: TransactionCurrency
+  href: api/Westpay.Epas.OperatingParameters.html#Westpay_Epas_OperatingParameters_TransactionCurrency_
+  commentId: Overload:Westpay.Epas.OperatingParameters.TransactionCurrency
+  isSpec: "True"
   fullName: Westpay.Epas.OperatingParameters.TransactionCurrency
   nameWithType: OperatingParameters.TransactionCurrency
 - uid: Westpay.Epas.OperatingParameters.WaitForCardRemoval
   name: WaitForCardRemoval
   href: api/Westpay.Epas.OperatingParameters.html#Westpay_Epas_OperatingParameters_WaitForCardRemoval
-  commentId: F:Westpay.Epas.OperatingParameters.WaitForCardRemoval
+  commentId: P:Westpay.Epas.OperatingParameters.WaitForCardRemoval
   fullName: Westpay.Epas.OperatingParameters.WaitForCardRemoval
   nameWithType: OperatingParameters.WaitForCardRemoval
+- uid: Westpay.Epas.OperatingParameters.WaitForCardRemoval*
+  name: WaitForCardRemoval
+  href: api/Westpay.Epas.OperatingParameters.html#Westpay_Epas_OperatingParameters_WaitForCardRemoval_
+  commentId: Overload:Westpay.Epas.OperatingParameters.WaitForCardRemoval
+  isSpec: "True"
+  fullName: Westpay.Epas.OperatingParameters.WaitForCardRemoval
+  nameWithType: OperatingParameters.WaitForCardRemoval
+- uid: Westpay.Epas.PurchaseRequest
+  name: PurchaseRequest
+  href: api/Westpay.Epas.PurchaseRequest.html
+  commentId: T:Westpay.Epas.PurchaseRequest
+  fullName: Westpay.Epas.PurchaseRequest
+  nameWithType: PurchaseRequest
+- uid: Westpay.Epas.PurchaseRequest.CashbackAmount
+  name: CashbackAmount
+  href: api/Westpay.Epas.PurchaseRequest.html#Westpay_Epas_PurchaseRequest_CashbackAmount
+  commentId: P:Westpay.Epas.PurchaseRequest.CashbackAmount
+  fullName: Westpay.Epas.PurchaseRequest.CashbackAmount
+  nameWithType: PurchaseRequest.CashbackAmount
+- uid: Westpay.Epas.PurchaseRequest.CashbackAmount*
+  name: CashbackAmount
+  href: api/Westpay.Epas.PurchaseRequest.html#Westpay_Epas_PurchaseRequest_CashbackAmount_
+  commentId: Overload:Westpay.Epas.PurchaseRequest.CashbackAmount
+  isSpec: "True"
+  fullName: Westpay.Epas.PurchaseRequest.CashbackAmount
+  nameWithType: PurchaseRequest.CashbackAmount
 - uid: Westpay.Epas.PurchaseTransactionAmounts
   name: PurchaseTransactionAmounts
   href: api/Westpay.Epas.PurchaseTransactionAmounts.html
@@ -1671,12 +2226,15 @@ references:
   commentId: M:Westpay.Epas.PurchaseTransactionAmounts.#ctor(System.Decimal)
   fullName: Westpay.Epas.PurchaseTransactionAmounts.PurchaseTransactionAmounts(System.Decimal)
   nameWithType: PurchaseTransactionAmounts.PurchaseTransactionAmounts(Decimal)
-- uid: Westpay.Epas.PurchaseTransactionAmounts.#ctor(System.Decimal,System.Decimal)
-  name: PurchaseTransactionAmounts(Decimal, Decimal)
-  href: api/Westpay.Epas.PurchaseTransactionAmounts.html#Westpay_Epas_PurchaseTransactionAmounts__ctor_System_Decimal_System_Decimal_
-  commentId: M:Westpay.Epas.PurchaseTransactionAmounts.#ctor(System.Decimal,System.Decimal)
-  fullName: Westpay.Epas.PurchaseTransactionAmounts.PurchaseTransactionAmounts(System.Decimal, System.Decimal)
-  nameWithType: PurchaseTransactionAmounts.PurchaseTransactionAmounts(Decimal, Decimal)
+- uid: Westpay.Epas.PurchaseTransactionAmounts.#ctor(System.Decimal,System.Decimal,System.Nullable{System.Int32})
+  name: PurchaseTransactionAmounts(Decimal, Decimal, Nullable<Int32>)
+  href: api/Westpay.Epas.PurchaseTransactionAmounts.html#Westpay_Epas_PurchaseTransactionAmounts__ctor_System_Decimal_System_Decimal_System_Nullable_System_Int32__
+  commentId: M:Westpay.Epas.PurchaseTransactionAmounts.#ctor(System.Decimal,System.Decimal,System.Nullable{System.Int32})
+  name.vb: PurchaseTransactionAmounts(Decimal, Decimal, Nullable(Of Int32))
+  fullName: Westpay.Epas.PurchaseTransactionAmounts.PurchaseTransactionAmounts(System.Decimal, System.Decimal, System.Nullable<System.Int32>)
+  fullName.vb: Westpay.Epas.PurchaseTransactionAmounts.PurchaseTransactionAmounts(System.Decimal, System.Decimal, System.Nullable(Of System.Int32))
+  nameWithType: PurchaseTransactionAmounts.PurchaseTransactionAmounts(Decimal, Decimal, Nullable<Int32>)
+  nameWithType.vb: PurchaseTransactionAmounts.PurchaseTransactionAmounts(Decimal, Decimal, Nullable(Of Int32))
 - uid: Westpay.Epas.PurchaseTransactionAmounts.#ctor*
   name: PurchaseTransactionAmounts
   href: api/Westpay.Epas.PurchaseTransactionAmounts.html#Westpay_Epas_PurchaseTransactionAmounts__ctor_
@@ -1687,13 +2245,40 @@ references:
 - uid: Westpay.Epas.PurchaseTransactionAmounts.CashbackAmount
   name: CashbackAmount
   href: api/Westpay.Epas.PurchaseTransactionAmounts.html#Westpay_Epas_PurchaseTransactionAmounts_CashbackAmount
-  commentId: F:Westpay.Epas.PurchaseTransactionAmounts.CashbackAmount
+  commentId: P:Westpay.Epas.PurchaseTransactionAmounts.CashbackAmount
   fullName: Westpay.Epas.PurchaseTransactionAmounts.CashbackAmount
   nameWithType: PurchaseTransactionAmounts.CashbackAmount
+- uid: Westpay.Epas.PurchaseTransactionAmounts.CashbackAmount*
+  name: CashbackAmount
+  href: api/Westpay.Epas.PurchaseTransactionAmounts.html#Westpay_Epas_PurchaseTransactionAmounts_CashbackAmount_
+  commentId: Overload:Westpay.Epas.PurchaseTransactionAmounts.CashbackAmount
+  isSpec: "True"
+  fullName: Westpay.Epas.PurchaseTransactionAmounts.CashbackAmount
+  nameWithType: PurchaseTransactionAmounts.CashbackAmount
+- uid: Westpay.Epas.PurchaseTransactionAmounts.MerchantCategoryCode
+  name: MerchantCategoryCode
+  href: api/Westpay.Epas.PurchaseTransactionAmounts.html#Westpay_Epas_PurchaseTransactionAmounts_MerchantCategoryCode
+  commentId: P:Westpay.Epas.PurchaseTransactionAmounts.MerchantCategoryCode
+  fullName: Westpay.Epas.PurchaseTransactionAmounts.MerchantCategoryCode
+  nameWithType: PurchaseTransactionAmounts.MerchantCategoryCode
+- uid: Westpay.Epas.PurchaseTransactionAmounts.MerchantCategoryCode*
+  name: MerchantCategoryCode
+  href: api/Westpay.Epas.PurchaseTransactionAmounts.html#Westpay_Epas_PurchaseTransactionAmounts_MerchantCategoryCode_
+  commentId: Overload:Westpay.Epas.PurchaseTransactionAmounts.MerchantCategoryCode
+  isSpec: "True"
+  fullName: Westpay.Epas.PurchaseTransactionAmounts.MerchantCategoryCode
+  nameWithType: PurchaseTransactionAmounts.MerchantCategoryCode
 - uid: Westpay.Epas.PurchaseTransactionAmounts.PurchaseAmount
   name: PurchaseAmount
   href: api/Westpay.Epas.PurchaseTransactionAmounts.html#Westpay_Epas_PurchaseTransactionAmounts_PurchaseAmount
-  commentId: F:Westpay.Epas.PurchaseTransactionAmounts.PurchaseAmount
+  commentId: P:Westpay.Epas.PurchaseTransactionAmounts.PurchaseAmount
+  fullName: Westpay.Epas.PurchaseTransactionAmounts.PurchaseAmount
+  nameWithType: PurchaseTransactionAmounts.PurchaseAmount
+- uid: Westpay.Epas.PurchaseTransactionAmounts.PurchaseAmount*
+  name: PurchaseAmount
+  href: api/Westpay.Epas.PurchaseTransactionAmounts.html#Westpay_Epas_PurchaseTransactionAmounts_PurchaseAmount_
+  commentId: Overload:Westpay.Epas.PurchaseTransactionAmounts.PurchaseAmount
+  isSpec: "True"
   fullName: Westpay.Epas.PurchaseTransactionAmounts.PurchaseAmount
   nameWithType: PurchaseTransactionAmounts.PurchaseAmount
 - uid: Westpay.Epas.PurchaseTransactionAmounts.ToString
@@ -2757,6 +3342,49 @@ references:
   commentId: F:Westpay.Epas.ReceiptVersion.Merchant
   fullName: Westpay.Epas.ReceiptVersion.Merchant
   nameWithType: ReceiptVersion.Merchant
+- uid: Westpay.Epas.RefundRequest
+  name: RefundRequest
+  href: api/Westpay.Epas.RefundRequest.html
+  commentId: T:Westpay.Epas.RefundRequest
+  fullName: Westpay.Epas.RefundRequest
+  nameWithType: RefundRequest
+- uid: Westpay.Epas.RefundRequest.Reference
+  name: Reference
+  href: api/Westpay.Epas.RefundRequest.html#Westpay_Epas_RefundRequest_Reference
+  commentId: P:Westpay.Epas.RefundRequest.Reference
+  fullName: Westpay.Epas.RefundRequest.Reference
+  nameWithType: RefundRequest.Reference
+- uid: Westpay.Epas.RefundRequest.Reference*
+  name: Reference
+  href: api/Westpay.Epas.RefundRequest.html#Westpay_Epas_RefundRequest_Reference_
+  commentId: Overload:Westpay.Epas.RefundRequest.Reference
+  isSpec: "True"
+  fullName: Westpay.Epas.RefundRequest.Reference
+  nameWithType: RefundRequest.Reference
+- uid: Westpay.Epas.ServiceEnableType
+  name: ServiceEnableType
+  href: api/Westpay.Epas.ServiceEnableType.html
+  commentId: T:Westpay.Epas.ServiceEnableType
+  fullName: Westpay.Epas.ServiceEnableType
+  nameWithType: ServiceEnableType
+- uid: Westpay.Epas.ServiceEnableType.None
+  name: None
+  href: api/Westpay.Epas.ServiceEnableType.html#Westpay_Epas_ServiceEnableType_None
+  commentId: F:Westpay.Epas.ServiceEnableType.None
+  fullName: Westpay.Epas.ServiceEnableType.None
+  nameWithType: ServiceEnableType.None
+- uid: Westpay.Epas.ServiceEnableType.Payment
+  name: Payment
+  href: api/Westpay.Epas.ServiceEnableType.html#Westpay_Epas_ServiceEnableType_Payment
+  commentId: F:Westpay.Epas.ServiceEnableType.Payment
+  fullName: Westpay.Epas.ServiceEnableType.Payment
+  nameWithType: ServiceEnableType.Payment
+- uid: Westpay.Epas.ServiceEnableType.Refund
+  name: Refund
+  href: api/Westpay.Epas.ServiceEnableType.html#Westpay_Epas_ServiceEnableType_Refund
+  commentId: F:Westpay.Epas.ServiceEnableType.Refund
+  fullName: Westpay.Epas.ServiceEnableType.Refund
+  nameWithType: ServiceEnableType.Refund
 - uid: Westpay.Epas.SimpleResponse
   name: SimpleResponse
   href: api/Westpay.Epas.SimpleResponse.html
@@ -2830,13 +3458,27 @@ references:
 - uid: Westpay.Epas.TerminalEnvironment.AuthorisationServer
   name: AuthorisationServer
   href: api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_AuthorisationServer
-  commentId: F:Westpay.Epas.TerminalEnvironment.AuthorisationServer
+  commentId: P:Westpay.Epas.TerminalEnvironment.AuthorisationServer
+  fullName: Westpay.Epas.TerminalEnvironment.AuthorisationServer
+  nameWithType: TerminalEnvironment.AuthorisationServer
+- uid: Westpay.Epas.TerminalEnvironment.AuthorisationServer*
+  name: AuthorisationServer
+  href: api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_AuthorisationServer_
+  commentId: Overload:Westpay.Epas.TerminalEnvironment.AuthorisationServer
+  isSpec: "True"
   fullName: Westpay.Epas.TerminalEnvironment.AuthorisationServer
   nameWithType: TerminalEnvironment.AuthorisationServer
 - uid: Westpay.Epas.TerminalEnvironment.ConfigurationServer
   name: ConfigurationServer
   href: api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_ConfigurationServer
-  commentId: F:Westpay.Epas.TerminalEnvironment.ConfigurationServer
+  commentId: P:Westpay.Epas.TerminalEnvironment.ConfigurationServer
+  fullName: Westpay.Epas.TerminalEnvironment.ConfigurationServer
+  nameWithType: TerminalEnvironment.ConfigurationServer
+- uid: Westpay.Epas.TerminalEnvironment.ConfigurationServer*
+  name: ConfigurationServer
+  href: api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_ConfigurationServer_
+  commentId: Overload:Westpay.Epas.TerminalEnvironment.ConfigurationServer
+  isSpec: "True"
   fullName: Westpay.Epas.TerminalEnvironment.ConfigurationServer
   nameWithType: TerminalEnvironment.ConfigurationServer
 - uid: Westpay.Epas.TerminalEnvironment.ISO639_1_LanguageCode
@@ -2897,15 +3539,68 @@ references:
 - uid: Westpay.Epas.TerminalEnvironment.OperatorId
   name: OperatorId
   href: api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_OperatorId
-  commentId: F:Westpay.Epas.TerminalEnvironment.OperatorId
+  commentId: P:Westpay.Epas.TerminalEnvironment.OperatorId
   fullName: Westpay.Epas.TerminalEnvironment.OperatorId
   nameWithType: TerminalEnvironment.OperatorId
+- uid: Westpay.Epas.TerminalEnvironment.OperatorId*
+  name: OperatorId
+  href: api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_OperatorId_
+  commentId: Overload:Westpay.Epas.TerminalEnvironment.OperatorId
+  isSpec: "True"
+  fullName: Westpay.Epas.TerminalEnvironment.OperatorId
+  nameWithType: TerminalEnvironment.OperatorId
+- uid: Westpay.Epas.TerminalEnvironment.SecondaryTerminalIds
+  name: SecondaryTerminalIds
+  href: api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_SecondaryTerminalIds
+  commentId: P:Westpay.Epas.TerminalEnvironment.SecondaryTerminalIds
+  fullName: Westpay.Epas.TerminalEnvironment.SecondaryTerminalIds
+  nameWithType: TerminalEnvironment.SecondaryTerminalIds
+- uid: Westpay.Epas.TerminalEnvironment.SecondaryTerminalIds*
+  name: SecondaryTerminalIds
+  href: api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_SecondaryTerminalIds_
+  commentId: Overload:Westpay.Epas.TerminalEnvironment.SecondaryTerminalIds
+  isSpec: "True"
+  fullName: Westpay.Epas.TerminalEnvironment.SecondaryTerminalIds
+  nameWithType: TerminalEnvironment.SecondaryTerminalIds
+- uid: Westpay.Epas.TerminalEnvironment.StoreId
+  name: StoreId
+  href: api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_StoreId
+  commentId: P:Westpay.Epas.TerminalEnvironment.StoreId
+  fullName: Westpay.Epas.TerminalEnvironment.StoreId
+  nameWithType: TerminalEnvironment.StoreId
+- uid: Westpay.Epas.TerminalEnvironment.StoreId*
+  name: StoreId
+  href: api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_StoreId_
+  commentId: Overload:Westpay.Epas.TerminalEnvironment.StoreId
+  isSpec: "True"
+  fullName: Westpay.Epas.TerminalEnvironment.StoreId
+  nameWithType: TerminalEnvironment.StoreId
 - uid: Westpay.Epas.TerminalEnvironment.TerminalId
   name: TerminalId
   href: api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_TerminalId
-  commentId: F:Westpay.Epas.TerminalEnvironment.TerminalId
+  commentId: P:Westpay.Epas.TerminalEnvironment.TerminalId
   fullName: Westpay.Epas.TerminalEnvironment.TerminalId
   nameWithType: TerminalEnvironment.TerminalId
+- uid: Westpay.Epas.TerminalEnvironment.TerminalId*
+  name: TerminalId
+  href: api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_TerminalId_
+  commentId: Overload:Westpay.Epas.TerminalEnvironment.TerminalId
+  isSpec: "True"
+  fullName: Westpay.Epas.TerminalEnvironment.TerminalId
+  nameWithType: TerminalEnvironment.TerminalId
+- uid: Westpay.Epas.TerminalEnvironment.WorkstationId
+  name: WorkstationId
+  href: api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_WorkstationId
+  commentId: P:Westpay.Epas.TerminalEnvironment.WorkstationId
+  fullName: Westpay.Epas.TerminalEnvironment.WorkstationId
+  nameWithType: TerminalEnvironment.WorkstationId
+- uid: Westpay.Epas.TerminalEnvironment.WorkstationId*
+  name: WorkstationId
+  href: api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_WorkstationId_
+  commentId: Overload:Westpay.Epas.TerminalEnvironment.WorkstationId
+  isSpec: "True"
+  fullName: Westpay.Epas.TerminalEnvironment.WorkstationId
+  nameWithType: TerminalEnvironment.WorkstationId
 - uid: Westpay.Epas.TerminalNetworkConnection
   name: TerminalNetworkConnection
   href: api/Westpay.Epas.TerminalNetworkConnection.html
@@ -2915,13 +3610,27 @@ references:
 - uid: Westpay.Epas.TerminalNetworkConnection.TerminalConnectionDetails
   name: TerminalConnectionDetails
   href: api/Westpay.Epas.TerminalNetworkConnection.html#Westpay_Epas_TerminalNetworkConnection_TerminalConnectionDetails
-  commentId: F:Westpay.Epas.TerminalNetworkConnection.TerminalConnectionDetails
+  commentId: P:Westpay.Epas.TerminalNetworkConnection.TerminalConnectionDetails
+  fullName: Westpay.Epas.TerminalNetworkConnection.TerminalConnectionDetails
+  nameWithType: TerminalNetworkConnection.TerminalConnectionDetails
+- uid: Westpay.Epas.TerminalNetworkConnection.TerminalConnectionDetails*
+  name: TerminalConnectionDetails
+  href: api/Westpay.Epas.TerminalNetworkConnection.html#Westpay_Epas_TerminalNetworkConnection_TerminalConnectionDetails_
+  commentId: Overload:Westpay.Epas.TerminalNetworkConnection.TerminalConnectionDetails
+  isSpec: "True"
   fullName: Westpay.Epas.TerminalNetworkConnection.TerminalConnectionDetails
   nameWithType: TerminalNetworkConnection.TerminalConnectionDetails
 - uid: Westpay.Epas.TerminalNetworkConnection.UseKeepAlive
   name: UseKeepAlive
   href: api/Westpay.Epas.TerminalNetworkConnection.html#Westpay_Epas_TerminalNetworkConnection_UseKeepAlive
-  commentId: F:Westpay.Epas.TerminalNetworkConnection.UseKeepAlive
+  commentId: P:Westpay.Epas.TerminalNetworkConnection.UseKeepAlive
+  fullName: Westpay.Epas.TerminalNetworkConnection.UseKeepAlive
+  nameWithType: TerminalNetworkConnection.UseKeepAlive
+- uid: Westpay.Epas.TerminalNetworkConnection.UseKeepAlive*
+  name: UseKeepAlive
+  href: api/Westpay.Epas.TerminalNetworkConnection.html#Westpay_Epas_TerminalNetworkConnection_UseKeepAlive_
+  commentId: Overload:Westpay.Epas.TerminalNetworkConnection.UseKeepAlive
+  isSpec: "True"
   fullName: Westpay.Epas.TerminalNetworkConnection.UseKeepAlive
   nameWithType: TerminalNetworkConnection.UseKeepAlive
 - uid: Westpay.Epas.TransactionOutcome
@@ -2948,6 +3657,64 @@ references:
   commentId: F:Westpay.Epas.TransactionOutcome.Declined
   fullName: Westpay.Epas.TransactionOutcome.Declined
   nameWithType: TransactionOutcome.Declined
+- uid: Westpay.Epas.TransactionRequest
+  name: TransactionRequest
+  href: api/Westpay.Epas.TransactionRequest.html
+  commentId: T:Westpay.Epas.TransactionRequest
+  fullName: Westpay.Epas.TransactionRequest
+  nameWithType: TransactionRequest
+- uid: Westpay.Epas.TransactionRequest.Amount
+  name: Amount
+  href: api/Westpay.Epas.TransactionRequest.html#Westpay_Epas_TransactionRequest_Amount
+  commentId: P:Westpay.Epas.TransactionRequest.Amount
+  fullName: Westpay.Epas.TransactionRequest.Amount
+  nameWithType: TransactionRequest.Amount
+- uid: Westpay.Epas.TransactionRequest.Amount*
+  name: Amount
+  href: api/Westpay.Epas.TransactionRequest.html#Westpay_Epas_TransactionRequest_Amount_
+  commentId: Overload:Westpay.Epas.TransactionRequest.Amount
+  isSpec: "True"
+  fullName: Westpay.Epas.TransactionRequest.Amount
+  nameWithType: TransactionRequest.Amount
+- uid: Westpay.Epas.TransactionRequest.MerchantCategoryCode
+  name: MerchantCategoryCode
+  href: api/Westpay.Epas.TransactionRequest.html#Westpay_Epas_TransactionRequest_MerchantCategoryCode
+  commentId: P:Westpay.Epas.TransactionRequest.MerchantCategoryCode
+  fullName: Westpay.Epas.TransactionRequest.MerchantCategoryCode
+  nameWithType: TransactionRequest.MerchantCategoryCode
+- uid: Westpay.Epas.TransactionRequest.MerchantCategoryCode*
+  name: MerchantCategoryCode
+  href: api/Westpay.Epas.TransactionRequest.html#Westpay_Epas_TransactionRequest_MerchantCategoryCode_
+  commentId: Overload:Westpay.Epas.TransactionRequest.MerchantCategoryCode
+  isSpec: "True"
+  fullName: Westpay.Epas.TransactionRequest.MerchantCategoryCode
+  nameWithType: TransactionRequest.MerchantCategoryCode
+- uid: Westpay.Epas.TransactionRequest.PaymentMethod
+  name: PaymentMethod
+  href: api/Westpay.Epas.TransactionRequest.html#Westpay_Epas_TransactionRequest_PaymentMethod
+  commentId: P:Westpay.Epas.TransactionRequest.PaymentMethod
+  fullName: Westpay.Epas.TransactionRequest.PaymentMethod
+  nameWithType: TransactionRequest.PaymentMethod
+- uid: Westpay.Epas.TransactionRequest.PaymentMethod*
+  name: PaymentMethod
+  href: api/Westpay.Epas.TransactionRequest.html#Westpay_Epas_TransactionRequest_PaymentMethod_
+  commentId: Overload:Westpay.Epas.TransactionRequest.PaymentMethod
+  isSpec: "True"
+  fullName: Westpay.Epas.TransactionRequest.PaymentMethod
+  nameWithType: TransactionRequest.PaymentMethod
+- uid: Westpay.Epas.TransactionRequest.TerminalId
+  name: TerminalId
+  href: api/Westpay.Epas.TransactionRequest.html#Westpay_Epas_TransactionRequest_TerminalId
+  commentId: P:Westpay.Epas.TransactionRequest.TerminalId
+  fullName: Westpay.Epas.TransactionRequest.TerminalId
+  nameWithType: TransactionRequest.TerminalId
+- uid: Westpay.Epas.TransactionRequest.TerminalId*
+  name: TerminalId
+  href: api/Westpay.Epas.TransactionRequest.html#Westpay_Epas_TransactionRequest_TerminalId_
+  commentId: Overload:Westpay.Epas.TransactionRequest.TerminalId
+  isSpec: "True"
+  fullName: Westpay.Epas.TransactionRequest.TerminalId
+  nameWithType: TransactionRequest.TerminalId
 - uid: Westpay.Epas.TransactionResponse
   name: TransactionResponse
   href: api/Westpay.Epas.TransactionResponse.html

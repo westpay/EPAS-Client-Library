@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Integrating the EPAS client library </title>
+    <title>Using Multiple Terminal IDs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Integrating the EPAS client library ">
+    <meta name="title" content="Using Multiple Terminal IDs ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -105,11 +105,11 @@
                     <li class="">
                       <a href="identifying_cards.html" title="Identifying cards" class="">Identifying cards</a>
                     </li>
-                    <li class="active">
-                      <a href="integrating_the_library.html" title="Integrating the EPAS Client Library" class="active">Integrating the EPAS Client Library</a>
-                    </li>
                     <li class="">
-                      <a href="multi_tid.html" title="Using Multiple Terminal IDs" class="">Using Multiple Terminal IDs</a>
+                      <a href="integrating_the_library.html" title="Integrating the EPAS Client Library" class="">Integrating the EPAS Client Library</a>
+                    </li>
+                    <li class="active">
+                      <a href="multi_tid.html" title="Using Multiple Terminal IDs" class="active">Using Multiple Terminal IDs</a>
                     </li>
                     <li class="">
                       <a href="log_storage.html" title="Log storage" class="">Log storage</a>
@@ -137,78 +137,31 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="integrating-the-epas-client-library">Integrating the EPAS client library</h1>
+<h1 id="using-multiple-terminal-ids">Using Multiple Terminal IDs</h1>
 
-<p>The steps to integrate the EPAS Client Library are:</p>
-<ol>
-<li>Add the library module to the ECR project.</li>
-<li>Add an instance of the library to the ECR application.</li>
-<li>Implement required methods.</li>
-<li>Implement optional handler methods as required.</li>
-</ol>
-<h2 id="1-add-a-reference-to-epasclientlibrarydll">1. Add a reference to EpasClientLibrary.dll</h2>
-<p>The EPAS Client Library is implemented as a .NET Framework 4.7.2 class library.</p>
-<h2 id="2-create-an-epasclient-instance">2. Create an EpasClient instance</h2>
-<p>The EPAS Client Library is implemented by the <a class="xref" href="../api/Westpay.Epas.EpasClient.html">EpasClient</a> class in the <em>Westpay.Epas</em> namespace.
-The client takes a single parameter, which is an instance of a class that implements <a class="xref" href="../api/Westpay.Epas.IClientApp.html">IClientApp</a>.</p>
-<pre><code class="lang-csharp">using Westpay.Epas;
-
-public class SampleECR : IClientApp
-{
-    /// &lt;summary&gt;
-    /// Instance of the EPAS client library
-    /// &lt;/summary&gt;
-    EpasClient mEpas = null;
-    public SampleECR()
-    {
-        // Create the EPAS client library instance
-        mEpas = new EpasClient(this);
-    }
-    .
-    .
-    .
-}
-</code></pre><blockquote><p><strong>Note</strong>: An <code>EpasClient</code> instance is only connected to one terminal at a time. If the ECR needs to interact with several terminals simultaneously,
-one instance must be created for each terminal.</p>
+<p>Some stores have one terminal that is shared between several merchants that are located in the same place. In those situations, transactions can be made with different terminal IDs on the terminal.</p>
+<p>Traditionally this can be accomplished by logging out after each transaction, and then logging in with the desired terminal ID before each transaction. The problem with this approach is that
+it takes time, and only works if there is no disruption to the network connectivity.</p>
+<p>The Westpay terminal support using multiple terminal IDs concurrently on a terminal, without the need for logging in before each transaction.</p>
+<blockquote><p><strong>Note:</strong> The Multi-TID feature requires a special agreement with Westpay and is not available by default.</p>
 </blockquote>
-<h2 id="3-implement-iclientapp">3. Implement IClientApp</h2>
-<p>The <a class="xref" href="../api/Westpay.Epas.EpasClient.html">EpasClient</a> class requires an <a class="xref" href="../api/Westpay.Epas.IClientApp.html">IClientApp</a> instance.
-This instance must be provided by the ECR application, which must implement all the required members of the interface.</p>
+<h3 id="how-to-use-multiple-terminal-ids">How to use multiple terminal IDs</h3>
+<p>To use multiple terminal IDs the ECR needs to do 2 things:</p>
 <ul>
-<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_Display_System_String_">Display</a></li>
-<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_PrintReceipt_Westpay_Epas_ReceiptData_">PrintRecipt</a></li>
-<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_PrintReport_System_String_">PrintReport</a></li>
-<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_VerifySignature_System_String_System_Boolean__">VerifySignature</a></li>
-<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_HandleVoiceReferral_System_String_System_String__">HandleVoiceReferral</a></li>
-<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_PaymentCodeRequired_System_String_System_String__">PaymentCodeRequired</a></li>
-<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_VatAmountRequired_System_String_System_Decimal__">VatAmountRequired</a></li>
-<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_LoyaltyCardPresented_System_String_System_Boolean__">LoyaltyCardPresented</a></li>
-<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_CheckDccOnOriginalTransaction_System_String_System_Boolean__">CheckDccOnOriginalTransaction</a></li>
-<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_ParameterDownloadAvailable_System_String_System_Boolean__">ParameterDownloadAvailable</a></li>
-<li><a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_Log_Westpay_Epas_LogLevel_System_String_">Log</a></li>
+<li>First, the ECR needs to tell the terminal which terminal IDs it intends to use for transactions. This is done when <a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_Login_Westpay_Epas_TerminalEnvironment_Westpay_Epas_LoginResponse__">logging in</a>, by including a number of secondary terminal IDs in the <a class="xref" href="../api/Westpay.Epas.TerminalEnvironment.html">TerminalEnvironment</a> object.</li>
+<li>Second, in each transaction the ECR needs to include the specific terminal ID to use for that transaction. This is done by creating a <a class="xref" href="../api/Westpay.Epas.PurchaseRequest.html">PurcaseRequest</a> and setting the <a href="xref:Westpay.Epas.PurchaseRequest.TerminalId">TerminalId</a> property.</li>
 </ul>
-<h2 id="4-optional-methods">4. Optional methods</h2>
-<p>The client library offers a range of handler methods that are optional, and the ECR can implement any that will be useful.</p>
-<p>Each handler method is implemented as a callback. The ECR simply assigns a method reference to the 
-appropriate library callback handler in <a class="xref" href="../api/Westpay.Epas.EpasClient.html">EpasClient</a> and the method will be called when appropriate.</p>
+<h3 id="primary-vs-secondary-terminal-ids">Primary vs secondary terminal IDs.</h3>
+<p>In <a class="xref" href="../api/Westpay.Epas.TerminalEnvironment.html">TerminalEnvironment</a>, the ECR must specify the <a class="xref" href="../api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_TerminalId">TerminalId</a>. This is the <strong>primary terminal ID</strong>. It defines which software the terminal runs, when it should be updated, as well as other settings that are not strictly related to the merchant.</p>
+<p>The <strong>secondary terminal IDs</strong> on the other hand, only controls merchant information and payment options. The secondary terminal IDs are specified in the <a class="xref" href="../api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_SecondaryTerminalId">SecondaryTerminalIds</a></p>
+<h3 id="logging-in">Logging in</h3>
+<p>In the TerminalEnvironment class, there are two properties that must be set:</p>
 <ul>
-<li><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_BusyStatus">BusyStatus</a></li>
-<li><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_CardAccepted">CardAccepted</a></li>
-<li><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_CardStatus">CardStatus</a></li>
-<li><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_LinkStatus">LinkStatus</a></li>
-<li><a class="xref" href="../api/Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_RawMessageHandler">RawMessageHandler</a></li>
+<li><a class="xref" href="../api/Westpay.Epas.TerminalEnvironment.html#Westpay_Epas_TerminalEnvironment_TerminalId">TerminalId</a> - This is the primary terminal ID.</li>
+<li><strong>SecondaryTerminalIds</strong> - A list of other terminal IDs that can be used.</li>
 </ul>
-<h3 id="about-callbacks">About callbacks</h3>
-<p>When the library calls methods in the ECR, only one method will be called at any time. This is done to ensure that there are no
-race conditions, since events can happen quickly and it would be confusing if, for example, the <code>CardAccepted</code> handler is called
-while the <code>CardInserted</code> handler is still executing.</p>
-<p>It is, therefore, recommended that the ECR returns from interface methods and handlers as quickly as possible so that the
-remainder of the transaction can be processed without delay.</p>
-<p>There is one exception to this, which is <a class="xref" href="../api/Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_Log_Westpay_Epas_LogLevel_System_String_">IClientApp.Log</a>.
-This has a dedicated thread so that the Log method can be called while another method or handler is executing. Only one call to
-Log will be made at a time, however – there will be no overlapping calls made.</p>
-<h1 id="using-the-library">Using the library</h1>
-<p>The next step is to <a href="using_the_library.html">start using the library</a></p>
+<p>Both the primary and secondary terminal IDs can be used in a transaction. It is not an error to include the primary ID in the list of secondary IDs but it is not necessary.</p>
+<p>The difference between the primary and secondary terminal IDs is that the primary terminal ID is used to control all terminal configuration, including software updates. For the secondary terminal IDs only the basic merchant configuration is used.</p>
 </article>
           </div>
           

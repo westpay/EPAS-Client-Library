@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EpasClient
    ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -116,7 +116,16 @@
                             <a href="Westpay.Epas.AuthorisingEntity.html" title="AuthorisingEntity" class="">AuthorisingEntity</a>
                           </li>
                           <li class="">
+                            <a href="Westpay.Epas.BufferTools.html" title="BufferTools" class="">BufferTools</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.CardAcceptedEventArgs.html" title="CardAcceptedEventArgs" class="">CardAcceptedEventArgs</a>
+                          </li>
+                          <li class="">
                             <a href="Westpay.Epas.CurrencyCodes.html" title="CurrencyCodes" class="">CurrencyCodes</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.EnableCardReaderOptions.html" title="EnableCardReaderOptions" class="">EnableCardReaderOptions</a>
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.EnableReadersResponse.html" title="EnableReadersResponse" class="">EnableReadersResponse</a>
@@ -146,6 +155,24 @@
                             <a href="Westpay.Epas.IClientApp.html" title="IClientApp" class="">IClientApp</a>
                           </li>
                           <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.html" title="LastTransactionResponse" class="">LastTransactionResponse</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.CardData.html" title="LastTransactionResponse.CardData" class="">LastTransactionResponse.CardData</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.DccData.html" title="LastTransactionResponse.DccData" class="">LastTransactionResponse.DccData</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.EmvData.html" title="LastTransactionResponse.EmvData" class="">LastTransactionResponse.EmvData</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.MerchantData.html" title="LastTransactionResponse.MerchantData" class="">LastTransactionResponse.MerchantData</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.LastTransactionResponse.TransactionData.html" title="LastTransactionResponse.TransactionData" class="">LastTransactionResponse.TransactionData</a>
+                          </li>
+                          <li class="">
                             <a href="Westpay.Epas.LoginResponse.html" title="LoginResponse" class="">LoginResponse</a>
                           </li>
                           <li class="">
@@ -156,6 +183,9 @@
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.OperatingParameters.html" title="OperatingParameters" class="">OperatingParameters</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.PurchaseRequest.html" title="PurchaseRequest" class="">PurchaseRequest</a>
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.PurchaseTransactionAmounts.html" title="PurchaseTransactionAmounts" class="">PurchaseTransactionAmounts</a>
@@ -188,6 +218,12 @@
                             <a href="Westpay.Epas.ReceiptVersion.html" title="ReceiptVersion" class="">ReceiptVersion</a>
                           </li>
                           <li class="">
+                            <a href="Westpay.Epas.RefundRequest.html" title="RefundRequest" class="">RefundRequest</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.ServiceEnableType.html" title="ServiceEnableType" class="">ServiceEnableType</a>
+                          </li>
+                          <li class="">
                             <a href="Westpay.Epas.SimpleResponse.html" title="SimpleResponse" class="">SimpleResponse</a>
                           </li>
                           <li class="">
@@ -198,6 +234,9 @@
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.TransactionOutcome.html" title="TransactionOutcome" class="">TransactionOutcome</a>
+                          </li>
+                          <li class="">
+                            <a href="Westpay.Epas.TransactionRequest.html" title="TransactionRequest" class="">TransactionRequest</a>
                           </li>
                           <li class="">
                             <a href="Westpay.Epas.TransactionResponse.html" title="TransactionResponse" class="">TransactionResponse</a>
@@ -232,16 +271,10 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.GetHashCode()</span>
@@ -251,6 +284,12 @@
     </div>
     <div>
       <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Westpay.Epas.html">Westpay.Epas</a></h6>
@@ -262,7 +301,9 @@
   <h3 id="constructors">Constructors
   </h3>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Wrapper.cs&amp;version=GBmain&amp;line=94">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient__ctor_" data-uid="Westpay.Epas.EpasClient.#ctor*"></a>
   <h4 id="Westpay_Epas_EpasClient__ctor_Westpay_Epas_IClientApp_" data-uid="Westpay.Epas.EpasClient.#ctor(Westpay.Epas.IClientApp)">EpasClient(IClientApp)</h4>
   <div class="markdown level1 summary"><p>Constructor</p>
@@ -293,7 +334,9 @@
   <h3 id="fields">Fields
   </h3>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Handlers.cs&amp;version=GBmain&amp;line=186">View Source</a>
+  </span>
   <h4 id="Westpay_Epas_EpasClient_BusyStatus" data-uid="Westpay.Epas.EpasClient.BusyStatus">BusyStatus</h4>
   <div class="markdown level1 summary"><p>Handler for busy status notifications</p>
 </div>
@@ -351,9 +394,11 @@ public void HandleBusyState(bool busy)
 }</code></pre>
 
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Handlers.cs&amp;version=GBmain&amp;line=146">View Source</a>
+  </span>
   <h4 id="Westpay_Epas_EpasClient_CardAccepted" data-uid="Westpay.Epas.EpasClient.CardAccepted">CardAccepted</h4>
-  <div class="markdown level1 summary"><p>The handler for card accepted notifications</p>
+  <div class="markdown level1 summary"><p>The handler for card accepted notifications with MaskedCardNumber and CNA</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -379,8 +424,8 @@ public void HandleBusyState(bool busy)
   <div class="markdown level1 remarks"><p>
 The terminal�s configuration includes a list of card ranges that is used to identify valid card numbers. When 
 a payment card is presented and is considered valid then this callback is used to notify the ECR of the 
-masked card number. The masking means that only the first six digits and last four digits of the card 
-number are shown. The rest are replaced with asterisk (<code>*</code>) characters.
+masked card number and Card Number Alias (CNA). The masking means that only the first six digits and last four digits of the card 
+number are shown. The rest are replaced with asterisk (<code>*</code>) characters. 
 </p>
 <p>
 Note that loyalty cards are handled separately, see <a class="xref" href="Westpay.Epas.IClientApp.html#Westpay_Epas_IClientApp_LoyaltyCardPresented_System_String_System_Boolean__">LoyaltyCardPresented(String, out Boolean)</a>.
@@ -391,21 +436,25 @@ Note that loyalty cards are handled separately, see <a class="xref" href="Westpa
 mEpas.CardAccepted = HandleCardAccepted;
 ...
 
-public void HandleCardAccepted(string maskedCardNumber)
+public void HandleCardAccepted(CardAcceptedEventArgs args)
 {
     if (InvokeRequired)
     {
-        Invoke(new Action(() => HandleCardAccepted(maskedCardNumber)));
+        Invoke(new Action(() => HandleCardAccepted(args)));
     }
     else
     {
-        lblCardPresent.Text = &quot;CARD: &quot; + maskedCardNumber);
-        Log(&quot;Card accepted: &quot; + maskedCardNumber);
+        string cardNumberAliasHexString = BufferTools.ByteArrayToHexString(args.CardNumberAlias);
+        ttToolTips.SetToolTip(lblCardPresent, args.MaskedCardNumber + &quot;\nCNA &quot; + cardNumberAliasHexString);
+        Log(&quot;Card accepted: &quot; + args.MaskedCardNumber);
+        Log(&quot;Card Number Alias: &quot; + cardNumberAliasHexString);
     }
 }</code></pre>
 
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Handlers.cs&amp;version=GBmain&amp;line=108">View Source</a>
+  </span>
   <h4 id="Westpay_Epas_EpasClient_CardStatus" data-uid="Westpay.Epas.EpasClient.CardStatus">CardStatus</h4>
   <div class="markdown level1 summary"><p>The handler for card insert and removal notifications</p>
 </div>
@@ -469,7 +518,9 @@ public void CardStatus(bool inserted)
 }</code></pre>
 
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Handlers.cs&amp;version=GBmain&amp;line=226">View Source</a>
+  </span>
   <h4 id="Westpay_Epas_EpasClient_LinkStatus" data-uid="Westpay.Epas.EpasClient.LinkStatus">LinkStatus</h4>
   <div class="markdown level1 summary"><p>Handler for link status notifications</p>
 </div>
@@ -527,7 +578,9 @@ public void HandleLinkState(bool linkUp)
 }</code></pre>
 
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Handlers.cs&amp;version=GBmain&amp;line=260">View Source</a>
+  </span>
   <h4 id="Westpay_Epas_EpasClient_RawMessageHandler" data-uid="Westpay.Epas.EpasClient.RawMessageHandler">RawMessageHandler</h4>
   <div class="markdown level1 summary"><p>Handler for raw EPAS XML messages.  This should only be used with
 a very good reason.</p>
@@ -581,7 +634,9 @@ private void HandleIncomingXML(string rawXml)
   <h3 id="properties">Properties
   </h3>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Wrapper.cs&amp;version=GBmain&amp;line=31">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_Options_" data-uid="Westpay.Epas.EpasClient.Options*"></a>
   <h4 id="Westpay_Epas_EpasClient_Options" data-uid="Westpay.Epas.EpasClient.Options">Options</h4>
   <div class="markdown level1 summary"><p>Operating parameters for the library</p>
@@ -609,7 +664,9 @@ private void HandleIncomingXML(string rawXml)
   <h3 id="methods">Methods
   </h3>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.CashAdvance.cs&amp;version=GBmain&amp;line=33">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_CashAdvance_" data-uid="Westpay.Epas.EpasClient.CashAdvance*"></a>
   <h4 id="Westpay_Epas_EpasClient_CashAdvance_System_Decimal_Westpay_Epas_TransactionResponse__" data-uid="Westpay.Epas.EpasClient.CashAdvance(System.Decimal,Westpay.Epas.TransactionResponse@)">CashAdvance(Decimal, out TransactionResponse)</h4>
   <div class="markdown level1 summary"><p>Performs a cash advance / withdrawal transaction.</p>
@@ -678,7 +735,9 @@ public void CashAdvance(decimal amount)
 }</code></pre>
 
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Wrapper.cs&amp;version=GBmain&amp;line=113">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_Close_" data-uid="Westpay.Epas.EpasClient.Close*"></a>
   <h4 id="Westpay_Epas_EpasClient_Close" data-uid="Westpay.Epas.EpasClient.Close">Close()</h4>
   <div class="markdown level1 summary"><p>Close the library</p>
@@ -689,7 +748,9 @@ public void CashAdvance(decimal amount)
     <pre><code class="lang-csharp hljs">public void Close()</code></pre>
   </div>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Connect.cs&amp;version=GBmain&amp;line=86">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_ConnectNetwork_" data-uid="Westpay.Epas.EpasClient.ConnectNetwork*"></a>
   <h4 id="Westpay_Epas_EpasClient_ConnectNetwork_Westpay_Epas_TerminalNetworkConnection_System_Boolean_" data-uid="Westpay.Epas.EpasClient.ConnectNetwork(Westpay.Epas.TerminalNetworkConnection,System.Boolean)">ConnectNetwork(TerminalNetworkConnection, Boolean)</h4>
   <div class="markdown level1 summary"><p>Attempts to create a network connection to the terminal</p>
@@ -776,15 +837,18 @@ in place then this method will just return <a class="xref" href="Westpay.Epas.Ap
 }</code></pre>
 
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Connect.cs&amp;version=GBmain&amp;line=124">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_ConnectUsb_" data-uid="Westpay.Epas.EpasClient.ConnectUsb*"></a>
   <h4 id="Westpay_Epas_EpasClient_ConnectUsb_System_String_System_Boolean_" data-uid="Westpay.Epas.EpasClient.ConnectUsb(System.String,System.Boolean)">ConnectUsb(String, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Attempts to create a USB / serial connection to the terminal</p>
+  <div class="markdown level1 summary"><p>USB/serial connections are no longer supported.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ApiResult ConnectUsb(string comPort, bool forceReconnect = false)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public ApiResult ConnectUsb(string comPort, bool forceReconnect = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -799,14 +863,12 @@ in place then this method will just return <a class="xref" href="Westpay.Epas.Ap
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">comPort</span></td>
-        <td><p>COM port name, e.g. <code>COM6</code>, of the virtual com port that is created by the driver.  Normally not needed.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">forceReconnect</span></td>
-        <td><p>Set to <code>true</code> to close an existing connection and force a new connection to be made.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -821,40 +883,14 @@ in place then this method will just return <a class="xref" href="Westpay.Epas.Ap
     <tbody>
       <tr>
         <td><a class="xref" href="Westpay.Epas.ApiResult.html">ApiResult</a></td>
-        <td><p>A standard <a class="xref" href="Westpay.Epas.ApiResult.html">ApiResult</a> value.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Westpay_Epas_EpasClient_ConnectUsb_System_String_System_Boolean__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>
-The ConnectUsb method attempts to connect to the terminal over a USB connection.
-</p>
-<p>
-When configured for USB communications, the terminal runs the USB connection in <em>CDC mode</em>. This causes 
-the connected PC to create a virtual serial port. In Windows 10 this should not need any additional driver 
-support.
-</p>
-<p>
-The <code data-dev-comment-type="paramref" class="paramref">comPort</code> parameter contains the name of this virtual serial port, e.g. <code>COM6</code>. The EPAS Client Library, 
-however, will attempt to automatically detect the virtual serial port and if it can find a port that is 
-connected to the terminal then it will use it. The value of comPort is only used if the library is unable to 
-identify the port name automatically, in which case it will use comPort if it has been defined.
-</p>
-<p>
-It is normally OK to leave the <code data-dev-comment-type="paramref" class="paramref">comPort</code> value set to <code>null</code> or an empty string.
-</p>
-<p>
-If the <code data-dev-comment-type="paramref" class="paramref">forceReconnect</code> parameter is <code>true</code> then if there is already a connection in place that connection will be 
-closed and a new one will be created. Otherwise, if <code data-dev-comment-type="paramref" class="paramref">forceReconnect</code> is <code>false</code>, if there is already a connection 
-in place then this method will just return <a class="xref" href="Westpay.Epas.ApiResult.html#Westpay_Epas_ApiResult_OK">OK</a>.
-</p>
-</div>
-  <h5 id="Westpay_Epas_EpasClient_ConnectUsb_System_String_System_Boolean__examples">Examples</h5>
-  <pre><code>ApiResult result = mEpas.ConnectUsb(txtComPort.Text, optForceReconnect.Checked);</code></pre>
-
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Connect.cs&amp;version=GBmain&amp;line=147">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_Disconnect_" data-uid="Westpay.Epas.EpasClient.Disconnect*"></a>
   <h4 id="Westpay_Epas_EpasClient_Disconnect" data-uid="Westpay.Epas.EpasClient.Disconnect">Disconnect()</h4>
   <div class="markdown level1 summary"><p>Disconnect from the terminal</p>
@@ -891,15 +927,17 @@ in place then this method will just return <a class="xref" href="Westpay.Epas.Ap
 }</code></pre>
 
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.EnableReaders.cs&amp;version=GBmain&amp;line=13">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_EnableCardReaders_" data-uid="Westpay.Epas.EpasClient.EnableCardReaders*"></a>
-  <h4 id="Westpay_Epas_EpasClient_EnableCardReaders_System_Boolean_Westpay_Epas_EnableReadersResponse__" data-uid="Westpay.Epas.EpasClient.EnableCardReaders(System.Boolean,Westpay.Epas.EnableReadersResponse@)">EnableCardReaders(Boolean, out EnableReadersResponse)</h4>
+  <h4 id="Westpay_Epas_EpasClient_EnableCardReaders_System_Boolean_Westpay_Epas_EnableCardReaderOptions_Westpay_Epas_EnableReadersResponse__" data-uid="Westpay.Epas.EpasClient.EnableCardReaders(System.Boolean,Westpay.Epas.EnableCardReaderOptions,Westpay.Epas.EnableReadersResponse@)">EnableCardReaders(Boolean, EnableCardReaderOptions, out EnableReadersResponse)</h4>
   <div class="markdown level1 summary"><p>Enables or disables the card readers on the terminal.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ApiResult EnableCardReaders(bool enable, out EnableReadersResponse response)</code></pre>
+    <pre><code class="lang-csharp hljs">public ApiResult EnableCardReaders(bool enable, EnableCardReaderOptions cardReaderOptions, out EnableReadersResponse response)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -916,6 +954,11 @@ in place then this method will just return <a class="xref" href="Westpay.Epas.Ap
         <td><span class="parametername">enable</span></td>
         <td><p>True to enable the card readers, false to disable them.</p>
 </td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Westpay.Epas.EnableCardReaderOptions.html">EnableCardReaderOptions</a></td>
+        <td><span class="parametername">cardReaderOptions</span></td>
+        <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="Westpay.Epas.EnableReadersResponse.html">EnableReadersResponse</a></td>
@@ -942,7 +985,80 @@ in place then this method will just return <a class="xref" href="Westpay.Epas.Ap
     </tbody>
   </table>
   
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.GetLastTransaction.cs&amp;version=GBmain&amp;line=35">View Source</a>
+  </span>
+  <a id="Westpay_Epas_EpasClient_GetLastTransaction_" data-uid="Westpay.Epas.EpasClient.GetLastTransaction*"></a>
+  <h4 id="Westpay_Epas_EpasClient_GetLastTransaction_System_String_Westpay_Epas_LastTransactionResponse__" data-uid="Westpay.Epas.EpasClient.GetLastTransaction(System.String,Westpay.Epas.LastTransactionResponse@)">GetLastTransaction(String, out LastTransactionResponse)</h4>
+  <div class="markdown level1 summary"><p>Get Last Transaction Details.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ApiResult GetLastTransaction(string terminalId, out LastTransactionResponse response)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">terminalId</span></td>
+        <td><p>Terminal Id</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Westpay.Epas.LastTransactionResponse.html">LastTransactionResponse</a></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>Transaction response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Westpay.Epas.ApiResult.html">ApiResult</a></td>
+        <td><p>Standard ApiResult values</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Westpay_Epas_EpasClient_GetLastTransaction_System_String_Westpay_Epas_LastTransactionResponse___examples">Examples</h5>
+  <pre><code>/// &lt;summary>
+/// Get last transaction details.
+/// &lt;/summary>
+/// &lt;param name=&quot;terminalId&quot;>Terminal Id&lt;/param>
+/// sending the transaction result&lt;/param>
+public void LastTransaction(String terminalId)
+ {
+
+       LastTransactionResponse response;
+
+       Log(&quot;API:  LastTransaction&quot;);
+       ApiResult result = mEpas.GetLastTransaction(terminalId, out response);
+
+
+       LogApiResult(result, &quot;Last Transaction: &quot; + response?.ToString());
+ }</code></pre>
+
   
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Connect.cs&amp;version=GBmain&amp;line=201">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_Login_" data-uid="Westpay.Epas.EpasClient.Login*"></a>
   <h4 id="Westpay_Epas_EpasClient_Login_Westpay_Epas_TerminalEnvironment_Westpay_Epas_LoginResponse__" data-uid="Westpay.Epas.EpasClient.Login(Westpay.Epas.TerminalEnvironment,Westpay.Epas.LoginResponse@)">Login(TerminalEnvironment, out LoginResponse)</h4>
   <div class="markdown level1 summary"><p>Sends a login request to the terminal.  The login request provides essential information to the terminal
@@ -1008,8 +1124,10 @@ login request.
     AuthorisationServer = new IPEndPoint(IPAddress.Parse(&quot;185.27.171.42&quot;), 55144),
     ConfigurationServer = new IPEndPoint(IPAddress.Parse(&quot;185.27.171.42&quot;), 55133),
     ISO639_1_LanguageCode = TerminalEnvironment.LangSwedish,
-    OperatorId = &quot;cashier_1&quot;,
-    TerminalId = &quot;80000082&quot;
+    OperatorId    = &quot;cashier_1&quot;,
+    TerminalId    = &quot;80000082&quot;,
+    StoreId       = &quot;store_1&quot;,
+    WorkstationId = &apos;workstation_1&quot;
 };
 
 if (epas.Login(te, out LoginResponse lr) == ApiResult.OK)
@@ -1019,7 +1137,9 @@ if (epas.Login(te, out LoginResponse lr) == ApiResult.OK)
         ...</code></pre>
 
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Connect.cs&amp;version=GBmain&amp;line=253">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_Logout_" data-uid="Westpay.Epas.EpasClient.Logout*"></a>
   <h4 id="Westpay_Epas_EpasClient_Logout_Westpay_Epas_LogoutResponse__" data-uid="Westpay.Epas.EpasClient.Logout(Westpay.Epas.LogoutResponse@)">Logout(out LogoutResponse)</h4>
   <div class="markdown level1 summary"><p>Sends a logout request to the terminal.</p>
@@ -1064,7 +1184,9 @@ if (epas.Login(te, out LoginResponse lr) == ApiResult.OK)
     </tbody>
   </table>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Purchase.cs&amp;version=GBmain&amp;line=181">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_Purchase_" data-uid="Westpay.Epas.EpasClient.Purchase*"></a>
   <h4 id="Westpay_Epas_EpasClient_Purchase_System_Decimal_System_String_Westpay_Epas_TransactionResponse__" data-uid="Westpay.Epas.EpasClient.Purchase(System.Decimal,System.String,Westpay.Epas.TransactionResponse@)">Purchase(Decimal, String, out TransactionResponse)</h4>
   <div class="markdown level1 summary"><p>Starts a purchase transaction with only the purchase amount specified.</p>
@@ -1139,7 +1261,9 @@ public void SimpleSwishPurchase(decimal amount)
 }</code></pre>
 
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Purchase.cs&amp;version=GBmain&amp;line=149">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_Purchase_" data-uid="Westpay.Epas.EpasClient.Purchase*"></a>
   <h4 id="Westpay_Epas_EpasClient_Purchase_System_Decimal_Westpay_Epas_TransactionResponse__" data-uid="Westpay.Epas.EpasClient.Purchase(System.Decimal,Westpay.Epas.TransactionResponse@)">Purchase(Decimal, out TransactionResponse)</h4>
   <div class="markdown level1 summary"><p>Starts a purchase transaction with only the purchase amount specified.</p>
@@ -1208,7 +1332,85 @@ public void SimplePurchase(decimal amount)
 }</code></pre>
 
   
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Purchase.cs&amp;version=GBmain&amp;line=38">View Source</a>
+  </span>
+  <a id="Westpay_Epas_EpasClient_Purchase_" data-uid="Westpay.Epas.EpasClient.Purchase*"></a>
+  <h4 id="Westpay_Epas_EpasClient_Purchase_Westpay_Epas_PurchaseRequest_Westpay_Epas_TransactionResponse__" data-uid="Westpay.Epas.EpasClient.Purchase(Westpay.Epas.PurchaseRequest,Westpay.Epas.TransactionResponse@)">Purchase(PurchaseRequest, out TransactionResponse)</h4>
+  <div class="markdown level1 summary"><p>Begins a purchase transaction.  The method returns when the transaction is complete.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ApiResult Purchase(PurchaseRequest request, out TransactionResponse response)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Westpay.Epas.PurchaseRequest.html">PurchaseRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>Transaction parameters</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Westpay.Epas.TransactionResponse.html">TransactionResponse</a></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>Transaction response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Westpay.Epas.ApiResult.html">ApiResult</a></td>
+        <td><p>A standard ApiResult value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Westpay_Epas_EpasClient_Purchase_Westpay_Epas_PurchaseRequest_Westpay_Epas_TransactionResponse___examples">Examples</h5>
+  <pre><code>/// &lt;summary>
+/// Runs a full-featured purchase transaction
+/// &lt;/summary>
+/// &lt;param name=&quot;amount&quot;>Purchase amount&lt;/param>
+/// &lt;param name=&quot;cashback&quot;>Cashback amount&lt;/param>
+public void PurchaseWithCashback(decimal amount, decimal cashback)
+{
+    Log($&quot;Purchase of {amount:.00} + {cashback:.00} cashback&quot;);
+    TransactionResponse response;
+    PurchaseRequest request = new PurchaseRequest
+    {
+        Amount = amount,
+        CashbackAmount = cashback,
+    };
+    ApiResult result = mEpas.Purchase(request, out response);
+    if (result == ApiResult.OK)
+    {
+        HandleTxnResponse(response);
+    }
+    LogApiResult(result, &quot;Purchase: &quot; + response?.ToString());
+}</code></pre>
+
   
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Purchase.cs&amp;version=GBmain&amp;line=97">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_Purchase_" data-uid="Westpay.Epas.EpasClient.Purchase*"></a>
   <h4 id="Westpay_Epas_EpasClient_Purchase_Westpay_Epas_PurchaseTransactionAmounts_Westpay_Epas_TransactionResponse__" data-uid="Westpay.Epas.EpasClient.Purchase(Westpay.Epas.PurchaseTransactionAmounts,Westpay.Epas.TransactionResponse@)">Purchase(PurchaseTransactionAmounts, out TransactionResponse)</h4>
   <div class="markdown level1 summary"><p>Begins a purchase transaction.  The method returns when the transaction is complete.</p>
@@ -1278,7 +1480,9 @@ public void PurchaseWithCashback(decimal amount, decimal cashback)
 }</code></pre>
 
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Purchase.cs&amp;version=GBmain&amp;line=216">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_PurchaseBeforeAmount_" data-uid="Westpay.Epas.EpasClient.PurchaseBeforeAmount*"></a>
   <h4 id="Westpay_Epas_EpasClient_PurchaseBeforeAmount_Westpay_Epas_TransactionResponse__" data-uid="Westpay.Epas.EpasClient.PurchaseBeforeAmount(Westpay.Epas.TransactionResponse@)">PurchaseBeforeAmount(out TransactionResponse)</h4>
   <div class="markdown level1 summary"><p>Starts a purchase transaction with no amount.  The amount must be sent when available in
@@ -1345,7 +1549,9 @@ public void PreAmountPurchase()
       <div><a class="xref" href="Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_SendPurchaseAmounts_Westpay_Epas_PurchaseTransactionAmounts_">SendPurchaseAmounts(PurchaseTransactionAmounts)</a></div>
   </div>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Refund.cs&amp;version=GBmain&amp;line=65">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_Refund_" data-uid="Westpay.Epas.EpasClient.Refund*"></a>
   <h4 id="Westpay_Epas_EpasClient_Refund_System_Decimal_Westpay_Epas_TransactionResponse__" data-uid="Westpay.Epas.EpasClient.Refund(System.Decimal,Westpay.Epas.TransactionResponse@)">Refund(Decimal, out TransactionResponse)</h4>
   <div class="markdown level1 summary"><p>Begins a refund transaction.  The method returns when the transaction is complete.</p>
@@ -1414,7 +1620,9 @@ public void Refund(decimal amount)
 }</code></pre>
 
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Refund.cs&amp;version=GBmain&amp;line=79">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_Refund_" data-uid="Westpay.Epas.EpasClient.Refund*"></a>
   <h4 id="Westpay_Epas_EpasClient_Refund_Westpay_Epas_AltMethodTransaction_Westpay_Epas_TransactionResponse__" data-uid="Westpay.Epas.EpasClient.Refund(Westpay.Epas.AltMethodTransaction,Westpay.Epas.TransactionResponse@)">Refund(AltMethodTransaction, out TransactionResponse)</h4>
   <div class="markdown level1 summary"><p>Begins a refund transaction where the transaction being refunded was completed using an
@@ -1468,7 +1676,81 @@ The method returns when the transaction is complete.</p>
     </tbody>
   </table>
   
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Refund.cs&amp;version=GBmain&amp;line=34">View Source</a>
+  </span>
+  <a id="Westpay_Epas_EpasClient_Refund_" data-uid="Westpay.Epas.EpasClient.Refund*"></a>
+  <h4 id="Westpay_Epas_EpasClient_Refund_Westpay_Epas_RefundRequest_Westpay_Epas_TransactionResponse__" data-uid="Westpay.Epas.EpasClient.Refund(Westpay.Epas.RefundRequest,Westpay.Epas.TransactionResponse@)">Refund(RefundRequest, out TransactionResponse)</h4>
+  <div class="markdown level1 summary"><p>Begins a refund transaction.  The method returns when the transaction is complete.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ApiResult Refund(RefundRequest request, out TransactionResponse response)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Westpay.Epas.RefundRequest.html">RefundRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>Transaction parameters</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Westpay.Epas.TransactionResponse.html">TransactionResponse</a></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>Transaction response</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Westpay.Epas.ApiResult.html">ApiResult</a></td>
+        <td><p>A standard ApiResult value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Westpay_Epas_EpasClient_Refund_Westpay_Epas_RefundRequest_Westpay_Epas_TransactionResponse___examples">Examples</h5>
+  <pre><code>/// &lt;summary>
+/// Runs a refund transaction
+/// &lt;/summary>
+/// &lt;param name=&quot;amount&quot;>Refund amount&lt;/param>
+/// sending the transaction result&lt;/param>
+public void Refund(decimal amount)
+{
+    Log($&quot;Refund of {amount:.00}&quot;);
+    RefundRequest request = new RefundRequest { Amount = amount };
+    TransactionResponse response;
+    ApiResult result = mEpas.Refund(request, out response);
+    if (result == ApiResult.OK)
+    {
+        HandleTxnResponse(response);
+    }
+    LogApiResult(result, &quot;Refund: &quot; + response?.ToString());
+}</code></pre>
+
   
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Misc.cs&amp;version=GBmain&amp;line=39">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_RequestAdministrativeOperation_" data-uid="Westpay.Epas.EpasClient.RequestAdministrativeOperation*"></a>
   <h4 id="Westpay_Epas_EpasClient_RequestAdministrativeOperation_Westpay_Epas_AdminOperation_Westpay_Epas_AdminResponse__" data-uid="Westpay.Epas.EpasClient.RequestAdministrativeOperation(Westpay.Epas.AdminOperation,Westpay.Epas.AdminResponse@)">RequestAdministrativeOperation(AdminOperation, out AdminResponse)</h4>
   <div class="markdown level1 summary"><p>Sends an administrative request to the terminal.</p>
@@ -1519,7 +1801,9 @@ The method returns when the transaction is complete.</p>
     </tbody>
   </table>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Misc.cs&amp;version=GBmain&amp;line=13">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_RequestTransactionAbort_" data-uid="Westpay.Epas.EpasClient.RequestTransactionAbort*"></a>
   <h4 id="Westpay_Epas_EpasClient_RequestTransactionAbort" data-uid="Westpay.Epas.EpasClient.RequestTransactionAbort">RequestTransactionAbort()</h4>
   <div class="markdown level1 summary"><p>Request that the current transaction should be aborted.  The transaction may be at a stage where an abort is
@@ -1548,7 +1832,9 @@ terminal.  The transaction result will indicate if the request was successful or
     </tbody>
   </table>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Reversal.cs&amp;version=GBmain&amp;line=35">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_ReverseLastTransaction_" data-uid="Westpay.Epas.EpasClient.ReverseLastTransaction*"></a>
   <h4 id="Westpay_Epas_EpasClient_ReverseLastTransaction_System_String_Westpay_Epas_TransactionResponse__" data-uid="Westpay.Epas.EpasClient.ReverseLastTransaction(System.String,Westpay.Epas.TransactionResponse@)">ReverseLastTransaction(String, out TransactionResponse)</h4>
   <div class="markdown level1 summary"><p>Requests that the last transaction should be reversed.
@@ -1619,7 +1905,9 @@ public void Reversal()
 }</code></pre>
 
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Purchase.cs&amp;version=GBmain&amp;line=246">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_SendPurchaseAmounts_" data-uid="Westpay.Epas.EpasClient.SendPurchaseAmounts*"></a>
   <h4 id="Westpay_Epas_EpasClient_SendPurchaseAmounts_Westpay_Epas_PurchaseTransactionAmounts_" data-uid="Westpay.Epas.EpasClient.SendPurchaseAmounts(Westpay.Epas.PurchaseTransactionAmounts)">SendPurchaseAmounts(PurchaseTransactionAmounts)</h4>
   <div class="markdown level1 summary"><p>Sends the amounts for a Purchase before Amount transaction.</p>
@@ -1685,7 +1973,9 @@ public void SendAmounts(decimal amount, decimal cashback)
       <div><a class="xref" href="Westpay.Epas.EpasClient.html#Westpay_Epas_EpasClient_PurchaseBeforeAmount_Westpay_Epas_TransactionResponse__">PurchaseBeforeAmount(out TransactionResponse)</a></div>
   </div>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Sender.cs&amp;version=GBmain&amp;line=169">View Source</a>
+  </span>
   <a id="Westpay_Epas_EpasClient_SendRawXml_" data-uid="Westpay.Epas.EpasClient.SendRawXml*"></a>
   <h4 id="Westpay_Epas_EpasClient_SendRawXml_System_String_" data-uid="Westpay.Epas.EpasClient.SendRawXml(System.String)">SendRawXml(String)</h4>
   <div class="markdown level1 summary"><p>Sends raw EPAS XML messages to the terminal.</p>
@@ -1736,6 +2026,9 @@ public void SendAmounts(decimal amount, decimal cashback)
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/west-pay/payment-terminals/_git/epas-client-library?path=dotnet/EpasClientLibrary/EpasClient.part.Wrapper.cs&amp;version=GBmain&amp;line=11" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
